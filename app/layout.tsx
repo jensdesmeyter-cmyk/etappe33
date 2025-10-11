@@ -23,7 +23,7 @@ export default function RootLayout({
             </Link>
 
             {/* NAV LINKS */}
-            <ul className="flex space-x-6 text-lg">
+            <ul className="flex space-x-6 text-lg text-black">
               <li><Link href="/">Home</Link></li>
               <li><Link href="/menu">Menu</Link></li>
               <li><Link href="/reservations">Reservations</Link></li>
