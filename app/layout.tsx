@@ -1,7 +1,8 @@
 import "./globals.css";
 import Link from "next/link";
 import type { Metadata } from "next";
-
+import Image from "next/image";
+import logo from "./assets/logo.png"
 export const metadata: Metadata = {
   title: "Etappe 33",
   description: "Fine dining restaurant in the heart of the city",
@@ -18,8 +19,8 @@ export default function RootLayout({
         <header className="w-full bg-white shadow-sm sticky top-0 z-50">
           <nav className="max-w-6xl mx-auto flex items-center justify-between p-4">
             {/* LOGO */}
-            <Link href="/" className="text-2xl font-semibold tracking-tight">
-              Etappe 33
+            <Link href="/" className="text-2xl font-semibold tracking-tight text-black">
+               <Image src={logo} alt="Logo" height={60} width={60} />
             </Link>
 
             {/* NAV LINKS */}
