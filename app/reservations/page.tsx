@@ -7,7 +7,7 @@ export default function ReservationsPage() {
       </p>
 
       {/* Zenchef widget placeholder */}
-      <div className="border rounded-lg bg-white p-6 text-center shadow-sm">
+      <div className="border rounded-lg bg-black p-6 text-center shadow-sm">
         <p>Reservation widget will appear here (Zenchef integration soon).</p>
       </div>
     </section>
