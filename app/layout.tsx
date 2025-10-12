@@ -3,6 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import Image from "next/image";
 import logo from "./assets/logo.png"
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar";
 export const metadata: Metadata = {
   title: "Etappe 33",
   description: "Fine dining restaurant in the heart of the city",
@@ -14,34 +16,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bg-gray-50 text-gray-800">
-        <header className="w-full bg-white shadow-sm sticky top-0 z-50">
-          <nav className="max-w-6xl mx-auto flex items-center justify-between p-4">
-            {/* LOGO */}
-            <Link href="/" className="text-2xl font-semibold tracking-tight text-black">
-               <Image src={logo} alt="Logo" height={60} width={60} />
-            </Link>
+<html lang="en">
+  <body className="bg-gray-50 text-gray-800">
+    <header className="w-full bg-white shadow-sm sticky top-0 z-50">
+      <Navbar />
+    </header>
 
-            {/* NAV LINKS */}
-            <ul className="flex space-x-6 text-lg text-black">
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/menu">Menu</Link></li>
-              <li><Link href="/reservations">Reservations</Link></li>
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
-            </ul>
-          </nav>
-        </header>
+    <main className="max-w-6xl mx-auto px-4 py-12">{children}</main>
 
-        <main className="max-w-6xl mx-auto px-4 py-12">{children}</main>
+       <Footer />
+  </body>
+</html>
 
-        <footer className="bg-gray-900 text-gray-200 py-8 mt-12">
-          <div className="max-w-6xl mx-auto text-center text-sm">
-            © {new Date().getFullYear()} Etappe 33. All rights reserved.
-          </div>
-        </footer>
-      </body>
-    </html>
   );
 }
