@@ -1,8 +1,5 @@
 import "./globals.css";
-import Link from "next/link";
 import type { Metadata } from "next";
-import Image from "next/image";
-import logo from "./assets/logo.png"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar";
 export const metadata: Metadata = {
@@ -22,7 +19,7 @@ export default function RootLayout({
       <Navbar />
     </header>
 
-    <main className="max-w-6xl mx-auto px-4 py-12">{children}</main>
+    <main className="max-w-6xl mx-auto px-4 pt-24 pb-12">{children}</main>
 
        <Footer />
   </body>

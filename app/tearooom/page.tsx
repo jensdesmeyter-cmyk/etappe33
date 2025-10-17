@@ -1,4 +1,4 @@
-    export default function MenuPage() {
+    export default function TearoomPage() {
   const gold = "text-yellow-500";
 
   return (
@@ -165,7 +165,7 @@
 // Reusable menu item component
 function MenuItem({ name, price }: { name: string; price: string }) {
   return (
-    <li className="flex font-menu justify-between border-b border-gray-700 pb-1">
+    <li className="flex justify-between border-b border-gray-700 pb-1">
       <span className="text-gray-800">{name}</span>
       <span className="text-[#d4af37] font-medium">{price}</span>
     </li>

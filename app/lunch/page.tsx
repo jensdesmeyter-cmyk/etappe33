@@ -1,10 +1,10 @@
-    export default function MenuPage() {
+    export default function LunchPage() {
   const gold = "text-yellow-500";
 
   return (
     <div className="min-h-screen text-white py-12 px-4 sm:px-8">
       <div className="max-w-5xl mx-auto space-y-16">
-        <h1 className="text-3xl text-center font-bold mb-4">Onze Menu</h1>
+        <h1 className="text-3xl text-center font-bold mb-4">Lunch</h1>
         <p className="text-yellow-500 text-center mb-12r">
         Proef onze heerlijke gerechten
       </p>
@@ -165,7 +165,7 @@
 // Reusable menu item component
 function MenuItem({ name, price }: { name: string; price: string }) {
   return (
-    <li className="flex font-menu justify-between border-b border-gray-700 pb-1">
+    <li className="flex justify-between border-b border-gray-700 pb-1">
       <span className="text-gray-800">{name}</span>
       <span className="text-[#d4af37] font-medium">{price}</span>
     </li>

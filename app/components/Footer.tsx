@@ -70,6 +70,26 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/lunch" className="hover:text-[#d4af37] transition">
+                Lunch
+              </Link>
+            </li>
+            <li>
+              <Link href="/tearoom" className="hover:text-[#d4af37] transition">
+                Tearoom
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="hover:text-[#d4af37] transition">
+                Over ons
+              </Link>
+            </li>
+            <li>
+              <Link href="/photos" className="hover:text-[#d4af37] transition">
+                Foto&apos;s
+              </Link>
+            </li>
+            <li>
               <Link href="/contact" className="hover:text-[#d4af37] transition">
                 Contact
               </Link>

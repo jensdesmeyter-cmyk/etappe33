@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { Facebook, Instagram } from "lucide-react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -108,20 +109,22 @@ export default function ContactPage() {
         {/* Social media links */}
         <section>
           <h2 className="text-2xl text-[#d4af37] mb-4">Volg ons</h2>
-          <div className="flex gap-4">
+       <div className="flex gap-4 mb-4">
             <a
               href="https://www.facebook.com/profile.php?id=100046240693901"
               target="_blank"
-              className="bg-[#1877f2] text-white py-2 px-4 rounded-lg hover:opacity-80 transition"
+              rel="noopener noreferrer"
+              className="hover:text-[#d4af37] transition"
             >
-              Facebook
+              <Facebook className="w-6 h-6" />
             </a>
             <a
               href="https://www.instagram.com/YOURPAGE"
               target="_blank"
-              className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-2 px-4 rounded-lg hover:opacity-80 transition"
+              rel="noopener noreferrer"
+              className="hover:text-[#d4af37] transition"
             >
-              Instagram
+              <Instagram className="w-6 h-6" />
             </a>
           </div>
         </section>
