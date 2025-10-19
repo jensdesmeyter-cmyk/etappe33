@@ -108,11 +108,11 @@ export default function ContactPage() {
 
         <section>
                   <div>
-          <h2 className="text-2xl text-white mb-4">Contact</h2>
+          <h2 className="text-2xl text-[rgb(var(--color_58))] text-lg mb-4">Contact</h2>
           <ul className="space-y-1 text-sm">
             <li><a href="https://maps.app.goo.gl/BeLdLUGgKSRDBFpd6">Adres: Bergstraat 33, 9690 Kluisbergen</a></li>
-            <li>Telefoon: <a href="tel:+32000000000" className="text-[rgb(var(--color_58))] hover:underline">+32 000 00 00 00</a></li>
-            <li>E-mail: <a href="mailto:info@etappe33.be" className="text-[rgb(var(--color_58))] hover:underline">info@etappe33.be</a></li>
+            <li>Telefoon: <a href="tel:+32000000000" className="text-white hover:underline">+32 000 00 00 00</a></li>
+            <li>E-mail: <a href="mailto:info@etappe33.be" className="text-white hover:underline">info@etappe33.be</a></li>
           </ul>
         </div>
         </section>

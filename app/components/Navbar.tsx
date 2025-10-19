@@ -61,13 +61,6 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden border-t border-[#bda25c] bg-[rgb(var(--color_58))] flex flex-col items-center space-y-4 py-6 text-gray-300">
           <Link
-            href="/"
-            className="hover:text-black transition"
-            onClick={() => setIsOpen(false)}
-          >
-            Home
-          </Link>
-          <Link
             href="/menu"
             className="hover:text-black transition"
             onClick={() => setIsOpen(false)}
@@ -111,7 +104,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/reservations"
-            className="text-[#c9b67a] border border-[#c9b67a] px-4 py-1 rounded-full hover:bg-[#c9b67a] hover:text-black transition"
+            className="text-white border border-[#c9b67a] px-4 py-1 rounded-full hover:bg-black hover:text-black transition"
             onClick={() => setIsOpen(false)}
           >
             Reserveer

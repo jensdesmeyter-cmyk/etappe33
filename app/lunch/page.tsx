@@ -4,8 +4,8 @@
   return (
     <div className="min-h-screen text-white py-12 px-4 sm:px-8">
       <div className="max-w-5xl mx-auto space-y-16">
-        <h1 className="text-6xl text-center font-bold mb-4">Lunch</h1>
-        <p className="text-[rgb(var(--color_58))] text-center text-5xl mb-12r">
+        <h1 className="text-5xl text-center font-bold mb-4">Lunch</h1>
+        <p className="text-[rgb(var(--color_58))] text-center text-4xl mb-12r">
         Comming soon
       </p>
       </div>
