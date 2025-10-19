@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Image from 'next/image';
-import photo from '../assets/logo.png';
+import photo from '../assets/logoch.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,28 +21,28 @@ export default function Navbar() {
   priority/>
         </Link>
         {/* Desktop menu */}
-        <div className="hidden md:flex space-x-8 text-white">
-          <Link href="/menu" className="hover:text-[#c9b67a] text-xl transition">
+        <div className="hidden md:flex space-x-8 text-white text-2xl">
+          <Link href="/menu" className="hover:text-black transition">
             Menu
           </Link>
-          <Link href="/lunch" className="hover:text-[#c9b67a] text-xl transition">
+          <Link href="/lunch" className="hover:text-black transition">
             Lunch
           </Link>
-          <Link href="/tearoom" className="hover:text-[#c9b67a] text-xl transition">
+          <Link href="/tearoom" className="hover:text-black transition">
             Tearoom
           </Link>
-          <Link href="/about" className="hover:text-[#c9b67a] text-xl transition">
+          <Link href="/about" className="hover:text-black  transition">
             Over ons
           </Link>
-          <Link href="/photos" className="hover:text-[#c9b67a] text-xl transition">
+          <Link href="/photos" className="hover:text-black  transition">
             Foto&apos;s
           </Link>
-          <Link href="/contact" className="hover:text-[#c9b67a] text-xl transition">
+          <Link href="/contact" className="hover:text-black  transition">
             Contact
           </Link>
           <Link
             href="/reservations"
-            className="text-white text-xl border border-white px-4 py-1 rounded-full hover:bg-[#c9b67a] hover:text-black transition"
+            className="text-white border border-white px-4 py-1 rounded-full hover:bg-[#c9b67a] hover:text-black transition"
           >
             Reserveer
           </Link>
@@ -50,7 +50,7 @@ export default function Navbar() {
 
         {/* Mobile button */}
         <button
-          className="md:hidden text-white hover:text-[#c9b67a] transition"
+          className="md:hidden text-white hover:text-black transition"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -62,49 +62,49 @@ export default function Navbar() {
         <div className="md:hidden border-t border-[#bda25c] bg-[rgb(var(--color_58))] flex flex-col items-center space-y-4 py-6 text-gray-300">
           <Link
             href="/"
-            className="hover:text-[#c9b67a] transition"
+            className="hover:text-black transition"
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <Link
             href="/menu"
-            className="hover:text-[#c9b67a] transition"
+            className="hover:text-black transition"
             onClick={() => setIsOpen(false)}
           >
             Menu
           </Link>
           <Link
             href="/lunch"
-            className="hover:text-[#c9b67a] transition"
+            className="hover:text-black transition"
             onClick={() => setIsOpen(false)}
           >
             Lunch
           </Link>
           <Link
             href="/tearoom"
-            className="hover:text-[#c9b67a] transition"
+            className="hover:text-black transition"
             onClick={() => setIsOpen(false)}
           >
             Tearoom
           </Link>
           <Link
             href="/about"
-            className="hover:text-[#c9b67a] transition"
+            className="hover:text-black transition"
             onClick={() => setIsOpen(false)}
           >
             Over ons
           </Link>
           <Link
             href="/photos"
-            className="hover:text-[#c9b67a] transition"
+            className="hover:text-black transition"
             onClick={() => setIsOpen(false)}
           >
             Foto&apos;s
           </Link>
           <Link
             href="/contact"
-            className="hover:text-[#c9b67a] transition"
+            className="hover:text-black transition"
             onClick={() => setIsOpen(false)}
           >
             Contact

@@ -32,18 +32,18 @@ export default function ContactPage() {
   };
 
   return (
-    <div className=" min-h-screen text-yellow-500 py-16 px-6 sm:px-12">
+    <div className=" min-h-screen text-[rgb(var(--color_58))] py-16 px-6 sm:px-12">
       <div className="max-w-5xl mx-auto space-y-16">
-        <h1 className="text-5xl text-center text-[#d4af37] font-serif mb-8">
+        <h1 className="text-5xl text-center text-white font-serif mb-8">
           Contacteer Ons
         </h1>
 
         {/* Contact form */}
-        <section className="p-8 rounded-2xl shadow-lg">
-          <h2 className="text-2xl text-[#d4af37] mb-6">Stuur ons een bericht</h2>
+        <section className="p-8 rounded-2xl shadow-lg bg-white">
+          <h2 className="text-2xl text-[rgb(var(--color_58))] mb-6">Stuur ons een bericht</h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-gray-800 mb-1">Naam</label>
+              <label className="block text-[rgb(var(--color_58))] mb-1">Naam</label>
               <input
                 type="text"
                 name="name"
@@ -55,7 +55,7 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label className="block text-gray-800 mb-1">E-mailadres</label>
+              <label className="block text-[rgb(var(--color_58))] mb-1">E-mailadres</label>
               <input
                 type="email"
                 name="email"
@@ -67,7 +67,7 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label className="block text-gray-800 mb-1">Bericht</label>
+              <label className="block text-[rgb(var(--color_58))] mb-1">Bericht</label>
               <textarea
                 name="message"
                 rows={5}
@@ -81,7 +81,7 @@ export default function ContactPage() {
             <button
               type="submit"
               disabled={status === "sending"}
-              className="bg-[#d4af37] text-black font-semibold py-3 px-6 rounded-lg hover:bg-[#e5c166] transition"
+              className="bg-[rgb(var(--color_58))] text-white font-semibold py-3 px-6 rounded-lg hover:bg-[#e5c166] transition"
             >
               {status === "sending" ? "Versturen..." : "Verstuur bericht"}
             </button>
@@ -97,8 +97,8 @@ export default function ContactPage() {
 
         {/* Opening hours */}
         <section>
-          <h2 className="text-2xl text-[#d4af37] mb-4">Openingsuren</h2>
-          <ul className="text-gray-400 space-y-1">
+          <h2 className="text-2xl text-[rgb(var(--color_58))] mb-4">Openingsuren</h2>
+          <ul className="text-white space-y-1">
             <li>Maandag – Dinsdag: Gesloten</li>
             <li>Woensdag – Vrijdag: 11:30 – 14:30 / 17:30 – 22:00</li>
             <li>Zaterdag: 11:30 – 22:00</li>
@@ -106,15 +106,26 @@ export default function ContactPage() {
           </ul>
         </section>
 
+        <section>
+                  <div>
+          <h2 className="text-2xl text-white mb-4">Contact</h2>
+          <ul className="space-y-1 text-sm">
+            <li><a href="https://maps.app.goo.gl/BeLdLUGgKSRDBFpd6">Adres: Bergstraat 33, 9690 Kluisbergen</a></li>
+            <li>Telefoon: <a href="tel:+32000000000" className="text-[rgb(var(--color_58))] hover:underline">+32 000 00 00 00</a></li>
+            <li>E-mail: <a href="mailto:info@etappe33.be" className="text-[rgb(var(--color_58))] hover:underline">info@etappe33.be</a></li>
+          </ul>
+        </div>
+        </section>
+
         {/* Social media links */}
         <section>
-          <h2 className="text-2xl text-[#d4af37] mb-4">Volg ons</h2>
+          <h2 className="text-2xl text-[rgb(var(--color_58))] mb-4">Volg ons</h2>
        <div className="flex gap-4 mb-4">
             <a
               href="https://www.facebook.com/profile.php?id=100046240693901"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#d4af37] transition"
+              className="hover:text-white transition"
             >
               <Facebook className="w-6 h-6" />
             </a>
@@ -122,7 +133,7 @@ export default function ContactPage() {
               href="https://www.instagram.com/YOURPAGE"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#d4af37] transition"
+              className="hover:text-white transition"
             >
               <Instagram className="w-6 h-6" />
             </a>
@@ -131,7 +142,7 @@ export default function ContactPage() {
 
         {/* Google Maps */}
         <section>
-          <h2 className="text-2xl text-[#d4af37] mb-4">Locatie</h2>
+          <h2 className="text-2xl text-[rgb(var(--color_58))] mb-4">Locatie</h2>
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-800">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2523.8839832292592!2d3.481682412155483!3d50.75918486496803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c319d890ff05dd%3A0xb0e6e8529f92e276!2sEtappe%2033!5e0!3m2!1sen!2sbe!4v1760263761654!5m2!1sen!2sbe"
