@@ -59,7 +59,7 @@ export default function Navbar() {
 
       {/* Mobile menu dropdown */}
       {isOpen && (
-        <div className="md:hidden border-t border-[#bda25c] bg-[rgb(var(--color_58))] flex flex-col items-center space-y-4 py-6 text-gray-300">
+        <div className="md:hidden border-t border-[#bda25c] bg-[rgb(var(--color_58))] flex flex-col items-center space-y-4 py-6 text-white">
           <Link
             href="/menu"
             className="hover:text-black transition"

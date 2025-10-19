@@ -2,14 +2,12 @@
   const gold = "text-yellow-500";
 
   return (
-    <div className="min-h-screen text-white py-12 px-4 sm:px-8">
-      <div className="max-w-5xl mx-auto space-y-16">
-        <h1 className="text-5xl text-center font-bold mb-4">Lunch</h1>
-        <p className="text-[rgb(var(--color_58))] text-center text-4xl mb-12r">
+      <section>
+      <h1 className="text-4xl font-bold mb-4 text-white text-center mb-12 py-12 px-6 sm:px-12">Lunch</h1>
+      <p className="text-[rgb(var(--color_58))] text-2xl text-center mb-12">
         Comming soon
       </p>
-      </div>
-      </div>
+    </section>
 
   );
 }

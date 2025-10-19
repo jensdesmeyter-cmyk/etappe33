@@ -3,15 +3,15 @@ export default function TearoomPage() {
 
   return (
     <div className="min-h-screen text-white py-12 px-4 sm:px-8 font-menu">
-      <div className="max-w-3xl mx-auto space-y-16">
-        <h1 className="text-5xl text-center font-bold mb-4">Tea Room</h1>
-        <p className={`text-4xl text-center mb-12 ${gold}`}>
+      <div className="max-w-2xl mx-auto space-y-16">
+        <h1 className="text-4xl text-center font-bold mb-4">Tea Room</h1>
+        <p className={`text-3xl text-center mb-12 ${gold}`}>
           Van 14u tot 18u
         </p>
 
         {/* Pannenkoeken */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Pannenkoeken</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Pannenkoeken</h2>
           <ul className="space-y-3 mb-12">
             <MenuItem name="Met boter & suiker" price="€6" />
             <MenuItem name="Met vanille-ijs" price="€8" />
@@ -24,7 +24,7 @@ export default function TearoomPage() {
 
         {/* Ice Cream’s */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Ice Cream’s</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Ice Cream’s</h2>
           <ul className="space-y-3 mb-12">
             <MenuItem name="Dame blanche" price="€10" />
             <MenuItem name="Coupe brésilienne" price="€10" />
@@ -38,7 +38,7 @@ export default function TearoomPage() {
 
         {/* Starters om te delen */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Starters om te delen</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Starters om te delen</h2>
           <ul className="space-y-3 mb-12">
             <MenuItem name="Aperitiefplank Etappe 33 mix warm en koud" price="€28" />
             <MenuItem name="Chorizokroketjes (8st)" price="€14" />
@@ -54,7 +54,7 @@ export default function TearoomPage() {
 
         {/* Klein hongertje */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Klein Hongertje</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Klein Hongertje</h2>
           <ul className="space-y-3 mb-12">
             <MenuItem name="Wafel croques Etappe 33 (Ham, kaas en fris slaatje)" price="" />
             <MenuItem name="Wafel croques Club Etappe 33 (Ei, spek en fris slaatje)" price="" />
@@ -75,7 +75,7 @@ export default function TearoomPage() {
 // Reusable menu item component
 function MenuItem({ name, price }: { name: string; price: string }) {
   return (
-    <li className="flex font-menu text-2xl justify-between border-b border-[rgb(var(--color_58))] pb-1">
+    <li className="flex font-menu text-xl justify-between border-b border-[rgb(var(--color_58))] pb-1">
       <span className="text-white">{name}</span>
       <span className="text-[rgb(var(--color_58))] font-medium">{price}</span>
     </li>

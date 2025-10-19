@@ -3,19 +3,19 @@ export default function MenuPage() {
 
   return (
     <div className="min-h-screen text-white py-12 px-4 sm:px-8 font-menu">
-      <div className="max-w-3xl mx-auto space-y-16">
-        <h1 className="text-5xl text-center font-bold mb-4">Onze Menu</h1>
-        <p className={`text-4xl  text-center mb-12 ${gold}`}>
+      <div className="max-w-2xl mx-auto space-y-16">
+        <h1 className="text-4xl text-center font-bold mb-4">Onze Menu</h1>
+        <p className={`text-3xl  text-center mb-12 ${gold}`}>
           Proef onze heerlijke gerechten
         </p>
 
-        <h1 className={`text-3xl text-center mb-12 ${gold}`}>À la Carte</h1>
-        <p className="italic text-center text-white mt-6 text-3xl">
+        <h1 className={`text-2xl text-center mb-12 ${gold}`}>À la Carte</h1>
+        <p className="italic text-center text-white mt-6 text-2xl">
             Maximum 4 verschillende voor- en hoofdgerechten per tafel.
           </p>
         {/* STARTERS OM TE DELEN */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>
             Starters om te delen
           </h2>
           <ul className="space-y-3 mb-12">
@@ -32,7 +32,7 @@ export default function MenuPage() {
 
         {/* VOORGERECHTEN */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Voorgerechten</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Voorgerechten</h2>
           <ul className="space-y-3">
             <MenuItem name="Scampi’s Etappe 33 (6 st.)" price="€20" />
             <MenuItem name="Garnaalkroketten (1 of 2 st.)" price="€10 / €20" />
@@ -44,10 +44,10 @@ export default function MenuPage() {
 
         {/* HOOFDGERECHTEN */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Hoofdgerechten</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Hoofdgerechten</h2>
 
           {/* VIS */}
-          <h3 className={`text-3xl mt-4 mb-6 text-center ${gold}`}>Vis</h3>
+          <h3 className={`text-2xl mt-4 mb-6 text-center ${gold}`}>Vis</h3>
           <ul className="space-y-3">
             <MenuItem name="Zeebaars / ratatouille groenten / puree" price="€30" />
             <MenuItem name="Scampi’s Etappe 33" price="€28" />
@@ -59,7 +59,7 @@ export default function MenuPage() {
           </ul>
 
           {/* VLEES */}
-          <h3 className={`text-3xl mt-10 mb-6 text-center ${gold}`}>Vlees</h3>
+          <h3 className={`text-2xl mt-10 mb-6 text-center ${gold}`}>Vlees</h3>
           <ul className="space-y-3">
             <MenuItem name="Filet pur van WIT BLAUW rund (250 gr.)" price="€35" />
             <MenuItem name="Côte à l’os van WIT BLAUW rund (2 pers.)" price="€76" />
@@ -69,12 +69,12 @@ export default function MenuPage() {
             <MenuItem name="Rundsburger Etappe 33" price="€26" />
           </ul>
 
-          <p className="text-center text-white mt-4 text-3xl">
+          <p className="text-center text-white mt-4 text-xl">
             Sauzen: pepersaus, champignonsaus en kruidenboter <span className={gold}>€3</span>
           </p>
 
           {/* WILD */}
-          <h3 className={`text-3xl mt-10 mb-6 text-center ${gold}`}>Wild</h3>
+          <h3 className={`text-2xl mt-10 mb-6 text-center ${gold}`}>Wild</h3>
           <ul className="space-y-3">
             <MenuItem name="Hertenkalffilet / seizoensgroenten / veenbessensausje / amandelkroketten" price="€38" />
             <MenuItem name="Fazantfilet / fine champagnesausje / seizoensgroenten / amandelkroketten" price="€34" />
@@ -84,7 +84,7 @@ export default function MenuPage() {
 
         {/* VEGETARISCH */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Vegetarisch</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Vegetarisch</h2>
           <ul className="space-y-3">
             <MenuItem name="Cannelloni Vegi / Arrabiata" price="€22" />
             <MenuItem name="Kaaskroketten / fris slaatje (1, 2 of 3 st.)" price="€10 / €20 / €30" />
@@ -94,7 +94,7 @@ export default function MenuPage() {
 
         {/* SALADES */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Salades</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Salades</h2>
           <ul className="space-y-3">
             <MenuItem name="Salade Etappe 33 / gerookte zalm / scampi’s / grijze garnalen" price="€30" />
             <MenuItem name="Salade geitenkaas / spek / appel" price="€26" />
@@ -103,7 +103,7 @@ export default function MenuPage() {
 
         {/* KIDS */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Kids</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Kids</h2>
           <ul className="space-y-3">
             <MenuItem name="Kipnuggets / frietjes" price="€14" />
             <MenuItem name="Kinderspaghetti" price="€16" />
@@ -114,7 +114,7 @@ export default function MenuPage() {
 
         {/* DESSERTS */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Desserts</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Desserts</h2>
           <ul className="space-y-3">
             <MenuItem name="Dame blanche" price="€10" />
             <MenuItem name="Coupe advocaat" price="€10" />
@@ -129,8 +129,8 @@ export default function MenuPage() {
 
         {/* MENU ETAPPE 33 */}
         <section>
-          <h2 className={`text-3xl text-center mb-12 ${gold}`}>Menu Etappe 33</h2>
-          <p className="text-white text-center mb-12 leading-relaxed whitespace-pre-line text-2xl">
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Menu Etappe 33</h2>
+          <p className="text-white text-center mb-12 leading-relaxed whitespace-pre-line text-xl">
             Cava of Biertje Haagse Hoek of Mocktail{"\n"}***{"\n"}
             Voorgerecht:{"\n"}
             Duo van wildpastei / toast / uienconfituur{"\n"}OF{"\n"}
@@ -141,10 +141,10 @@ export default function MenuPage() {
             Dessert: Cheesecake met citrus{"\n"}***{"\n"}
             Koffie of Thee
           </p>
-          <p className={`${gold} mt-4 text-center text-2xl`}>
+          <p className={`${gold} mt-4 text-center text-xl`}>
             €59 p.p. / €79 All-In
           </p>
-          <p className="text-white text-center text-2xl">
+          <p className="text-white text-center text-xl">
             Dranken inbegrepen tot de koffie
           </p>
         </section>
@@ -156,7 +156,7 @@ export default function MenuPage() {
 // Reusable menu item component
 function MenuItem({ name, price }: { name: string; price: string }) {
   return (
-    <li className="flex font-menu text-2xl justify-between border-b border-[rgb(var(--color_58))] pb-1">
+    <li className="flex font-menu text-xl justify-between border-b border-[rgb(var(--color_58))] pb-1">
       <span className="text-white">{name}</span>
       <span className="text-[rgb(var(--color_58))] font-medium">{price}</span>
     </li>

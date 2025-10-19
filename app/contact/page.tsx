@@ -33,8 +33,8 @@ export default function ContactPage() {
 
   return (
     <div className=" min-h-screen text-[rgb(var(--color_58))] py-16 px-6 sm:px-12">
-      <div className="max-w-5xl mx-auto space-y-16">
-        <h1 className="text-5xl text-center text-white font-serif mb-8">
+      <div className="max-w-4xl mx-auto space-y-16">
+        <h1 className="text-4xl text-center text-white font-serif mb-8">
           Contacteer Ons
         </h1>
 
