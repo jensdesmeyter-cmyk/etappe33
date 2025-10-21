@@ -19,7 +19,7 @@ export default function Footer() {
           <h4 className="text-black text-lg mb-3">Contact</h4>
           <ul className="space-y-1 text-sm">
             <li><a href="https://maps.app.goo.gl/BeLdLUGgKSRDBFpd6">Adres: Bergstraat 33, 9690 Kluisbergen</a></li>
-            <li>Telefoon: <a href="tel:+32000000000" className="text-black hover:underline">+32 000 00 00 00</a></li>
+            <li>Telefoon: <a href="tel:+32493452595" className="text-black hover:underline">+32 000 00 00 00</a></li>
             <li>E-mail: <a href="mailto:info@etappe33.be" className="text-black hover:underline">info@etappe33.be</a></li>
           </ul>
         </div>
@@ -28,10 +28,10 @@ export default function Footer() {
         <div>
           <h4 className="text-black text-lg mb-3">Openingsuren</h4>
           <ul className="text-sm space-y-1">
-            <li>Ma – Di: Gesloten</li>
-            <li>Wo – Vr: 11:30 – 14:30 / 17:30 – 22:00</li>
-            <li>Za: 11:30 – 22:00</li>
-            <li>Zo: 11:30 – 21:00</li>
+            <li>Dinsdag – Donderdag: Gesloten</li>
+            <li>Vrijdag - Maandag: 11:30 – 14:00 (lunch)</li>
+            <li>Vrijdag - Maandag: 14:00 – 18:00 (tearoom)</li>
+            <li>Vrijdag - Maandaag: 18:30 – 21:00</li>
           </ul>
         </div>
 
