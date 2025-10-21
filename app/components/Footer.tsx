@@ -19,7 +19,7 @@ export default function Footer() {
           <h4 className="text-black text-lg mb-3">Contact</h4>
           <ul className="space-y-1 text-sm">
             <li><a href="https://maps.app.goo.gl/BeLdLUGgKSRDBFpd6">Adres: Bergstraat 33, 9690 Kluisbergen</a></li>
-            <li>Telefoon: <a href="tel:+32493452595" className="text-black hover:underline">+32 000 00 00 00</a></li>
+            <li>Telefoon: <a href="tel:+32493452595" className="text-black hover:underline">+32 493 45 25 95</a></li>
             <li>E-mail: <a href="mailto:info@etappe33.be" className="text-black hover:underline">info@etappe33.be</a></li>
           </ul>
         </div>
