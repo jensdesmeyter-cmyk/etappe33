@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Facebook, Instagram } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -33,6 +34,11 @@ export default function ContactPage() {
 
   return (
     <div className=" min-h-screen text-[rgb(var(--color_58))] py-16 px-6 sm:px-12">
+      <motion.h1
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        >
       <div className="max-w-4xl mx-auto space-y-16">
         <h1 className="text-4xl text-center text-white font-serif mb-8">
           Contacteer Ons
@@ -109,7 +115,7 @@ export default function ContactPage() {
                   <div>
           <h2 className="text-2xl text-[rgb(var(--color_58))] text-lg mb-4">Contact</h2>
           <ul className="space-y-1 text-sm">
-            <li><a href="https://maps.app.goo.gl/BeLdLUGgKSRDBFpd6">Adres: Bergstraat 33, 9690 Kluisbergen</a></li>
+            <li>Adres:<a href="https://maps.app.goo.gl/BeLdLUGgKSRDBFpd6" className="text-white hover:underline">Bergstraat 33, 9690 Kluisbergen</a></li>
             <li>Telefoon: <a href="tel:+32493452595" className="text-white hover:underline">+32 493 45 25 95</a></li>
             <li>E-mail: <a href="mailto:info@etappe33.be" className="text-white hover:underline">info@etappe33.be</a></li>
           </ul>
@@ -155,6 +161,7 @@ export default function ContactPage() {
           </div>
         </section>
       </div>
+      </motion.h1>
     </div>
   );
 }

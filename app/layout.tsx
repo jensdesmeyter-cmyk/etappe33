@@ -2,9 +2,28 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar";
+import Logo from "./assets/logoch.png"
 export const metadata: Metadata = {
-  title: "Etappe 33",
-  description: "Fine dining restaurant in the heart of the city",
+   title: "Etappe 33 – Restaurant & Tearoom",
+  description:
+    "Geniet van heerlijke gerechten, desserts en warme sfeer bij Etappe 33. Reserveer binnenkort eenvoudig online via Zenchef.",
+  openGraph: {
+    title: "Etappe 33 – Restaurant & Tearoom",
+    description:
+      "Geniet van heerlijke gerechten, desserts en warme sfeer bij Etappe 33.",
+    url: "https://www.etappe33.be",
+    siteName: "Etappe 33",
+    images: [
+      {
+        url: Logo.src,
+        width: 1200,
+        height: 630,
+        alt: "Etappe 33 restaurant sfeerbeeld",
+      },
+    ],
+    locale: "nl_BE",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -27,3 +46,5 @@ export default function RootLayout({
 
   );
 }
+
+

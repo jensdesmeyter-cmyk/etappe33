@@ -1,8 +1,15 @@
+"use client";
+import { motion } from "framer-motion";
 export default function TearoomPage() {
   const gold = "text-[rgb(var(--color_58))]";
 
   return (
     <div className="min-h-screen text-white py-12 px-4 sm:px-8 font-menu">
+      <motion.h1
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        >
       <div className="max-w-2xl mx-auto space-y-16">
         <h1 className="text-4xl text-center font-bold mb-4">Tea Room</h1>
         <p className={`text-3xl text-center mb-12 ${gold}`}>
@@ -67,7 +74,7 @@ export default function TearoomPage() {
             <MenuItem name="Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood" price="€10 / €20 / €30" />
           </ul>
         </section>
-      </div>
+      </div></motion.h1>
     </div>
   );
 }

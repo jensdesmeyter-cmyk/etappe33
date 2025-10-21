@@ -1,9 +1,17 @@
+"use client";
+import { motion } from "framer-motion";
 export default function MenuPage() {
   const gold = "text-[rgb(var(--color_58))]";
 
   return (
+    
     <div className="min-h-screen text-white py-12 px-4 sm:px-8 font-menu">
       <div className="max-w-2xl mx-auto space-y-16">
+        <motion.h1
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        >
         <h1 className="text-4xl text-center font-bold mb-4">Onze Menu</h1>
         <p className={`text-3xl  text-center mb-12 ${gold}`}>
           Proef onze heerlijke gerechten
@@ -148,6 +156,7 @@ export default function MenuPage() {
             Dranken inbegrepen tot de koffie
           </p>
         </section>
+        </motion.h1>
       </div>
     </div>
   );
