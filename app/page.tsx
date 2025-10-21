@@ -18,7 +18,7 @@ export default function Home() {
   initial={{ opacity: 0 }}
   animate={{ opacity: 0.6 }}
   transition={{ repeat: Infinity, repeatType: "reverse", duration: 2 }}
-  className="w-128 h-1 bg-[rgb(var(--color_58))] rounded-full mb-6">
+  className="w-96 h-1 bg-[rgb(var(--color_58))] rounded-full mb-6">
      <p className="text-xl text-white text-center">
         Onze website is voorlopig nog onder constructie.
       </p>
@@ -28,7 +28,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0, duration: 2 }}
               >
-      <Image src={photo} alt="restaurant" /></motion.p>
+      <Image src={photo} alt="restaurant" className='pt-12'/></motion.p>
     </main>
   );
 }
