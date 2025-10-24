@@ -107,7 +107,7 @@ export default function ContactPage() {
           <ul className="text-white space-y-1">
             <li>Vrijdag - Maandag: 11:30 – 14:00 (lunch)</li>
             <li>Vrijdag - Maandag: 14:00 – 18:00 (tearoom)</li>
-            <li>Vrijdag - Maandaag: 18:30 – 21:00</li>
+            <li>Vrijdag - Maandag: 18:30 – 21:00</li>
           </ul>
         </section>
 

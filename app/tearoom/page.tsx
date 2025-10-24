@@ -31,7 +31,7 @@ export default function TearoomPage() {
 
         {/* Ice Cream’s */}
         <section>
-          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Ice Cream’s</h2>
+          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Desserts</h2>
           <ul className="space-y-3 mb-12">
             <MenuItem name="Dame blanche" price="€10" />
             <MenuItem name="Coupe brésilienne" price="€10" />

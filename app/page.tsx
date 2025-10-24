@@ -1,7 +1,8 @@
 "use client";
 import Image from 'next/image';
-import photo from './assets/etappe-33-een-mooi-terras-op-de-kluis.png';
+import photo from './assets/20251024_145621.jpg';
 import { motion } from "framer-motion";
+import LunchPopup from "./components/LunchPopup";
 
 
 export default function Home() {
@@ -18,9 +19,9 @@ export default function Home() {
   initial={{ opacity: 0 }}
   animate={{ opacity: 0.6 }}
   transition={{ repeat: Infinity, repeatType: "reverse", duration: 2 }}
-  className="w-96 h-1 bg-[rgb(var(--color_58))] rounded-full mb-6">
+  className="w-96 h-1 bg-[rgb(var(--color_58))] rounded-full mb-16">
      <p className="text-xl text-white text-center">
-        Onze website is voorlopig nog onder constructie.
+        Ons restaurant opent vanaf 31 oktober 2025 zijn deuren! We kijken ernaar uit u te verwelkomen voor een onvergetelijke culinaire ervaring.
       </p>
       </motion.div>
        <motion.p
@@ -29,6 +30,7 @@ export default function Home() {
         transition={{ delay: 0, duration: 2 }}
               >
       <Image src={photo} alt="restaurant" className='pt-12'/></motion.p>
+       <LunchPopup />
     </main>
   );
 }
