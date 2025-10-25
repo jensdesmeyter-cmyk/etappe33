@@ -18,9 +18,7 @@ export default function MenuPage() {
         </p>
 
         <h1 className={`text-2xl text-center mb-12 ${gold}`}>À la Carte</h1>
-        <p className="italic text-center text-white mt-6 text-2xl">
-            Maximum 4 verschillende voor- en hoofdgerechten per tafel.
-          </p>
+
         {/* STARTERS OM TE DELEN */}
         <section>
           <h2 className={`text-2xl text-center mb-12 ${gold}`}>
@@ -43,8 +41,8 @@ export default function MenuPage() {
           <h2 className={`text-2xl text-center mb-12 ${gold}`}>Voorgerechten</h2>
           <ul className="space-y-3">
             <MenuItem name="Scampi’s Etappe 33 (6 st.)" price="€20" />
-            <MenuItem name="Garnaalkroketten (1 of 2 st.)" price="€10 / €20" />
-            <MenuItem name="Kaaskroketten (1 of 2 st.)" price="€8 / €16" />
+            <MenuItem name="Garnaalkroketten (1 of 2 st.)" price="€10/€20" />
+            <MenuItem name="Kaaskroketten (1 of 2 st.)" price="€8/€16" />
             <MenuItem name="Coquilles / gekarameliseerd witloof / gedroogde Iberico ham" price="€24" />
             <MenuItem name="Duo van wildpastei / toast / uienconfituur" price="€18" />
           </ul>
@@ -52,7 +50,7 @@ export default function MenuPage() {
 
         {/* HOOFDGERECHTEN */}
         <section>
-          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Hoofdgerechten</h2>
+          <h2 className={`text-2xl text-center mt-12 mb-12 ${gold}`}>Hoofdgerechten</h2>
 
           {/* VIS */}
           <h3 className={`text-2xl mt-4 mb-6 text-center ${gold}`}>Vis</h3>
@@ -63,7 +61,7 @@ export default function MenuPage() {
             <MenuItem name="Op vel gebakken kabeljauwhaasje / prei / mosterdsausje / puree" price="€34" />
             <MenuItem name="Kikkerbilletjes" price="€32" />
             <MenuItem name="Zeetong Meunière" price="€38" />
-            <MenuItem name="Garnaalkroketten / fris slaatje (1, 2 of 3 st.)" price="€12 / €24 / €36" />
+            <MenuItem name="Garnaalkroketten / fris slaatje (1, 2 of 3 st.)" price="€12/€24 /€36" />
           </ul>
 
           {/* VLEES */}
@@ -92,17 +90,17 @@ export default function MenuPage() {
 
         {/* VEGETARISCH */}
         <section>
-          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Vegetarisch</h2>
+          <h2 className={`text-2xl text-center mb-12 mt-12 ${gold}`}>Vegetarisch</h2>
           <ul className="space-y-3">
             <MenuItem name="Cannelloni Vegi / Arrabiata" price="€22" />
-            <MenuItem name="Kaaskroketten / fris slaatje (1, 2 of 3 st.)" price="€10 / €20 / €30" />
+            <MenuItem name="Kaaskroketten / fris slaatje (1, 2 of 3 st.)" price="€10/€20/€30" />
             <MenuItem name="Halloumi gebakken / fris slaatje" price="€24" />
           </ul>
         </section>
 
         {/* SALADES */}
         <section>
-          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Salades</h2>
+          <h2 className={`text-2xl text-center mb-12 mt-12 ${gold}`}>Salades</h2>
           <ul className="space-y-3">
             <MenuItem name="Salade Etappe 33 / gerookte zalm / scampi’s / grijze garnalen" price="€30" />
             <MenuItem name="Salade geitenkaas / spek / appel" price="€26" />
@@ -111,7 +109,7 @@ export default function MenuPage() {
 
         {/* KIDS */}
         <section>
-          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Kids</h2>
+          <h2 className={`text-2xl text-center mb-12 mt-12 ${gold}`}>Kids</h2>
           <ul className="space-y-3">
             <MenuItem name="Kipnuggets / frietjes" price="€14" />
             <MenuItem name="Kinderspaghetti" price="€16" />
@@ -122,7 +120,7 @@ export default function MenuPage() {
 
         {/* DESSERTS */}
         <section>
-          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Desserts</h2>
+          <h2 className={`text-2xl text-center mb-12 mt-12 ${gold}`}>Desserts</h2>
           <ul className="space-y-3">
             <MenuItem name="Dame blanche" price="€10" />
             <MenuItem name="Coupe advocaat" price="€10" />
@@ -137,7 +135,7 @@ export default function MenuPage() {
 
         {/* MENU ETAPPE 33 */}
         <section>
-          <h2 className={`text-2xl text-center mb-12 ${gold}`}>Menu Etappe 33</h2>
+          <h2 className={`text-2xl text-center mt-12 mb-12 ${gold}`}>Menu Etappe 33</h2>
           <p className="text-white text-center mb-12 leading-relaxed whitespace-pre-line text-xl">
             Cava of Biertje Haagse Hoek of Mocktail{"\n"}***{"\n"}
             Voorgerecht:{"\n"}

@@ -4,7 +4,7 @@ import { Facebook, Instagram } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [formData, setFormData] = useState({ name: "", email: "", message: "",subject: "Mail verzonden via de contact pagina" });
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -17,15 +17,16 @@ export default function ContactPage() {
 
     try {
       // This example uses Formspree — you can replace with EmailJS or your backend later
-      const res = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+      const res = await fetch("/api/contact", {
+       method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
 
       if (res.ok) {
         setStatus("success");
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({ name: "", email: "", message: "",subject:"Mail verzonden via de contact pagina" });
       } else throw new Error();
     } catch {
       setStatus("error");

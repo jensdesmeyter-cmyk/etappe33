@@ -70,8 +70,8 @@ export default function TearoomPage() {
             <MenuItem name="Spaghetti groot" price="€24" />
             <MenuItem name="Salade Etappe 33 (gerookte zalm, scampi’s, grijze garnalen, brood)" price="€30" />
             <MenuItem name="Salade geitenkaas (spek, appel, brood)" price="€26" />
-            <MenuItem name="Garnaalkroketten (1,2 of 3 stuks) met fris slaatje & brood" price="€12 / €24 / €36" />
-            <MenuItem name="Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood" price="€10 / €20 / €30" />
+            <MenuItem name="Garnaalkroketten (1,2 of 3 stuks) met fris slaatje & brood" price="€12/€24/€36" />
+            <MenuItem name="Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood" price="€10/€20/€30" />
           </ul>
         </section>
       </div></motion.h1>

@@ -8,7 +8,7 @@ export default function AboutPage() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-5xl font-bold mb-6 text-[rgb(var(--color_58))]"
+        className="text-5xl font-bold mb-6 pt-6 text-[rgb(var(--color_58))]"
       >
         Over Etappe 33
       </motion.h1>

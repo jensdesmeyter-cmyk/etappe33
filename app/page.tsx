@@ -29,7 +29,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0, duration: 2 }}
               >
-      <Image src={photo} alt="restaurant" className='pt-12'/></motion.p>
+      <Image src={photo} alt="restaurant" className='pt-12 w-full md:h-[90vh] lg:h-[80vh] object-cover'/></motion.p>
        <LunchPopup />
     </main>
   );
