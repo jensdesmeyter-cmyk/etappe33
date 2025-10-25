@@ -39,11 +39,13 @@ export async function POST(req: NextRequest) {
     console.log("Email sent:", info);
 
     return NextResponse.json({ success: true });
-  } catch (err: any) {
-    console.error("Email error:", err);
-    return NextResponse.json(
-      { success: false, error: err.message || "Er is iets misgegaan." },
-      { status: 500 }
-    );
+  } catch (err: unknown) {
+  let errorMessage = "Er is iets misgegaan";
+  if (err instanceof Error) {
+    errorMessage = err.message;
   }
+  console.error("Email error:", errorMessage);
+  return NextResponse.json({ success: false, error: errorMessage }, { status: 500 });
+}
+
 }

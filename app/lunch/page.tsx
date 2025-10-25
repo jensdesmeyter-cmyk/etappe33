@@ -34,13 +34,4 @@ import { motion } from "framer-motion";
   );
 }
 
-// Reusable menu item component
-function MenuItem({ name, price }: { name: string; price: string }) {
-  return (
-    <li className="flex justify-between border-b border-gray-700 pb-1">
-      <span className="text-gray-800">{name}</span>
-      <span className="text-[#d4af37] font-medium">{price}</span>
-    </li>
-  );
-}
 
