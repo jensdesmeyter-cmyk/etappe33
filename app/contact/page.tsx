@@ -4,103 +4,135 @@ import { Facebook, Instagram } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "",subject: "Mail verzonden via de contact pagina" });
-  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+    subject: "Mail verzonden via de contact pagina",
+  });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "success" | "error"
+  >("idle");
+
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("sending");
+    setErrorMsg("");
 
     try {
-      // This example uses Formspree — you can replace with EmailJS or your backend later
       const res = await fetch("/api/contact", {
-       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
+      const data = await res.json();
 
-      if (res.ok) {
+      if (res.ok && data.success) {
         setStatus("success");
-        setFormData({ name: "", email: "", message: "",subject:"Mail verzonden via de contact pagina" });
-      } else throw new Error();
-    } catch {
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+          subject: "Mail verzonden via de contact pagina",
+        });
+      } else {
+        setStatus("error");
+        setErrorMsg(data.error || "Er ging iets mis");
+      }
+    } catch (err: any) {
       setStatus("error");
+      setErrorMsg(err.message || "Er ging iets mis");
     }
   };
 
   return (
-    <div className=" min-h-screen text-[rgb(var(--color_58))] py-16 px-6 sm:px-12">
-      <motion.h1
+    <div className="min-h-screen text-[rgb(var(--color_58))] py-16 px-6 sm:px-12">
+      <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        >
-      <div className="max-w-4xl mx-auto space-y-16">
-        <h1 className="text-4xl text-center text-white font-serif mb-8">
-          Contacteer Ons
-        </h1>
+      >
+        <div className="max-w-4xl mx-auto space-y-16">
+          <h1 className="text-4xl text-center text-white font-serif mb-8">
+            Contacteer Ons
+          </h1>
 
-        {/* Contact form */}
-        <section className="p-8 rounded-2xl shadow-lg bg-white">
-          <h2 className="text-2xl text-[rgb(var(--color_58))] mb-6">Stuur ons een bericht</h2>
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <div>
-              <label className="block text-[rgb(var(--color_58))] mb-1">Naam</label>
-              <input
-                type="text"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-                className="w-full p-3 rounded-lg text-black border border-gray-700 focus:outline-none focus:border-[#d4af37]"
-              />
-            </div>
+          {/* Contact form */}
+          <section className="p-8 rounded-2xl shadow-lg bg-white">
+            <h2 className="text-2xl text-[rgb(var(--color_58))] mb-6">
+              Stuur ons een bericht
+            </h2>
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div>
+                <label className="block text-[rgb(var(--color_58))] mb-1">
+                  Naam
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                  className="w-full p-3 rounded-lg text-black border border-gray-700 focus:outline-none focus:border-[#d4af37]"
+                />
+              </div>
 
-            <div>
-              <label className="block text-[rgb(var(--color_58))] mb-1">E-mailadres</label>
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                className="w-full p-3 rounded-lg text-black border border-gray-700 focus:outline-none focus:border-[#d4af37]"
-              />
-            </div>
+              <div>
+                <label className="block text-[rgb(var(--color_58))] mb-1">
+                  E-mailadres
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                  className="w-full p-3 rounded-lg text-black border border-gray-700 focus:outline-none focus:border-[#d4af37]"
+                />
+              </div>
 
-            <div>
-              <label className="block text-[rgb(var(--color_58))] mb-1">Bericht</label>
-              <textarea
-                name="message"
-                rows={5}
-                value={formData.message}
-                onChange={handleChange}
-                required
-                className="w-full p-3 rounded-lg  text-black border border-gray-700 focus:outline-none focus:border-[#d4af37]"
-              />
-            </div>
+              <div>
+                <label className="block text-[rgb(var(--color_58))] mb-1">
+                  Bericht
+                </label>
+                <textarea
+                  name="message"
+                  rows={5}
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                  className="w-full p-3 rounded-lg  text-black border border-gray-700 focus:outline-none focus:border-[#d4af37]"
+                />
+              </div>
 
-            <button
-              type="submit"
-              disabled={status === "sending"}
-              className="bg-[rgb(var(--color_58))] text-white font-semibold py-3 px-6 rounded-lg hover:bg-[#e5c166] transition"
-            >
-              {status === "sending" ? "Versturen..." : "Verstuur bericht"}
-            </button>
+              <button
+                type="submit"
+                disabled={status === "sending"}
+                className="bg-[rgb(var(--color_58))] text-white font-semibold py-3 px-6 rounded-lg hover:bg-[#e5c166] transition"
+              >
+                {status === "sending" ? "Versturen..." : "Verstuur bericht"}
+              </button>
 
-            {status === "success" && (
-              <p className="text-green-500 mt-2">Bedankt! Je bericht is verzonden.</p>
-            )}
-            {status === "error" && (
-              <p className="text-red-500 mt-2">Er ging iets mis. Probeer opnieuw.</p>
-            )}
-          </form>
-        </section>
+              {status === "success" && (
+                <p className="text-green-500 mt-2">
+                  Bedankt! Je bericht is verzonden.
+                </p>
+              )}
+              {status === "error" && (
+                <p className="text-red-500 mt-2">{errorMsg}</p>
+              )}
+            </form>
+          </section>
 
         {/* Opening hours */}
         <section>
@@ -162,7 +194,7 @@ export default function ContactPage() {
           </div>
         </section>
       </div>
-      </motion.h1>
+      </motion.div>
     </div>
   );
 }
