@@ -49,10 +49,14 @@ export default function ContactPage() {
         setStatus("error");
         setErrorMsg(data.error || "Er ging iets mis");
       }
-    } catch (err: any) {
-      setStatus("error");
-      setErrorMsg(err.message || "Er ging iets mis");
-    }
+    } catch (err: unknown) {
+  let message = "Er ging iets mis";
+  if (err instanceof Error) {
+    message = err.message;
+  }
+  setStatus("error");
+  setErrorMsg(message);
+}
   };
 
   return (
