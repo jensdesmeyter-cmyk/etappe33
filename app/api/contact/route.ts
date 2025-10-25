@@ -9,7 +9,7 @@ const transporter = nodemailer.createTransport({
   requireTLS: true, // enforce TLS
   auth: {
     user: "info@etappe33.be",
-    pass: process.env.ZOHO_PASSWORD,
+    pass: "t9puDJHcgac9",
   },
 });
 
