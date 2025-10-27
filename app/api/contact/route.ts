@@ -8,8 +8,8 @@ export async function POST(req: Request) {
     const { name, email, message } = await req.json();
 
     await resend.emails.send({
-      from: "Etappe 33 <info@etappe33.be>",
-      to: "info@etappe33.be",
+      from: 'onboarding@resend.dev',
+      to: 'info@etappe33.be',
       subject: `Nieuw bericht van ${name}`,
       html: `
         <h2>Nieuw bericht via het contactformulier</h2>
