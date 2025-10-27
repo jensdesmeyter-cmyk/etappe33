@@ -10,17 +10,17 @@ export default function ReservationsPage() {
         transition={{ duration: 0.6 }}
         className="text-4xl md:text-5xl font-bold text-[rgb(var(--color_58))] mb-6"
       >
-        Online reservaties binnenkort beschikbaar
+        Reserveer nu
       </motion.h1>
 
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
-        className="text-lg md:text-xl text-white max-w-2xl mb-8"
+        className="text-lg md:text-xl text-white max-w-3xl mb-8"
       >
-        Binnenkort kan je hier rechtstreeks een tafel reserveren<br />
-        Voorlopig kan je telefonisch reserveren via
+        Je kan online reserveren via de knop "Reserveer een tafel" rechtsonderaan<br />
+        Voor groepen met meer dan 12 personen, kan je telefonisch reserveren via
         <span className="text-[rgb(var(--color_58))] font-semibold">+32 493 45 25 95</span>.
       </motion.p>
 

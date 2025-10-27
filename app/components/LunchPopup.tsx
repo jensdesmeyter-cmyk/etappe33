@@ -21,7 +21,7 @@ export default function LunchPopup() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 50 }}
       transition={{ duration: 0.5 }}
-      className="fixed bottom-6 right-6 bg-white text-black shadow-xl rounded-2xl p-4 sm:p-5 flex items-center gap-4 z-50 w-[280px] sm:w-[320px]"
+      className="fixed bottom-6 right-6 bg-white text-black shadow-xl rounded-2xl p-4 sm:p-5 flex items-center mb-14 gap-4 z-50 w-[280px] sm:w-[320px]"
     >
       <div className="flex-1">
         <p className="text-sm sm:text-base font-semibold">

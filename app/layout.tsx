@@ -2,7 +2,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar";
-import Logo from "./assets/logoch.png"
+import Logo from "./assets/logoch.png";
+import ZenChefPopup from "./components/ZenChefPopup";
+
 export const metadata: Metadata = {
    title: "Etappe 33 – Restaurant & Tearoom",
   description:
@@ -39,7 +41,7 @@ export default function RootLayout({
     </header>
 
     <main className="max-w-6xl mx-auto px-4 pt-24 pb-12">{children}</main>
-
+       <ZenChefPopup/>
        <Footer />
   </body>
 </html>
