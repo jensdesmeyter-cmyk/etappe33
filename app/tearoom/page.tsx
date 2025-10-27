@@ -74,6 +74,7 @@ export default function TearoomPage() {
             <MenuItem name="Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood" price="€10/€20/€30" />
           </ul>
         </section>
+        <p className="italic text-center text-white">Voor allergenen info kunt u terecht bij ons personeel</p>
       </div></motion.h1>
     </div>
   );

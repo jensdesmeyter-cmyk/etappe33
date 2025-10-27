@@ -154,9 +154,11 @@ export default function MenuPage() {
             Dranken inbegrepen tot de koffie
           </p>
         </section>
+        <p className="italic text-center text-white">Voor allergenen info kunt u terecht bij ons personeel</p>
         </motion.h1>
       </div>
     </div>
+    
   );
 }
 

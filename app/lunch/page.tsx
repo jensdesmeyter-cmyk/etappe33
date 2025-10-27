@@ -27,7 +27,7 @@ import { motion } from "framer-motion";
           <p className={`${gold} mt-4 text-center text-xl`}>
             €24 p.p
           </p>
-          <p className="italic">Voor allergenen info kunt u terecht bij ons personeel</p>
+          <p className="italic text-center text-white">Voor allergenen info kunt u terecht bij ons personeel</p>
           </motion.div>
         </section>
         
