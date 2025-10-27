@@ -34,13 +34,13 @@ export default function ZenChefPopup() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 50 }}
           transition={{ duration: 0.4 }}
-          className="fixed bottom-6 right-6 bg-white text-black shadow-xl rounded-2xl p-5 flex flex-col gap-4 z-50 w-[280px] sm:w-[320px] relative border-2 border-[rgb(var(--color_58))]"
         >
           {/* Zenchef Widget */}
           <div
             className="zc-widget-config"
             data-restaurant="379665"
             data-open="2000"
+            data-primary-color="ae9a64"
           ></div>
         </motion.div>
       )}
