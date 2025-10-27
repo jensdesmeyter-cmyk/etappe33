@@ -12,7 +12,7 @@ export async function POST(req: Request) {
       to: "info@etappe33.be",
       subject: `Nieuw bericht van ${name}`,
       html: `
-        <h2>Nieuw contactformulier bericht</h2>
+        <h2>Nieuw bericht via het contactformulier</h2>
         <p><strong>Naam:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Bericht:</strong><br/>${message}</p>
@@ -21,8 +21,9 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error(error);
-    return NextResponse.json({ success: false }, { status: 500 });
+    console.error("Mail sending error:", error);
+    return NextResponse.json({ success: false, error: "Email sending failed" }, { status: 500 });
   }
 }
+
 
