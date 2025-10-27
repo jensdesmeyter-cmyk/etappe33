@@ -8,7 +8,6 @@ export default function ContactPage() {
     name: "",
     email: "",
     message: "",
-    subject: "Mail verzonden via de contact pagina",
   });
 
   const [status, setStatus] = useState<
@@ -24,40 +23,34 @@ export default function ContactPage() {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus("sending");
-    setErrorMsg("");
+  e.preventDefault();
+  setStatus("sending");
+  setErrorMsg("");
 
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
 
-      const data = await res.json();
+    const data = await res.json();
 
-      if (res.ok && data.success) {
-        setStatus("success");
-        setFormData({
-          name: "",
-          email: "",
-          message: "",
-          subject: "Mail verzonden via de contact pagina",
-        });
-      } else {
-        setStatus("error");
-        setErrorMsg(data.error || "Er ging iets mis");
-      }
-    } catch (err: unknown) {
-  let message = "Er ging iets mis";
-  if (err instanceof Error) {
-    message = err.message;
+    if (res.ok && data.success) {
+      setStatus("success");
+      setFormData({ name: "", email: "", message: "" });
+    } else {
+      setStatus("error");
+      setErrorMsg("Er ging iets mis bij het verzenden van je bericht.");
+    }
+  } catch (err: unknown) {
+    let message = "Er ging iets mis bij het verzenden van je bericht.";
+    if (err instanceof Error) message = err.message;
+    setStatus("error");
+    setErrorMsg(message);
   }
-  setStatus("error");
-  setErrorMsg(message);
-}
-  };
+};
+
 
   return (
     <div className="min-h-screen text-[rgb(var(--color_58))] py-16 px-6 sm:px-12">
