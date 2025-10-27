@@ -19,7 +19,7 @@ export default function ReservationsPage() {
         transition={{ delay: 0.2, duration: 0.6 }}
         className="text-lg md:text-xl text-white max-w-3xl mb-8"
       >
-        Je kan online reserveren via de knop "Reserveer een tafel" rechtsonderaan<br />
+        Je kan online reserveren via de knop &apos;Reserveer een tafel&apos; rechtsonderaan<br />
         Voor groepen met meer dan 12 personen, kan je telefonisch reserveren via
         <span className="text-[rgb(var(--color_58))] font-semibold">+32 493 45 25 95</span>.
       </motion.p>
