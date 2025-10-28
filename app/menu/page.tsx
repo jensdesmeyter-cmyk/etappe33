@@ -13,11 +13,30 @@ export default function MenuPage() {
         transition={{ duration: 0.6 }}
         >
         <h1 className="text-4xl text-center font-bold mb-4">Onze Menu</h1>
-        <p className={`text-3xl  text-center mb-12 ${gold}`}>
-          Proef onze heerlijke gerechten
-        </p>
+        
+        {/* MENU ETAPPE 33 */}
+        <section>
+          <h2 className={`text-2xl text-center mt-12 mb-12 ${gold}`}>Menu Etappe 33</h2>
+          <p className="text-white text-center mb-12 leading-relaxed whitespace-pre-line text-xl">
+            Cava of Biertje Haagse Hoek of Mocktail{"\n"}***{"\n"}
+            Voorgerecht:{"\n"}
+            Duo van wildpastei / toast / uienconfituur{"\n"}OF{"\n"}
+            Kabeljauwhaasje / mosterdsausje / prei{"\n"}***{"\n"}
+            Hoofdgerecht:{"\n"}
+            Zeebaars / ratatouille groenten / boter-limoensausje / puree{"\n"}OF{"\n"}
+            Hertenkalffilet / seizoensgroenten / veenbessensausje / amandelkroketten{"\n"}***{"\n"}
+            Cheesecake met citrus{"\n"}***{"\n"}
+            Koffie of Thee
+          </p>
+          <p className={`${gold} mt-4 text-center text-xl`}>
+            €59 p.p. / €79 All-In
+          </p>
+          <p className="text-white text-center text-xl">
+            Dranken inbegrepen tot de koffie
+          </p>
+        </section>
 
-        <h1 className={`text-2xl text-center mb-12 ${gold}`}>À la Carte</h1>
+        <h1 className={`text-4xl text-center mt-12 mb-12 ${gold}`}>À la Carte</h1>
 
         {/* STARTERS OM TE DELEN */}
         <section>
@@ -133,27 +152,6 @@ export default function MenuPage() {
           </ul>
         </section>
 
-        {/* MENU ETAPPE 33 */}
-        <section>
-          <h2 className={`text-2xl text-center mt-12 mb-12 ${gold}`}>Menu Etappe 33</h2>
-          <p className="text-white text-center mb-12 leading-relaxed whitespace-pre-line text-xl">
-            Cava of Biertje Haagse Hoek of Mocktail{"\n"}***{"\n"}
-            Voorgerecht:{"\n"}
-            Duo van wildpastei / toast / uienconfituur{"\n"}OF{"\n"}
-            Kabeljauwhaasje / mosterdsausje / prei{"\n"}***{"\n"}
-            Hoofdgerecht:{"\n"}
-            Zeebaars / ratatouille groenten / boter-limoensausje / puree{"\n"}OF{"\n"}
-            Hertenkalffilet / seizoensgroenten / veenbessensausje / amandelkroketten{"\n"}***{"\n"}
-            Dessert: Cheesecake met citrus{"\n"}***{"\n"}
-            Koffie of Thee
-          </p>
-          <p className={`${gold} mt-4 text-center text-xl`}>
-            €59 p.p. / €79 All-In
-          </p>
-          <p className="text-white text-center text-xl">
-            Dranken inbegrepen tot de koffie
-          </p>
-        </section>
         <p className="italic text-center text-white">Voor allergenen info kunt u terecht bij ons personeel</p>
         </motion.h1>
       </div>

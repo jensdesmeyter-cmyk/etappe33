@@ -20,7 +20,7 @@ export default function AboutPage() {
         className="max-w-4xl text-2xl leading-relaxed text-gray-300"
       >
         Aan de rand van het Kluisbos, in een uniek en sfeervol kader, heten Maxim, Eddy
-        Christiaens en Ann Vanderlinden u van harte welkom in <span className="text-[rgb(var(--color_58))] font-semibold">Restaurant Etappe33</span>.
+        en Ann u van harte welkom in <span className="text-[rgb(var(--color_58))] font-semibold">Restaurant Etappe33</span>.
         <br />
         <br />
         Wij brengen een toegankelijke en smaakvolle keuken waarin kwaliteit en service centraal staan.
