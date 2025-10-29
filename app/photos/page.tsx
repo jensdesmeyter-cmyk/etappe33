@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+// Import photos
 import photo1 from "../assets/20251024_145621.jpg";
 import photo2 from "../assets/20251023_123623.jpg";
 import photo3 from "../assets/20251023_123638.jpg";
@@ -11,12 +12,14 @@ import photo4 from "../assets/20251023_123656.jpg";
 import photo5 from "../assets/20251024_143811.jpg";
 import photo6 from "../assets/20251024_144218.jpg";
 import photo7 from "../assets/20251023_123617.jpg";
+import photo8 from "../assets/b0de57c5-19a2-4b38-b266-3fc88d5f1a42.jpg";
 
-const photos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7];
+const photos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8];
+
+
 
 export default function PhotosPage() {
   const [current, setCurrent] = useState(0);
-
   // Automatically switch photos every 5 seconds
   useEffect(() => {
     const timer = setInterval(() => {
@@ -25,24 +28,31 @@ export default function PhotosPage() {
     return () => clearInterval(timer);
   }, []);
 
+  // Update background color smoothly when photo changes
+  useEffect(() => {
+  }, [current]);
+
   const nextPhoto = () => setCurrent((prev) => (prev + 1) % photos.length);
   const prevPhoto = () =>
     setCurrent((prev) => (prev - 1 + photos.length) % photos.length);
 
   return (
-    <section className="min-h-screen flex flex-col items-center text-white font-menu px-4 sm:px-6 py-12">
+    <motion.section
+      transition={{ duration: 0.8 }}
+      className="min-h-screen flex flex-col items-center text-white font-menu px-4 sm:px-6 py-12"
+    >
       {/* Title with motion */}
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-5xl sm:text-6xl font-bold mb-10 text-[rgb(var(--color_58))] text-center"
+        className="text-5xl sm:text-6xl font-bold text-[rgb(var(--color_58))] text-center"
       >
         Foto&apos;s
       </motion.h1>
 
-      {/* Main photo container */}
-      <div className="relative w-full max-w-5xl mx-auto rounded-2xl mt-20 overflow-hidden flex items-center justify-center aspect-[4/3] sm:aspect-[16/9]">
+      {/* Photo container */}
+      <div className="relative w-full max-w-5xl mx-auto rounded-2xl mt-20 overflow-hidden flex items-center justify-center h-[70vh] sm:h-[75vh] lg:h-[80vh]">
         <AnimatePresence mode="wait">
           <motion.div
             key={current}
@@ -55,7 +65,7 @@ export default function PhotosPage() {
             <Image
               src={photos[current]}
               alt={`Etappe33 foto ${current + 1}`}
-              className="object-contain w-full h-full rounded-2xl"
+              className="object-contain w-auto h-full max-h-full rounded-2xl"
               priority
             />
           </motion.div>
@@ -88,9 +98,6 @@ export default function PhotosPage() {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
-
-
-

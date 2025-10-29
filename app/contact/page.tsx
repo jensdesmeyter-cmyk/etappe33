@@ -157,7 +157,7 @@ export default function ContactPage() {
           <h2 className="text-2xl text-[rgb(var(--color_58))] mb-4">Volg ons</h2>
        <div className="flex gap-4 mb-4">
             <a
-              href="https://www.facebook.com/profile.php?id=100046240693901"
+              href="https://www.facebook.com/profile.php?id=61583098465408&rdid=QGMkMDukSfEGA2dm&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FkRmnzc8A%2F#"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"

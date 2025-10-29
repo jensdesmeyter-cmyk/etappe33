@@ -63,9 +63,9 @@ export default function TearoomPage() {
         <section>
           <h2 className={`text-2xl text-center mb-12 ${gold}`}>Klein Hongertje</h2>
           <ul className="space-y-3 mb-12">
-            <MenuItem name="Wafel croques Etappe 33 (Ham, kaas en fris slaatje)" price="" />
-            <MenuItem name="Wafel croques Club Etappe 33 (Ei, spek en fris slaatje)" price="" />
-            <MenuItem name="Wafel croques Italiaans (Mozzarella, tomaat en basilicum)" price="" />
+            <MenuItem name="Wafel croques Etappe 33 (Ham, kaas en fris slaatje)" price="10" />
+            <MenuItem name="Wafel croques Club Etappe 33 (Ei, spek en fris slaatje)" price="12" />
+            <MenuItem name="Wafel croques Italiaans (Mozzarella, tomaat en basilicum)" price="12" />
             <MenuItem name="Spaghetti klein" price="€16" />
             <MenuItem name="Spaghetti groot" price="€24" />
             <MenuItem name="Salade Etappe 33 (gerookte zalm, scampi’s, grijze garnalen, brood)" price="€30" />
