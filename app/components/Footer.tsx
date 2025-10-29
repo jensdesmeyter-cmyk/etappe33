@@ -40,7 +40,7 @@ export default function Footer() {
           <h4 className="text-black text-lg mb-3">Volg ons</h4>
           <div className="flex gap-4 mb-4">
             <a
-              href="https://www.facebook.com/profile.php?id=61583098465408&rdid=QGMkMDukSfEGA2dm&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FkRmnzc8A%2F#"
+              href="https://www.facebook.com/profile.php?id=61583098465408"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-black transition"
