@@ -5,28 +5,34 @@ import Navbar from "./components/Navbar";
 import Logo from "./assets/logoch.png";
 import ZenChefPopup from "./components/ZenChefPopup";
 
-export const metadata: Metadata = {
-   title: "Etappe 33 – Restaurant & Tearoom",
+export const metadata = {
+  title: "Etappe 33 | Restaurant & Tearoom Kluisbos",
   description:
-    "Geniet van heerlijke gerechten, desserts en warme sfeer bij Etappe 33. Reserveer binnenkort eenvoudig online via Zenchef.",
+    "Restaurant Etappe 33 — Geniet van heerlijke gerechten in een gezellig kader aan de rand van het Kluisbos.",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
+  },
   openGraph: {
-    title: "Etappe 33 – Restaurant & Tearoom",
+    title: "Etappe 33",
     description:
-      "Geniet van heerlijke gerechten, desserts en warme sfeer bij Etappe 33.",
+      "Restaurant & Tearoom Etappe 33 — Kwaliteit, gezelligheid en smaak aan de rand van het Kluisbos.",
     url: "https://www.etappe33.be",
     siteName: "Etappe 33",
     images: [
       {
-        url: Logo.src,
-        width: 1200,
-        height: 630,
-        alt: "Etappe 33 restaurant sfeerbeeld",
+        url: "/icon.png",
+        width: 512,
+        height: 512,
+        alt: "Etappe 33 logo",
       },
     ],
     locale: "nl_BE",
     type: "website",
   },
 };
+
 
 export default function RootLayout({
   children,
