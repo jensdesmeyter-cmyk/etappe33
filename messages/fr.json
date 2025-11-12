@@ -1,0 +1,240 @@
+{
+  "Home": {
+    "title": "Bienvenue chez Etappe 33",
+    "opening" : "Notre restaurant ouvrira ses portes le 31 octobre 2025 ! Nous sommes impatients de vous accueillir pour une expérience culinaire inoubliable.",
+    "description": "Profitez de délicieux plats dans une ambiance chaleureuse."
+  },
+  "Navbar": {
+    "menu": "Menu",
+    "lunch": "Déjeuner",
+    "tearoom": "Tearoom",
+    "reservatie": "Réservation",
+    "about": "À propos de nous",
+    "photos": "Photos",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "aboutText": "Une cuisine raffinée mettant à l'honneur les produits locaux et une hospitalité chaleureuse.",
+    "contact": {
+      "title": "Contact",
+      "address": "Adresse :",
+      "phone": "Téléphone :",
+      "email": "E-mail :"
+    },
+    "hours": {
+      "title": "Heures d'ouverture",
+      "closed": "Mardi – Jeudi : Fermé",
+      "lunch": "Vendredi - Lundi : 11h30 – 14h00 (déjeuner)",
+      "tearoom": "Vendredi - Lundi : 14h00 – 18h00 (salon de thé)",
+      "dinner": "Vendredi - Lundi : 18h30 – 21h00 (dîner)"
+    },
+    "social": {
+      "title": "Suivez-nous"
+    },
+    "links": {
+      "title": "Liens rapides",
+      "home": "Accueil",
+      "menu": "Menu",
+      "lunch": "Déjeuner",
+      "tearoom": "Salon de thé",
+      "about": "À propos",
+      "photos": "Photos",
+      "contact": "Contact"
+    },
+    "rights": "Tous droits réservés. Réalisé par Jens De Smeyter."
+  },
+  "Lunchpopup": {
+    "Week": "Découvrez notre menu du midi de cette semaine !",
+    "Lunch": "Voir le déjeuner"
+  },
+  "Menu": {
+    "title": "Notre Menu",
+    "etappeTitle": "Menu Etappe 33",
+    "etappeText": "Cava ou bière Haagse Hoek ou mocktail\n***\nEntrée :\nDuo de pâté de gibier / toast / confit d’oignons\nOU\nFilet de cabillaud / sauce moutarde / poireaux\n***\nPlat principal :\nBar / légumes ratatouille / sauce beurre-citron / purée\nOU\nFilet de veau de cerf / légumes de saison / sauce airelles / croquettes aux amandes\n***\nCheesecake aux agrumes\n***\nCafé ou thé",
+    "etappePrice": "€59 p.p. / €79 All-In",
+    "etappeDrinks": "Boissons incluses jusqu’au café",
+    "aLaCarte": "À la Carte",
+    "startersTitle": "Entrées à partager",
+    "appetizersTitle": "Entrées",
+    "mainTitle": "Plats principaux",
+    "fishTitle": "Poissons",
+    "meatTitle": "Viandes",
+    "gameTitle": "Gibier",
+    "vegiTitle": "Végétarien",
+    "saladsTitle": "Salades",
+    "kidsTitle": "Menu enfants",
+    "dessertsTitle": "Desserts",
+    "starters": [
+      { "name": "Planche apéro Etappe 33 mix chaud et froid", "price": "€28" },
+      { "name": "Croquettes au chorizo (8 pcs)", "price": "€14" },
+      { "name": "Calamars frits / sauce tartare maison (8 pcs)", "price": "€14" },
+      { "name": "Beignets de cabillaud / sauce tartare maison (6 pcs)", "price": "€16" },
+      { "name": "Poitrine de porc laquée", "price": "€12" },
+      { "name": "Camembert au four / pain à partager", "price": "€14" },
+      { "name": "Bruschettas au jambon Ibérique", "price": "€16" },
+      { "name": "Bruschettas végétariennes", "price": "€10" }
+    ],
+    "appetizers": [
+      { "name": "Scampi’s Etappe 33 (6 pcs)", "price": "€20" },
+      { "name": "Croquettes de crevettes (1 ou 2 pcs)", "price": "€10/€20" },
+      { "name": "Croquettes de fromage (1 ou 2 pcs)", "price": "€8/€16" },
+      { "name": "Coquilles St-Jacques / chicon caramélisé / jambon Ibérique séché", "price": "€24" },
+      { "name": "Duo de pâté de gibier / toast / confit d’oignons", "price": "€18" }
+    ],
+    "fish": [
+      { "name": "Bar / légumes ratatouille / purée", "price": "€30" },
+      { "name": "Scampi’s Etappe 33", "price": "€28" },
+      { "name": "Gratin de poisson maison", "price": "€30" },
+      { "name": "Dos de cabillaud / poireaux / sauce moutarde / purée", "price": "€34" },
+      { "name": "Cuisses de grenouilles", "price": "€32" },
+      { "name": "Sole Meunière", "price": "€38" },
+      { "name": "Croquettes de crevettes / petite salade (1, 2 ou 3 pcs)", "price": "€12/€24/€36" }
+    ],
+    "meat": [
+      { "name": "Filet pur de bœuf Blanc Bleu (250 gr.)", "price": "€35" },
+      { "name": "Côte à l’os de bœuf Blanc Bleu (2 pers.)", "price": "€76" },
+      { "name": "Côte d’agneau / sauce moutarde / légumes de saison", "price": "€38" },
+      { "name": "Pluma ibérique confite", "price": "€30" },
+      { "name": "Joues de bœuf braisées", "price": "€32" },
+      { "name": "Burger Etappe 33", "price": "€26" }
+    ],
+    "game": [
+      { "name": "Filet de cerf / légumes de saison / sauce airelles / croquettes aux amandes", "price": "€38" },
+      { "name": "Filet de faisan / sauce fine champagne / légumes de saison / croquettes aux amandes", "price": "€34" },
+      { "name": "Ragoût de sanglier / salade de chicon / croquettes aux amandes", "price": "€30" }
+    ],
+    "vegi": [
+      { "name": "Cannelloni végétarien / sauce arrabiata", "price": "€22" },
+      { "name": "Croquettes de fromage / petite salade (1, 2 ou 3 pcs)", "price": "€10/€20/€30" },
+      { "name": "Halloumi grillé / petite salade", "price": "€24" }
+    ],
+    "salads": [
+      { "name": "Salade Etappe 33 / saumon fumé / scampi’s / crevettes grises", "price": "€30" },
+      { "name": "Salade de chèvre chaud / lard / pomme", "price": "€26" }
+    ],
+    "kids": [
+      { "name": "Nuggets de poulet / frites", "price": "€14" },
+      { "name": "Spaghetti enfants", "price": "€16" },
+      { "name": "Frikandel / frites", "price": "€12" },
+      { "name": "Steak enfants / frites", "price": "€18" }
+    ],
+    "desserts": [
+      { "name": "Dame blanche", "price": "€10" },
+      { "name": "Coupe avocat", "price": "€10" },
+      { "name": "Coupe brésilienne", "price": "€10" },
+      { "name": "Crème brûlée", "price": "€9" },
+      { "name": "Moelleux au chocolat / glace vanille", "price": "€14" },
+      { "name": "Coupe enfants", "price": "€6" },
+      { "name": "Sabayon", "price": "€12" },
+      { "name": "Duo de sorbets", "price": "€10" }
+    ],
+    "allergens": "Pour toute information sur les allergènes, veuillez consulter notre personnel"
+  },
+  "Lunch": {
+    "title": "Déjeuner",
+    "menuTitle": "Menu Lunch",
+    "menuText": "Salade de saumon fumé\nOU\nSoupe du jour\n***\nMagret de canard à la sauce à l’orange et légumes chauds\nOU\nPetites soles\n***\nCafé ou thé",
+    "price": "€24 p.p.",
+    "allergens": "Pour toute information sur les allergènes, veuillez consulter notre personnel",
+     "nolunch": "Pas de Lunch Menu le dimanche"
+  },
+  "Tearoom": {
+    "title": "Tearoom",
+    "hours": "De 14h à 18h",
+
+    "pancakes": {
+      "title": "Crêpes",
+      "items": [
+        { "name": "Avec beurre et sucre", "price": "€6" },
+        { "name": "Avec glace vanille", "price": "€8" },
+        { "name": "Avec sauce chocolat chaud et glace vanille", "price": "€10" },
+        { "name": "Avec Nutella", "price": "€8" },
+        { "name": "Avec glace vanille et chantilly", "price": "€8" },
+        { "name": "Avec confiture", "price": "€8" }
+      ]
+    },
+
+    "desserts": {
+      "title": "Desserts",
+      "items": [
+        { "name": "Dame blanche", "price": "€10" },
+        { "name": "Coupe brésilienne", "price": "€10" },
+        { "name": "Crème brûlée", "price": "€8" },
+        { "name": "Moelleux avec boule de glace vanille", "price": "€14" },
+        { "name": "Glace pour enfants", "price": "€6" },
+        { "name": "Sabayon", "price": "€14" },
+        { "name": "Duo de sorbet", "price": "€10" }
+      ]
+    },
+
+    "starters": {
+      "title": "Entrées à partager",
+      "items": [
+        { "name": "Planche apéro Etappe 33 mix chaud et froid", "price": "€28" },
+        { "name": "Croquettes de chorizo (8 pcs)", "price": "€14" },
+        { "name": "Calamars avec sauce tartare maison (8 pcs)", "price": "€14" },
+        { "name": "Boulettes de cabillaud avec sauce tartare maison (6 pcs)", "price": "€16" },
+        { "name": "Poitrine de porc laquée", "price": "€12" },
+        { "name": "Camembert au four avec pain à partager", "price": "€14" },
+        { "name": "Bruschettas au jambon Ibérique", "price": "€16" },
+        { "name": "Bruschettas végétariennes", "price": "€10" },
+        { "name": "Fromage / Salami & Olives", "price": "€10" }
+      ]
+    },
+
+    "smallBites": {
+      "title": "Petite Faim",
+      "items": [
+        { "name": "Croque gaufre Etappe 33 (Jambon, fromage et salade fraîche)", "price": "€10" },
+        { "name": "Croque gaufre Club Etappe 33 (Œuf, bacon et salade fraîche)", "price": "€12" },
+        { "name": "Croque gaufre Italien (Mozzarella, tomate et basilic)", "price": "€12" },
+        { "name": "Spaghetti petit", "price": "€16" },
+        { "name": "Spaghetti grand", "price": "€24" },
+        { "name": "Salade Etappe 33 (saumon fumé, scampis, crevettes grises, pain)", "price": "€30" },
+        { "name": "Salade de chèvre chaud (lardons, pomme, pain)", "price": "€26" },
+        { "name": "Croquettes de crevettes (1, 2 ou 3 pcs) avec salade fraîche et pain", "price": "€12/€24/€36" },
+        { "name": "Croquettes de fromage (1, 2 ou 3 pcs) avec salade fraîche et pain", "price": "€10/€20/€30" }
+      ]
+    },
+
+    "allergenNote": "Pour toute information sur les allergènes, veuillez vous adresser à notre personnel."
+  },
+  "About": {
+    "title": "À propos d’Etappe 33",
+    "description": "Au bord de la forêt du Kluisbos, dans un cadre unique et chaleureux, Maxim, Eddy et Ann vous souhaitent la bienvenue au <highlight>Restaurant Etappe33</highlight>.<br /><br />Nous proposons une cuisine savoureuse et accessible, où la qualité et le service sont au centre de nos priorités. Maxim vous accueille avec le sourire en salle, tandis qu’Eddy, en cuisine, vous régale avec des créations raffinées qui éveillent les papilles.<br /><br />Venez savourer nos plats dans une atmosphère détendue — nous vous accueillons avec plaisir le vendredi, samedi, dimanche et lundi, en continu de 11h30 à 21h00 durant la période automne-hiver."
+  },
+    "Photos": {
+    "title": "Photos"
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "formTitle": "Envoyez-nous un message",
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Merci ! Votre message a été envoyé.",
+    "error": "Une erreur est survenue lors de l’envoi du message.",
+    "hoursTitle": "Heures d’ouverture",
+    "lunch": "Vendredi - Lundi : 11h30 – 14h00 (déjeuner)",
+    "tearoom": "Vendredi - Lundi : 14h00 – 18h00 (salon de thé)",
+    "dinner": "Vendredi - Lundi : 18h30 – 21h00 (dîner)",
+    "infoTitle": "Contact",
+    "address": "Adresse :",
+    "phone": "Téléphone :",
+    "emailLabel": "E-mail :",
+    "follow": "Suivez-nous",
+    "location": "Localisation"
+  },
+  "Reservation": {
+    "title": "Réservez maintenant",
+    "description1": "Vous pouvez réserver en ligne via le bouton 'Réserver une table' en bas à droite.",
+    "description2": "Pour les groupes de plus de 12 personnes, veuillez réserver par téléphone au",
+    "callButton": "Appelez maintenant"
+  }
+}
+
+
+
+

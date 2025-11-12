@@ -1,0 +1,244 @@
+{
+  "Home": {
+    "title": "Welkom bij Etappe 33",
+    "opening" : "Ons restaurant opent vanaf 31 oktober 2025 zijn deuren! We kijken ernaar uit u te verwelkomen voor een onvergetelijke culinaire ervaring.",
+    "description": "Geniet van heerlijke gerechten in een warme sfeer."
+  },
+  "Navbar": {
+    "menu": "Menu",
+    "lunch": "Lunch",
+    "tearoom": "Tearoom",
+    "reservatie": "Reservatie",
+    "about": "Over Ons",
+    "photos": "Foto's",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "aboutText": "Een verfijnde keuken met aandacht voor lokale producten en warme gastvrijheid.",
+    "contact": {
+      "title": "Contact",
+      "address": "Adres:",
+      "phone": "Telefoon:",
+      "email": "E-mail:"
+    },
+    "hours": {
+      "title": "Openingsuren",
+      "closed": "Dinsdag – Donderdag: Gesloten",
+      "lunch": "Vrijdag - Maandag: 11:30 – 14:00 (lunch)",
+      "tearoom": "Vrijdag - Maandag: 14:00 – 18:00 (tearoom)",
+      "dinner": "Vrijdag - Maandag: 18:30 – 21:00 (diner)"
+    },
+    "social": {
+      "title": "Volg ons"
+    },
+    "links": {
+      "title": "Snelle links",
+      "home": "Home",
+      "menu": "Menu",
+      "lunch": "Lunch",
+      "tearoom": "Tearoom",
+      "about": "Over ons",
+      "photos": "Foto's",
+      "contact": "Contact"
+    },
+    "rights": "Alle rechten voorbehouden. Gemaakt door Jens De Smeyter."
+  },
+  "Lunchpopup": {
+    "Week": "Ontdek onze lunchmenu van deze week!",
+    "Lunch": "Bekijk lunch"
+  },
+  "Menu": {
+    "title": "Onze Menu",
+    "etappeTitle": "Menu Etappe 33",
+    "etappeText": "Cava of Biertje Haagse Hoek of Mocktail\n***\nVoorgerecht:\nDuo van wildpastei / toast / uienconfituur\nOF\nKabeljauwhaasje / mosterdsausje / prei\n***\nHoofdgerecht:\nZeebaars / ratatouille groenten / boter-limoensausje / puree\nOF\nHertenkalffilet / seizoensgroenten / veenbessensausje / amandelkroketten\n***\nCheesecake met citrus\n***\nKoffie of Thee",
+    "etappePrice": "€59 p.p. / €79 All-In",
+    "etappeDrinks": "Dranken inbegrepen tot de koffie",
+    "aLaCarte": "À la Carte",
+    "startersTitle": "Starters om te delen",
+    "appetizersTitle": "Voorgerechten",
+    "mainTitle": "Hoofdgerechten",
+    "fishTitle": "Vis",
+    "meatTitle": "Vlees",
+    "gameTitle": "Wild",
+    "vegiTitle": "Vegetarisch",
+    "saladsTitle": "Salades",
+    "kidsTitle": "Kindermenu",
+    "dessertsTitle": "Desserts",
+    "starters": [
+      { "name": "Aperitiefplank Etappe 33 mix warm en koud", "price": "€28" },
+      { "name": "Chorizokroketjes (8 st.)", "price": "€14" },
+      { "name": "Calamares met verse tartaar (8 st.)", "price": "€14" },
+      { "name": "Cougonettes van kabeljauw met verse tartaar (6 st.)", "price": "€16" },
+      { "name": "Gelakt buikspek", "price": "€12" },
+      { "name": "Camembert uit de oven met plukbrood", "price": "€14" },
+      { "name": "Bruschetta’s met Iberico ham", "price": "€16" },
+      { "name": "Bruschetta’s Vegi", "price": "€10" }
+    ],
+    "appetizers": [
+      { "name": "Scampi’s Etappe 33 (6 st.)", "price": "€20" },
+      { "name": "Garnaalkroketten (1 of 2 st.)", "price": "€10/€20" },
+      { "name": "Kaaskroketten (1 of 2 st.)", "price": "€8/€16" },
+      { "name": "Coquilles / gekarameliseerd witloof / gedroogde Iberico ham", "price": "€24" },
+      { "name": "Duo van wildpastei / toast / uienconfituur", "price": "€18" }
+    ],
+    "fish": [
+      { "name": "Zeebaars / ratatouille groenten / puree", "price": "€30" },
+      { "name": "Scampi’s Etappe 33", "price": "€28" },
+      { "name": "Gegratineerd vispannetje", "price": "€30" },
+      { "name": "Kabeljauwhaasje / prei / mosterdsausje / puree", "price": "€34" },
+      { "name": "Kikkerbilletjes", "price": "€32" },
+      { "name": "Zeetong Meunière", "price": "€38" },
+      { "name": "Garnaalkroketten / fris slaatje (1, 2 of 3 st.)", "price": "€12/€24/€36" }
+    ],
+    "meat": [
+      { "name": "Filet pur van WIT BLAUW rund (250 gr.)", "price": "€35" },
+      { "name": "Côte à l’os van WIT BLAUW rund (2 pers.)", "price": "€76" },
+      { "name": "Lamskroontje / mosterdsausje / seizoensgroenten", "price": "€38" },
+      { "name": "Traag gegaarde Pluma", "price": "€30" },
+      { "name": "Rundswangen gekonfijt", "price": "€32" },
+      { "name": "Rundsburger Etappe 33", "price": "€26" }
+    ],
+    "game": [
+      { "name": "Hertenkalffilet / seizoensgroenten / veenbessensausje / amandelkroketten", "price": "€38" },
+      { "name": "Fazantfilet / fine champagnesausje / seizoensgroenten / amandelkroketten", "price": "€34" },
+      { "name": "Stoofpotje van Everzwijn / witloofslaatje / amandelkroketten", "price": "€30" }
+    ],
+    "vegi": [
+      { "name": "Cannelloni Vegi / Arrabiata", "price": "€22" },
+      { "name": "Kaaskroketten / fris slaatje (1, 2 of 3 st.)", "price": "€10/€20/€30" },
+      { "name": "Halloumi gebakken / fris slaatje", "price": "€24" }
+    ],
+    "salads": [
+      { "name": "Salade Etappe 33 / gerookte zalm / scampi’s / grijze garnalen", "price": "€30" },
+      { "name": "Salade geitenkaas / spek / appel", "price": "€26" }
+    ],
+    "kids": [
+      { "name": "Kipnuggets / frietjes", "price": "€14" },
+      { "name": "Kinderspaghetti", "price": "€16" },
+      { "name": "Frikandel / frietjes", "price": "€12" },
+      { "name": "Kindersteak / frietjes", "price": "€18" }
+    ],
+    "desserts": [
+      { "name": "Dame blanche", "price": "€10" },
+      { "name": "Coupe advocaat", "price": "€10" },
+      { "name": "Coupe brésilienne", "price": "€10" },
+      { "name": "Crème brûlée", "price": "€9" },
+      { "name": "Moelleux / bolletje vanille-ijs", "price": "€14" },
+      { "name": "Kinderijsje", "price": "€6" },
+      { "name": "Sabayon", "price": "€12" },
+      { "name": "Duo van sorbet", "price": "€10" }
+    ],
+    "allergens": "Voor allergenen info kunt u terecht bij ons personeel"
+  },
+  
+  "Lunch": {
+    "title": "Lunch",
+    "menuTitle": "Lunch Menu",
+    "menuText": "Slaatje gerookte zalm\nOF\nSoep van de dag\n***\nEendenborstfilet met sinaasappelsaus en warme groenten\nOF\nSliptongen\n***\nKoffie of Thee",
+    "price": "€24 p.p.",
+    "allergens": "Voor allergenen info kunt u terecht bij ons personeel",
+    "nolunch": "Geen lunch menu op zondag"
+  },
+  "Tearoom": {
+    "title": "Tea Room",
+    "hours": "Van 14u tot 18u",
+
+    "pancakes": {
+      "title": "Pannenkoeken",
+      "items": [
+        { "name": "Met boter & suiker", "price": "€6" },
+        { "name": "Met vanille-ijs", "price": "€8" },
+        { "name": "Met warme chocoladesaus & vanille-ijs", "price": "€10" },
+        { "name": "Met Nutella", "price": "€8" },
+        { "name": "Met vanille-ijs & slagroom", "price": "€8" },
+        { "name": "Met confituur", "price": "€8" }
+      ]
+    },
+
+    "desserts": {
+      "title": "Desserts",
+      "items": [
+        { "name": "Dame blanche", "price": "€10" },
+        { "name": "Coupe brésilienne", "price": "€10" },
+        { "name": "Crème brûlée", "price": "€8" },
+        { "name": "Moelleux met bolletje vanille-ijs", "price": "€14" },
+        { "name": "Kinderijsje", "price": "€6" },
+        { "name": "Sabayon", "price": "€14" },
+        { "name": "Duo van sorbet", "price": "€10" }
+      ]
+    },
+
+    "starters": {
+      "title": "Starters om te delen",
+      "items": [
+        { "name": "Aperitiefplank Etappe 33 mix warm en koud", "price": "€28" },
+        { "name": "Chorizokroketjes (8st)", "price": "€14" },
+        { "name": "Calamares met verse tartaar (8st)", "price": "€14" },
+        { "name": "Cougonettes van kabeljauw met verse tartaar (6st)", "price": "€16" },
+        { "name": "Gelakt buikspek", "price": "€12" },
+        { "name": "Camembert uit de oven met plukbrood", "price": "€14" },
+        { "name": "Bruschetta’s met Iberico ham", "price": "€16" },
+        { "name": "Bruschetta’s Vegi", "price": "€10" },
+        { "name": "Kaas / Salami & Olijven", "price": "€10" }
+      ]
+    },
+    "smallBites": {
+      "title": "Klein Hongertje",
+      "items": [
+        { "name": "Wafel croques Etappe 33 (Ham, kaas en fris slaatje)", "price": "€10" },
+        { "name": "Wafel croques Club Etappe 33 (Ei, spek en fris slaatje)", "price": "€12" },
+        { "name": "Wafel croques Italiaans (Mozzarella, tomaat en basilicum)", "price": "€12" },
+        { "name": "Spaghetti klein", "price": "€16" },
+        { "name": "Spaghetti groot", "price": "€24" },
+        { "name": "Salade Etappe 33 (gerookte zalm, scampi’s, grijze garnalen, brood)", "price": "€30" },
+        { "name": "Salade geitenkaas (spek, appel, brood)", "price": "€26" },
+        { "name": "Garnaalkroketten (1,2 of 3 stuks) met fris slaatje & brood", "price": "€12/€24/€36" },
+        { "name": "Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood", "price": "€10/€20/€30" }
+      ]
+    },
+
+    "allergenNote": "Voor allergenen info kunt u terecht bij ons personeel."
+  },
+  "About": {
+    "title": "Over Etappe 33",
+    "description": "Aan de rand van het Kluisbos, in een uniek en sfeervol kader, heten Maxim, Eddy en Ann u van harte welkom in <highlight>Restaurant Etappe33</highlight>.<br /><br />Wij brengen een toegankelijke en smaakvolle keuken waarin kwaliteit en service centraal staan. Maxim ontvangt u met de glimlach als gastheer, terwijl Eddy in de keuken zorgt voor culinaire verfijning die uw smaakpapillen prikkelt.<br /><br />Kom genieten van onze gerechten in een ontspannen sfeer — wij verwelkomen u graag op vrijdag, zaterdag, zondag en maandag, doorlopend van 11u30 tot 21u00 tijdens de herfst- en winterperiode."
+  },
+  "Photos": {
+    "title": "Foto's"
+  },
+  "Contact": {
+    "title": "Contacteer Ons",
+    "formTitle": "Stuur ons een bericht",
+    "name": "Naam",
+    "email": "E-mailadres",
+    "message": "Bericht",
+    "send": "Verstuur bericht",
+    "sending": "Versturen...",
+    "success": "Bedankt! Je bericht is verzonden.",
+    "error": "Er ging iets mis bij het verzenden van je bericht.",
+    "hoursTitle": "Openingsuren",
+    "lunch": "Vrijdag - Maandag: 11:30 – 14:00 (lunch)",
+    "tearoom": "Vrijdag - Maandag: 14:00 – 18:00 (tearoom)",
+    "dinner": "Vrijdag - Maandag: 18:30 – 21:00 (diner)",
+    "infoTitle": "Contact",
+    "address": "Adres:",
+    "phone": "Telefoon:",
+    "emailLabel": "E-mail:",
+    "follow": "Volg ons",
+    "location": "Locatie"
+  },
+  "Reservation": {
+    "title": "Reserveer nu",
+    "description1": "Je kan online reserveren via de knop 'Reserveer een tafel' rechtsonderaan.",
+    "description2": "Voor groepen met meer dan 12 personen, kan je telefonisch reserveren via",
+    "callButton": "Bel nu"
+  }
+}
+
+
+
+
+
+
+
+

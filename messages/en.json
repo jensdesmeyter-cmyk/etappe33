@@ -1,0 +1,15 @@
+{
+  "Home": {
+    "title": "Welcome to Etappe 33",
+    "opening" : "Our restaurant will open its doors on 31 October 2025! We look forward to welcoming you for an unforgettable culinary experience.",
+    "description": "Enjoy delicious dishes in a warm atmosphere."
+  },
+  "Navbar": {
+    "menu": "Menu",
+    "lunch": "Lunch",
+    "tearoom": "Tearoom",
+    "reservatie": "Reservation",
+    "about": "About us",
+    "photos": "Photos"
+  }
+}

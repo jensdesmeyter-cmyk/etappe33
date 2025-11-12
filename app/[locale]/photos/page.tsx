@@ -3,16 +3,17 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 // Import photos
-import photo1 from "../assets/20251024_145621.jpg";
-import photo2 from "../assets/20251023_123623.jpg";
-import photo3 from "../assets/20251023_123638.jpg";
-import photo4 from "../assets/20251023_123656.jpg";
-import photo5 from "../assets/20251024_143811.jpg";
-import photo6 from "../assets/20251024_144218.jpg";
-import photo7 from "../assets/20251023_123617.jpg";
-import photo8 from "../assets/b0de57c5-19a2-4b38-b266-3fc88d5f1a42.jpg";
+import photo1 from "../../assets/20251024_145621.jpg";
+import photo2 from "../../assets/20251023_123623.jpg";
+import photo3 from "../../assets/20251023_123638.jpg";
+import photo4 from "../../assets/20251023_123656.jpg";
+import photo5 from "../../assets/20251024_143811.jpg";
+import photo6 from "../../assets/20251024_144218.jpg";
+import photo7 from "../../assets/20251023_123617.jpg";
+import photo8 from "../../assets/b0de57c5-19a2-4b38-b266-3fc88d5f1a42.jpg";
 
 const photos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8];
 
@@ -36,6 +37,8 @@ export default function PhotosPage() {
   const prevPhoto = () =>
     setCurrent((prev) => (prev - 1 + photos.length) % photos.length);
 
+  const t = useTranslations("Photos");
+
   return (
     <motion.section
       transition={{ duration: 0.8 }}
@@ -48,7 +51,7 @@ export default function PhotosPage() {
         transition={{ duration: 0.6 }}
         className="text-5xl sm:text-6xl font-bold text-[rgb(var(--color_58))] text-center"
       >
-        Foto&apos;s
+         {t("title")}
       </motion.h1>
 
       {/* Photo container */}

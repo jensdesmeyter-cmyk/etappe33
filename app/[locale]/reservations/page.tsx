@@ -1,16 +1,19 @@
 "use client";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function ReservationsPage() {
+  const t = useTranslations("Reservation");
+
   return (
- <div className="min-h-screen flex flex-col items-center justify-center text-white px-4 text-center">
+    <div className="min-h-screen flex flex-col items-center justify-center text-white px-4 text-center">
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="text-4xl md:text-5xl font-bold text-[rgb(var(--color_58))] mb-6"
       >
-        Reserveer nu
+        {t("title")}
       </motion.h1>
 
       <motion.p
@@ -19,9 +22,13 @@ export default function ReservationsPage() {
         transition={{ delay: 0.2, duration: 0.6 }}
         className="text-lg md:text-xl text-white max-w-3xl mb-8"
       >
-        Je kan online reserveren via de knop &apos;Reserveer een tafel&apos; rechtsonderaan<br />
-        Voor groepen met meer dan 12 personen, kan je telefonisch reserveren via
-        <span className="text-[rgb(var(--color_58))] font-semibold">+32 493 45 25 95</span>.
+        {t("description1")}
+        <br />
+        {t("description2")}{" "}
+        <span className="text-[rgb(var(--color_58))] font-semibold">
+          +32 493 45 25 95
+        </span>
+        .
       </motion.p>
 
       <motion.div
@@ -31,11 +38,12 @@ export default function ReservationsPage() {
       >
         <a
           href="tel:+32493452595"
-          className="text-white border border-white rounded-full hover:bg-[#c9b67a] hover:text-black transition font-semibold px-6 py-3 transition"
+          className="text-white border border-white rounded-full hover:bg-[#c9b67a] hover:text-black transition font-semibold px-6 py-3"
         >
-         Bel nu
+          {t("callButton")}
         </a>
       </motion.div>
     </div>
   );
 }
+

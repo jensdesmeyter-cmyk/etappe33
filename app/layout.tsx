@@ -1,9 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import Footer from "./components/Footer"
-import Navbar from "./components/Navbar";
+import Footer from "./[locale]/components/Footer"
+import Navbar from "./[locale]/components/Navbar";
 import Logo from "./assets/logoch.png";
-import ZenChefPopup from "./components/ZenChefPopup";
+import ZenChefPopup from "./[locale]/components/ZenChefPopup";
 
 export const metadata = {
   title: "Etappe 33 | Restaurant & Tearoom Kluisbos",
@@ -41,14 +41,9 @@ export default function RootLayout({
 }) {
   return (
 <html lang="en">
-  <body className="bg-gray-50 text-gray-800">
-    <header className="w-full bg-white shadow-sm sticky top-0 z-50">
-      <Navbar />
-    </header>
-
-    <main className="max-w-6xl mx-auto px-4 pt-24 pb-12">{children}</main>
-       <ZenChefPopup/>
-       <Footer />
+  <body>
+    <header></header>
+    <main>{children}</main>
   </body>
 </html>
 

@@ -3,9 +3,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { X } from "lucide-react";
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 
 export default function LunchPopup() {
   const [visible, setVisible] = useState(false);
+   const t = useTranslations("Lunchpopup");
+  const pathname = usePathname();
+    const locale = pathname.split("/")[1] || "nl";
 
   // Show popup a few seconds after page load
   useEffect(() => {
@@ -25,13 +30,13 @@ export default function LunchPopup() {
     >
       <div className="flex-1">
         <p className="text-sm sm:text-base font-semibold">
-          Ontdek onze lunchmenu van deze week!
+          {t("Week")}
         </p>
         <Link
           href="/lunch"
           className="inline-block mt-2 text-xs sm:text-sm font-medium underline hover:text-black transition text-[rgb(var(--color_58))]"
         >
-          Bekijk lunch
+          {t("Lunch")}
         </Link>
       </div>
 
