@@ -23,10 +23,10 @@
     },
     "hours": {
       "title": "Openingsuren",
-      "closed": "Dinsdag – Donderdag: Gesloten",
-      "lunch": "Vrijdag - Maandag: 11:30 – 14:00 (lunch)",
-      "tearoom": "Vrijdag - Maandag: 14:00 – 18:00 (tearoom)",
-      "dinner": "Vrijdag - Maandag: 18:30 – 21:00 (diner)"
+      "closed": "Dinsdag tot en met Donderdag: Gesloten",
+      "lunch": "Vrijdag tot en met Maandag: 11:30 – 14:00 (lunch)",
+      "tearoom": "Vrijdag tot en met Maandag: 14:00 – 18:00 (tearoom)",
+      "dinner": "Vrijdag tot en met Maandag: 18:30 – 21:00 (diner)"
     },
     "social": {
       "title": "Volg ons"
@@ -217,9 +217,9 @@
     "success": "Bedankt! Je bericht is verzonden.",
     "error": "Er ging iets mis bij het verzenden van je bericht.",
     "hoursTitle": "Openingsuren",
-    "lunch": "Vrijdag - Maandag: 11:30 – 14:00 (lunch)",
-    "tearoom": "Vrijdag - Maandag: 14:00 – 18:00 (tearoom)",
-    "dinner": "Vrijdag - Maandag: 18:30 – 21:00 (diner)",
+    "lunch": "Vrijdag tot en met Maandag: 11:30 – 14:00 (lunch)",
+    "tearoom": "Vrijdag tot en met Maandag: 14:00 – 18:00 (tearoom)",
+    "dinner": "Vrijdag tot en met Maandag: 18:30 – 21:00 (diner)",
     "infoTitle": "Contact",
     "address": "Adres:",
     "phone": "Telefoon:",

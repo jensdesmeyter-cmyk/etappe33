@@ -23,10 +23,10 @@
     },
     "hours": {
       "title": "Heures d'ouverture",
-      "closed": "Mardi – Jeudi : Fermé",
-      "lunch": "Vendredi - Lundi : 11h30 – 14h00 (déjeuner)",
-      "tearoom": "Vendredi - Lundi : 14h00 – 18h00 (salon de thé)",
-      "dinner": "Vendredi - Lundi : 18h30 – 21h00 (dîner)"
+      "closed": "Du Mardi au Jeudi : Fermé",
+      "lunch": "Du Vendredi au Lundi : 11h30 – 14h00 (déjeuner)",
+      "tearoom": "Du Vendredi au Lundi : 14h00 – 18h00 (salon de thé)",
+      "dinner": "Du Vendredi au Lundi : 18h30 – 21h00 (dîner)"
     },
     "social": {
       "title": "Suivez-nous"
@@ -217,9 +217,9 @@
     "success": "Merci ! Votre message a été envoyé.",
     "error": "Une erreur est survenue lors de l’envoi du message.",
     "hoursTitle": "Heures d’ouverture",
-    "lunch": "Vendredi - Lundi : 11h30 – 14h00 (déjeuner)",
-    "tearoom": "Vendredi - Lundi : 14h00 – 18h00 (salon de thé)",
-    "dinner": "Vendredi - Lundi : 18h30 – 21h00 (dîner)",
+    "lunch": "Du Vendredi au Lundi : 11h30 – 14h00 (déjeuner)",
+    "tearoom": "Du Vendredi au Lundi : 14h00 – 18h00 (salon de thé)",
+    "dinner": "Du Vendredi au Lundi : 18h30 – 21h00 (dîner)",
     "infoTitle": "Contact",
     "address": "Adresse :",
     "phone": "Téléphone :",
