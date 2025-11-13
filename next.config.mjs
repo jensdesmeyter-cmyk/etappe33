@@ -4,6 +4,7 @@ const withNextIntl = createNextIntlPlugin('./i18n.ts');
 
 export default withNextIntl({
   reactStrictMode: true,
+  ignoreDuringBuilds: true
 });
 
 

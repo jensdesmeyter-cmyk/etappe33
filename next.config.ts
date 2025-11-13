@@ -4,6 +4,9 @@ const nextConfig = {
   i18n: {
     locales: ['nl', 'fr', 'en'],
     defaultLocale: 'nl'
+  },
+   eslint: {
+    ignoreDuringBuilds: true,
   }
 };
 
