@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 
 export default function LunchPopup() {
   const [visible, setVisible] = useState(false);
-   const t = useTranslations("Lunchpopup");
+  const t = useTranslations("Lunchpopup");
   const pathname = usePathname();
     const locale = pathname.split("/")[1] || "nl";
 
@@ -33,7 +33,7 @@ export default function LunchPopup() {
           {t("Week")}
         </p>
         <Link
-          href="/lunch"
+          href={`/${locale}/lunch`}
           className="inline-block mt-2 text-xs sm:text-sm font-medium underline hover:text-black transition text-[rgb(var(--color_58))]"
         >
           {t("Lunch")}
