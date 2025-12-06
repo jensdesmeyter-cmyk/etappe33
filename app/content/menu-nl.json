@@ -1,0 +1,221 @@
+{
+  "fishTitle": "Vis",
+  "etappeText": "Cava of Biertje Haagse Hoek of Mocktail\n***\nVoorgerecht:\nDuo van wildpastei / toast / uienconfituur\nOF\nKabeljauwhaasje / mosterdsausje / prei\n***\nHoofdgerecht:\nZeebaars / ratatouille groenten / boter-limoensausje / puree\nOF\nHertenkalffilet / seizoensgroenten / veenbessensausje / amandelkroketten\n***\nCheesecake met citrus\n***\nKoffie of Thee",
+  "starters": [
+    {
+      "name": "Aperitiefplank Etappe 33 mix warm en koud",
+      "price": "€28"
+    },
+    {
+      "name": "Chorizokroketjes (8 st.)",
+      "price": "€14"
+    },
+    {
+      "name": "Calamares met verse tartaar (8 st.)",
+      "price": "€14"
+    },
+    {
+      "name": "Cougonettes van kabeljauw met verse tartaar (6 st.)",
+      "price": "€16"
+    },
+    {
+      "name": "Gelakt buikspek",
+      "price": "€12"
+    },
+    {
+      "name": "Camembert uit de oven met plukbrood",
+      "price": "€14"
+    },
+    {
+      "name": "Bruschetta’s met Iberico ham",
+      "price": "€16"
+    },
+    {
+      "name": "Bruschetta’s Vegi",
+      "price": "€10"
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Scampi’s Etappe 33 (6 st.)",
+      "price": "€20"
+    },
+    {
+      "name": "Garnaalkroketten (1 of 2 st.)",
+      "price": "€10/€20"
+    },
+    {
+      "name": "Kaaskroketten (1 of 2 st.)",
+      "price": "€8/€16"
+    },
+    {
+      "name": "Coquilles / gekarameliseerd witloof / gedroogde Iberico ham",
+      "price": "€24"
+    },
+    {
+      "name": "Duo van wildpastei / toast / uienconfituur",
+      "price": "€18"
+    }
+  ],
+  "etappeTitle": "Menu Etappe 33",
+  "saladsTitle": "Salades",
+  "gameTitle": "Wild",
+  "vegiTitle": "Vegetarisch",
+  "dessertsTitle": "Desserts",
+  "meat": [
+    {
+      "name": "Filet pur van WIT BLAUW rund (250 gr.)",
+      "price": "€35"
+    },
+    {
+      "name": "Côte à l’os van WIT BLAUW rund (2 pers.)",
+      "price": "€76"
+    },
+    {
+      "name": "Lamskroontje / mosterdsausje / seizoensgroenten",
+      "price": "€38"
+    },
+    {
+      "name": "Traag gegaarde Pluma",
+      "price": "€30"
+    },
+    {
+      "name": "Rundswangen gekonfijt",
+      "price": "€32"
+    },
+    {
+      "name": "Rundsburger Etappe 33",
+      "price": "€26"
+    }
+  ],
+  "kidsTitle": "Kindermenu",
+  "meatTitle": "Vlees",
+  "desserts": [
+    {
+      "name": "Dame blanche",
+      "price": "€10"
+    },
+    {
+      "name": "Coupe advocaat",
+      "price": "€10"
+    },
+    {
+      "name": "Coupe brésilienne",
+      "price": "€10"
+    },
+    {
+      "name": "Crème brûlée",
+      "price": "€9"
+    },
+    {
+      "name": "Moelleux / bolletje vanille-ijs",
+      "price": "€14"
+    },
+    {
+      "name": "Kinderijsje",
+      "price": "€6"
+    },
+    {
+      "name": "Sabayon",
+      "price": "€12"
+    },
+    {
+      "name": "Duo van sorbet",
+      "price": "€10"
+    }
+  ],
+  "kids": [
+    {
+      "name": "Kipnuggets / frietjes",
+      "price": "€14"
+    },
+    {
+      "name": "Kinderspaghetti",
+      "price": "€16"
+    },
+    {
+      "name": "Frikandel / frietjes",
+      "price": "€12"
+    },
+    {
+      "name": "Kindersteak / frietjes",
+      "price": "€18"
+    }
+  ],
+  "etappeDrinks": "Dranken inbegrepen tot de koffie",
+  "aLaCarte": "À la Carte",
+  "allergens": "Voor allergenen info kunt u terecht bij ons personeel",
+  "vegi": [
+    {
+      "name": "Cannelloni Vegi / Arrabiata",
+      "price": "€22"
+    },
+    {
+      "name": "Kaaskroketten / fris slaatje (1, 2 of 3 st.)",
+      "price": "€10/€20/€30"
+    },
+    {
+      "name": "Halloumi gebakken / fris slaatje",
+      "price": "€24"
+    }
+  ],
+  "salads": [
+    {
+      "name": "Salade Etappe 33 / gerookte zalm / scampi’s / grijze garnalen",
+      "price": "€30"
+    },
+    {
+      "name": "Salade geitenkaas / spek / appel",
+      "price": "€26"
+    }
+  ],
+  "game": [
+    {
+      "name": "Hertenkalffilet / seizoensgroenten / veenbessensausje / amandelkroketten",
+      "price": "€38"
+    },
+    {
+      "name": "Fazantfilet / fine champagnesausje / seizoensgroenten / amandelkroketten",
+      "price": "€34"
+    },
+    {
+      "name": "Stoofpotje van Everzwijn / witloofslaatje / amandelkroketten",
+      "price": "€30"
+    }
+  ],
+  "appetizersTitle": "Voorgerechten",
+  "startersTitle": "Starters om te delen",
+  "etappePrice": "€59 p.p. / €79 All-In",
+  "title": "Onze Menu",
+  "fish": [
+    {
+      "name": "Zeebaars / ratatouille groenten / puree",
+      "price": "€30"
+    },
+    {
+      "name": "Scampi’s Etappe 33",
+      "price": "€28"
+    },
+    {
+      "name": "Gegratineerd vispannetje",
+      "price": "€30"
+    },
+    {
+      "name": "Kabeljauwhaasje / prei / mosterdsausje / puree",
+      "price": "€34"
+    },
+    {
+      "name": "Kikkerbilletjes",
+      "price": "€32"
+    },
+    {
+      "name": "Zeetong Meunière",
+      "price": "€38"
+    },
+    {
+      "name": "Garnaalkroketten / fris slaatje (1, 2 of 3 st.)",
+      "price": "€12/€24/€36"
+    }
+  ],
+  "mainTitle": "Hoofdgerechten"
+}

@@ -1,33 +1,40 @@
 "use client";
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
+
+// 1. Import Data
+import tearoomDataNL from "@/app/content/tearoom-nl.json";
+import tearoomDataFR from "@/app/content/tearoom-fr.json";
 
 export default function TearoomPage() {
-  const t = useTranslations("Tearoom");
   const gold = "text-[rgb(var(--color_58))]";
+  const locale = useLocale();
+
+  // 2. Select Language
+  const t = locale === "fr" ? tearoomDataFR : tearoomDataNL;
 
   return (
     <div className="min-h-screen text-white py-12 px-4 sm:px-8 font-menu">
-      <motion.h1
+      <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
         <div className="max-w-2xl mx-auto space-y-16">
           <h1 className="text-4xl text-center font-bold mb-4">
-            {t("title")}
+            {t.title}
           </h1>
           <p className={`text-3xl text-center mb-12 ${gold}`}>
-            {t("hours")}
+            {t.hours}
           </p>
 
           {/* PANCAKES */}
           <section>
             <h2 className={`text-2xl text-center mb-12 ${gold}`}>
-              {t("pancakes.title")}
+              {t.pancakesTitle}
             </h2>
             <ul className="space-y-3 mb-12">
-              {t.raw("pancakes.items").map((item: any, idx: number) => (
+              {(t.pancakes || []).map((item, idx) => (
                 <MenuItem key={idx} name={item.name} price={item.price} />
               ))}
             </ul>
@@ -36,10 +43,10 @@ export default function TearoomPage() {
           {/* DESSERTS */}
           <section>
             <h2 className={`text-2xl text-center mb-12 ${gold}`}>
-              {t("desserts.title")}
+              {t.dessertsTitle}
             </h2>
             <ul className="space-y-3 mb-12">
-              {t.raw("desserts.items").map((item: any, idx: number) => (
+              {(t.desserts || []).map((item, idx) => (
                 <MenuItem key={idx} name={item.name} price={item.price} />
               ))}
             </ul>
@@ -48,10 +55,10 @@ export default function TearoomPage() {
           {/* STARTERS */}
           <section>
             <h2 className={`text-2xl text-center mb-12 ${gold}`}>
-              {t("starters.title")}
+              {t.startersTitle}
             </h2>
             <ul className="space-y-3 mb-12">
-              {t.raw("starters.items").map((item: any, idx: number) => (
+              {(t.starters || []).map((item, idx) => (
                 <MenuItem key={idx} name={item.name} price={item.price} />
               ))}
             </ul>
@@ -60,20 +67,20 @@ export default function TearoomPage() {
           {/* SMALL BITES */}
           <section>
             <h2 className={`text-2xl text-center mb-12 ${gold}`}>
-              {t("smallBites.title")}
+              {t.smallBitesTitle}
             </h2>
             <ul className="space-y-3 mb-12">
-              {t.raw("smallBites.items").map((item: any, idx: number) => (
+              {(t.smallBites || []).map((item, idx) => (
                 <MenuItem key={idx} name={item.name} price={item.price} />
               ))}
             </ul>
           </section>
 
           <p className="italic text-center text-white">
-            {t("allergenNote")}
+            {t.allergenNote}
           </p>
         </div>
-      </motion.h1>
+      </motion.div>
     </div>
   );
 }

@@ -1,0 +1,205 @@
+# ----------------------------------------
+# GLOBAL SETTINGS
+# ----------------------------------------
+backend:
+  name: github
+  repo: jensdesmeyter-cmyk/etappe33
+  branch: main
+  base_url: https://restaurant-oauth.vercel.app/ # <--- Your Vercel OAuth domain (No slash at the end)
+  auth_endpoint: auth
+
+  # local_backend: true # <--- Comment out for production
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  # ----------------------------------------
+  # COLLECTION 1: LUNCH
+  # ----------------------------------------
+  - name: "lunch"
+    label: "Lunch Menu"
+    files:
+      - name: "lunch_nl"
+        label: "Lunch (Dutch)"
+        file: "app/content/lunch-nl.json"
+        fields: &lunch_fields
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Menu naam", name: "menuTitle", widget: "string" }
+          - { label: "Menu tekst", name: "menuText", widget: "text" }
+          - { label: "Prijs", name: "price", widget: "string" }
+          - { label: "Geen Lunch", name: "nolunch", widget: "string" }
+          - { label: "Allergie", name: "allergens", widget: "string" }
+
+      - name: "lunch_fr"
+        label: "Lunch (French)"
+        file: "app/content/lunch-fr.json"
+        fields: *lunch_fields
+
+  # ----------------------------------------
+  # COLLECTION 2: FULL MENU
+  # ----------------------------------------
+  - name: "full_menu"
+    label: "Full Menu (A la Carte)"
+    files:
+      - name: "menu_nl"
+        label: "Menu (Dutch)"
+        file: "app/content/menu-nl.json"
+        fields: &menu_fields
+          - { label: "Pagina Titel", name: "title", widget: "string" }
+          
+          # --- ETAPPE 33 MENU ---
+          - { label: "Etappe 33 Titel", name: "etappeTitle", widget: "string" }
+          - { label: "Etappe 33 Menu tekst", name: "etappeText", widget: "text" }
+          - { label: "Etappe 33 Prijs", name: "etappePrice", widget: "string" } 
+          - { label: "Drinken info", name: "etappeDrinks", widget: "string" }
+
+          # --- A LA CARTE ---
+          - { label: "A La Carte Header", name: "aLaCarte", widget: "string" }
+
+          # Starters Pair
+          - { label: "Starters Titel", name: "startersTitle", widget: "string" }
+          - label: "Starters (Lijst)"
+            name: "starters"
+            widget: "list"
+            fields:
+              - { label: "Gerecht naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Appetizers Pair
+          - { label: "Voorgerechten Titel", name: "appetizersTitle", widget: "string" }
+          - label: "Voorgerechten (Lijst)"
+            name: "appetizers"
+            widget: "list"
+            fields:
+              - { label: "Gerecht naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Main Courses Header
+          - { label: "Hoofdgerechten Titel (Grote Titel)", name: "mainTitle", widget: "string" }
+
+          # Fish Pair
+          - { label: "Vis Titel", name: "fishTitle", widget: "string" }
+          - label: "Vis (Lijst)"
+            name: "fish"
+            widget: "list"
+            fields:
+              - { label: "Gerecht naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Meat Pair
+          - { label: "Vlees Titel", name: "meatTitle", widget: "string" }
+          - label: "Vlees (Lijst)"
+            name: "meat"
+            widget: "list"
+            fields:
+              - { label: "Gerecht naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Game Pair
+          - { label: "Wild Titel", name: "gameTitle", widget: "string" }
+          - label: "Wild (Lijst)"
+            name: "game"
+            widget: "list"
+            fields:
+              - { label: "Gerecht naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+          
+          # Vegi Pair
+          - { label: "Vegi Titel", name: "vegiTitle", widget: "string" }
+          - label: "Vegetarisch (Lijst)"
+            name: "vegi"
+            widget: "list"
+            fields:
+              - { label: "Gerecht naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Salads Pair
+          - { label: "Salades Titel", name: "saladsTitle", widget: "string" }
+          - label: "Salades (Lijst)"
+            name: "salads"
+            widget: "list"
+            fields:
+              - { label: "Gerecht naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Kids Pair
+          - { label: "Kids Titel", name: "kidsTitle", widget: "string" }
+          - label: "Kids (Lijst)"
+            name: "kids"
+            widget: "list"
+            fields:
+              - { label: "Gerecht naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Desserts Pair
+          - { label: "Desserts Titel", name: "dessertsTitle", widget: "string" }
+          - label: "Desserts (Lijst)"
+            name: "desserts"
+            widget: "list"
+            fields:
+              - { label: "Gerecht naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          - { label: "Allergie Info", name: "allergens", widget: "string" }
+
+      - name: "menu_fr"
+        label: "Menu (French)"
+        file: "app/content/menu-fr.json"
+        fields: *menu_fields
+
+  # ----------------------------------------
+  # COLLECTION 3: TEAROOM
+  # ----------------------------------------
+  - name: "tearoom"
+    label: "Tearoom"
+    files:
+      - name: "tearoom_nl"
+        label: "Tearoom (Dutch)"
+        file: "app/content/tearoom-nl.json"
+        fields: &tearoom_fields
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Openingsuren", name: "hours", widget: "string" }
+          
+          # Pancakes Pair
+          - { label: "Pannenkoeken Titel", name: "pancakesTitle", widget: "string" }
+          - label: "Pannenkoeken (Lijst)"
+            name: "pancakes"
+            widget: "list"
+            fields:
+              - { label: "Naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Desserts Pair
+          - { label: "Desserts Titel", name: "dessertsTitle", widget: "string" }
+          - label: "Desserts (Lijst)"
+            name: "desserts"
+            widget: "list"
+            fields:
+              - { label: "Naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Starters Pair
+          - { label: "Starters Titel", name: "startersTitle", widget: "string" }
+          - label: "Starters (Lijst)"
+            name: "starters"
+            widget: "list"
+            fields:
+              - { label: "Naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          # Small Bites Pair
+          - { label: "Klein Hongertje Titel", name: "smallBitesTitle", widget: "string" }
+          - label: "Klein Hongertje (Lijst)"
+            name: "smallBites"
+            widget: "list"
+            fields:
+              - { label: "Naam", name: "name", widget: "string" }
+              - { label: "Prijs", name: "price", widget: "string" }
+
+          - { label: "Allergie Info", name: "allergenNote", widget: "string" }
+
+      - name: "tearoom_fr"
+        label: "Tearoom (French)"
+        file: "app/content/tearoom-fr.json"
+        fields: *tearoom_fields

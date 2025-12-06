@@ -7,6 +7,16 @@ export default withNextIntl({
   eslint: {
     ignoreDuringBuilds: true, // If you want to skip linting during build
   },
+
+async rewrites() {
+    return [
+      {
+        source: '/admin',
+        destination: '/admin/index.html',
+      },
+    ];
+  },
+  
 });
 
 
