@@ -5,7 +5,7 @@ backend:
   name: github
   repo: jensdesmeyter-cmyk/etappe33
   branch: main
-  base_url: https://restaurant-oauth.vercel.app/ # <--- Your Vercel OAuth domain (No slash at the end)
+  base_url: https://restaurant-oauth.vercel.app # <--- Your Vercel OAuth domain (No slash at the end)
   auth_endpoint: auth
 
   # local_backend: true # <--- Comment out for production
