@@ -1,83 +1,237 @@
 {
-  "title": "Notre Menu",
-  "etappeTitle": "Menu Etappe 33",
-  "etappeText": "Cava ou bière Haagse Hoek ou mocktail\n***\nEntrée :\nDuo de pâté de gibier / toast / confit d’oignons\nOU\nFilet de cabillaud / sauce moutarde / poireaux\n***\nPlat principal :\nBar / légumes ratatouille / sauce beurre-citron / purée\nOU\nFilet de veau de cerf / légumes de saison / sauce airelles / croquettes aux amandes\n***\nCheesecake aux agrumes\n***\nCafé ou thé",
-  "etappePrice": "€59 p.p. / €79 All-In",
-  "etappeDrinks": "Boissons incluses jusqu’au café",
-  "aLaCarte": "À la Carte",
-  "startersTitle": "Entrées à partager",
-  "appetizersTitle": "Entrées",
-  "mainTitle": "Plats principaux",
   "fishTitle": "Poissons",
-  "meatTitle": "Viandes",
-  "gameTitle": "Gibier",
-  "vegiTitle": "Végétarien",
-  "saladsTitle": "Salades",
-  "kidsTitle": "Menu enfants",
-  "dessertsTitle": "Desserts",
+  "etappeText": "Cava, soda, bière ou mocktail\n***\nEntrée :\nVitello tonnato\nOU\nÉcrasé de pommes de terre au babeurre, œuf poché et crevettes\n***\nPlat principal :\nBouillabaisse accompagnée de toasts et de fromage\nOU\nRib Eye\n***\nBiscuit croustillant, mousse au praliné, spéculoos et chocolat blanc\n***\nCafé ou thé",
   "starters": [
-    { "name": "Planche apéro Etappe 33 mix chaud et froid", "price": "€28" },
-    { "name": "Croquettes au chorizo (8 pcs)", "price": "€14" },
-    { "name": "Calamars frits / sauce tartare maison (8 pcs)", "price": "€14" },
-    { "name": "Beignets de cabillaud / sauce tartare maison (6 pcs)", "price": "€16" },
-    { "name": "Poitrine de porc laquée", "price": "€12" },
-    { "name": "Camembert au four / pain à partager", "price": "€14" },
-    { "name": "Bruschettas au jambon Ibérique", "price": "€16" },
-    { "name": "Bruschettas végétariennes", "price": "€10" }
+    {
+      "name": "Planche apéro Etappe 33 mix chaud et froid",
+      "price": "€28"
+    },
+    {
+      "name": "Croquettes au chorizo (8 pcs)",
+      "price": "€14"
+    },
+    {
+      "name": "Calamars frits / sauce tartare maison (8 pcs)",
+      "price": "€14"
+    },
+    {
+      "name": "Beignets de cabillaud / sauce tartare maison (6 pcs)",
+      "price": "€16"
+    },
+    {
+      "name": "Poitrine de porc laquée",
+      "price": "€12"
+    },
+    {
+      "name": "Camembert au four / pain à partager",
+      "price": "€14"
+    },
+    {
+      "name": "Bruschettas au jambon Ibérique",
+      "price": "€16"
+    },
+    {
+      "name": "Bruschettas végétariennes",
+      "price": "€10"
+    },
+    {
+      "name": "Tacos au pulled pork",
+      "price": "€16"
+    }
   ],
   "appetizers": [
-    { "name": "Scampi’s Etappe 33 (6 pcs)", "price": "€20" },
-    { "name": "Croquettes de crevettes (1 ou 2 pcs)", "price": "€10/€20" },
-    { "name": "Croquettes de fromage (1 ou 2 pcs)", "price": "€8/€16" },
-    { "name": "Coquilles St-Jacques / chicon caramélisé / jambon Ibérique séché", "price": "€24" },
-    { "name": "Duo de pâté de gibier / toast / confit d’oignons", "price": "€18" }
+    {
+      "name": "Scampi’s Etappe 33 (6 pcs)",
+      "price": "€20"
+    },
+    {
+      "name": "Croquettes de crevettes (1 ou 2 pcs)",
+      "price": "€10/€20"
+    },
+    {
+      "name": "Croquettes de fromage (1 ou 2 pcs)",
+      "price": "€8/€16"
+    },
+    {
+      "name": "Coquilles St-Jacques / chicon caramélisé / jambon Ibérique séché",
+      "price": "€24"
+    },
+    {
+      "name": "Vitello tonnato",
+      "price": "€18"
+    },
+    {
+      "price": "€22",
+      "name": "Écrasé de pommes de terre au babeurre, œuf poché et crevettes"
+    }
   ],
-  "fish": [
-    { "name": "Bar / légumes ratatouille / purée", "price": "€30" },
-    { "name": "Scampi’s Etappe 33", "price": "€28" },
-    { "name": "Gratin de poisson maison", "price": "€30" },
-    { "name": "Dos de cabillaud / poireaux / sauce moutarde / purée", "price": "€34" },
-    { "name": "Cuisses de grenouilles", "price": "€32" },
-    { "name": "Sole Meunière", "price": "€38" },
-    { "name": "Croquettes de crevettes / petite salade (1, 2 ou 3 pcs)", "price": "€12/€24/€36" }
-  ],
+  "etappeTitle": "Menu Etappe 33",
+  "saladsTitle": "Salades",
+  "gameTitle": "Nos suggestions",
+  "vegiTitle": "Végétarien",
+  "dessertsTitle": "Desserts",
   "meat": [
-    { "name": "Filet pur de bœuf Blanc Bleu (250 gr.)", "price": "€35" },
-    { "name": "Côte à l’os de bœuf Blanc Bleu (2 pers.)", "price": "€76" },
-    { "name": "Côte d’agneau / sauce moutarde / légumes de saison", "price": "€38" },
-    { "name": "Pluma ibérique confite", "price": "€30" },
-    { "name": "Joues de bœuf braisées", "price": "€32" },
-    { "name": "Burger Etappe 33", "price": "€26" }
+    {
+      "name": "Filet pur de bœuf Blanc Bleu (250 gr.)",
+      "price": "€38"
+    },
+    {
+      "name": "Côte à l’os de bœuf Blanc Bleu (2 pers.)",
+      "price": "€76"
+    },
+    {
+      "name": "Côte d’agneau / sauce moutarde / légumes de saison",
+      "price": "€38"
+    },
+    {
+      "name": "Pluma ibérique confite",
+      "price": "€30"
+    },
+    {
+      "name": "Joues de bœuf braisées",
+      "price": "€32"
+    },
+    {
+      "name": "Burger Etappe 33",
+      "price": "€26"
+    },
+    {
+      "name": "Rib Eye",
+      "price": "€35"
+    }
   ],
-  "game": [
-    { "name": "Filet de cerf / légumes de saison / sauce airelles / croquettes aux amandes", "price": "€38" },
-    { "name": "Filet de faisan / sauce fine champagne / légumes de saison / croquettes aux amandes", "price": "€34" },
-    { "name": "Ragoût de sanglier / salade de chicon / croquettes aux amandes", "price": "€30" }
-  ],
-  "vegi": [
-    { "name": "Cannelloni végétarien / sauce arrabiata", "price": "€22" },
-    { "name": "Croquettes de fromage / petite salade (1, 2 ou 3 pcs)", "price": "€10/€20/€30" },
-    { "name": "Halloumi grillé / petite salade", "price": "€24" }
-  ],
-  "salads": [
-    { "name": "Salade Etappe 33 / saumon fumé / scampi’s / crevettes grises", "price": "€30" },
-    { "name": "Salade de chèvre chaud / lard / pomme", "price": "€26" }
+  "kidsTitle": "Menu enfants",
+  "meatTitle": "Viandes",
+  "desserts": [
+    {
+      "name": "Dame blanche",
+      "price": "€10"
+    },
+    {
+      "name": "Coupe avocat",
+      "price": "€10"
+    },
+    {
+      "name": "Coupe brésilienne",
+      "price": "€10"
+    },
+    {
+      "name": "Crème brûlée",
+      "price": "€9"
+    },
+    {
+      "name": "Moelleux au chocolat / glace vanille",
+      "price": "€14"
+    },
+    {
+      "name": "Coupe enfants",
+      "price": "€6"
+    },
+    {
+      "name": "Sabayon",
+      "price": "€12"
+    },
+    {
+      "name": "Duo de sorbets",
+      "price": "€10"
+    }
   ],
   "kids": [
-    { "name": "Nuggets de poulet / frites", "price": "€14" },
-    { "name": "Spaghetti enfants", "price": "€16" },
-    { "name": "Frikandel / frites", "price": "€12" },
-    { "name": "Steak enfants / frites", "price": "€18" }
+    {
+      "name": "Nuggets de poulet / frites",
+      "price": "€14"
+    },
+    {
+      "name": "Spaghetti enfants",
+      "price": "€16"
+    },
+    {
+      "name": "Frikandel / frites",
+      "price": "€12"
+    },
+    {
+      "name": "Steak enfants / frites",
+      "price": "€18"
+    }
   ],
-  "desserts": [
-    { "name": "Dame blanche", "price": "€10" },
-    { "name": "Coupe avocat", "price": "€10" },
-    { "name": "Coupe brésilienne", "price": "€10" },
-    { "name": "Crème brûlée", "price": "€9" },
-    { "name": "Moelleux au chocolat / glace vanille", "price": "€14" },
-    { "name": "Coupe enfants", "price": "€6" },
-    { "name": "Sabayon", "price": "€12" },
-    { "name": "Duo de sorbets", "price": "€10" }
+  "etappeDrinks": "Boissons incluses jusqu’au café",
+  "aLaCarte": "À la Carte",
+  "allergens": "Pour toute information sur les allergènes, veuillez consulter notre personnel",
+  "vegi": [
+    {
+      "name": "Cannelloni végétarien / sauce arrabiata",
+      "price": "€22"
+    },
+    {
+      "name": "Croquettes de fromage / petite salade (1, 2 ou 3 pcs)",
+      "price": "€10/€20/€30"
+    },
+    {
+      "name": "Halloumi grillé / petite salade",
+      "price": "€24"
+    }
   ],
-  "allergens": "Pour toute information sur les allergènes, veuillez consulter notre personnel"
+  "salads": [
+    {
+      "name": "Salade Etappe 33 / saumon fumé / scampi’s / crevettes grises",
+      "price": "€30"
+    },
+    {
+      "name": "Salade de chèvre chaud / lard / pomme",
+      "price": "€26"
+    }
+  ],
+  "game": [
+    {
+      "name": "Anguille à la verte",
+      "price": "€38"
+    },
+    {
+      "name": "Anguille avec sauce à la crème",
+      "price": "€38"
+    },
+    {
+      "name": "Anguille fritée, sauce tartare maison",
+      "price": "€38"
+    }
+  ],
+  "appetizersTitle": "Entrées",
+  "startersTitle": "Entrées à partager",
+  "etappePrice": "€59 p.p. / €79 All-In",
+  "title": "Notre Menu",
+  "fish": [
+    {
+      "name": "Scampi’s Etappe 33",
+      "price": "€28"
+    },
+    {
+      "name": "Gratin de poisson maison",
+      "price": "€30"
+    },
+    {
+      "name": "Dos de cabillaud / poireaux / sauce moutarde / purée",
+      "price": "€34"
+    },
+    {
+      "name": "Cuisses de grenouilles",
+      "price": "€32"
+    },
+    {
+      "name": "Sole Meunière",
+      "price": "€38"
+    },
+    {
+      "name": "Croquettes de crevettes / petite salade (1, 2 ou 3 pcs)",
+      "price": "€12/€24/€36"
+    },
+    {
+      "name": "Bouillabaisse, toast et fromage",
+      "price": "€34"
+    },
+    {
+      "name": "Rouget, légumes du Sud et risotto",
+      "price": "€30"
+    }
+  ],
+  "mainTitle": "Plats principaux"
 }
