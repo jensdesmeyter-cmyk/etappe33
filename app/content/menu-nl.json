@@ -1,6 +1,6 @@
 {
   "fishTitle": "Vis",
-  "etappeText": "Cava of Biertje Haagse Hoek of Mocktail\n***\nVoorgerecht:\nDuo van wildpastei / toast / uienconfituur\nOF\nKabeljauwhaasje / mosterdsausje / prei\n***\nHoofdgerecht:\nZeebaars / ratatouille groenten / boter-limoensausje / puree\nOF\nHertenkalffilet / seizoensgroenten / veenbessensausje / amandelkroketten\n***\nCheesecake met citrus\n***\nKoffie of Thee",
+  "etappeText": "Cava, biertje, frisdrank of Mocktail\n***\nVoorgerecht:\nKarnemelkstampers/ gepocheerd ei/ garnalen\nOF\nVitello tonnato\n***\nHoofdgerecht:\nBouillabaisse/ toast/ kaas\nOF\nRib Eye\n***\nCrispy bodem/ mousse van praliné/ speculoos/ witte chocolade\n***\nKoffie of Thee",
   "starters": [
     {
       "name": "Aperitiefplank Etappe 33 mix warm en koud",
@@ -33,6 +33,10 @@
     {
       "name": "Bruschetta’s Vegi",
       "price": "€10"
+    },
+    {
+      "name": "Taco's/ Pulled pork",
+      "price": "€16"
     }
   ],
   "appetizers": [
@@ -53,7 +57,11 @@
       "price": "€24"
     },
     {
-      "name": "Duo van wildpastei / toast / uienconfituur",
+      "name": "Karnemelkstampers/ gepocheerd eitje/ garnalen",
+      "price": "€22"
+    },
+    {
+      "name": "Vitello tonnato",
       "price": "€18"
     }
   ],
@@ -65,7 +73,7 @@
   "meat": [
     {
       "name": "Filet pur van WIT BLAUW rund (250 gr.)",
-      "price": "€35"
+      "price": "€38"
     },
     {
       "name": "Côte à l’os van WIT BLAUW rund (2 pers.)",
@@ -86,6 +94,10 @@
     {
       "name": "Rundsburger Etappe 33",
       "price": "€26"
+    },
+    {
+      "name": "Rib Eye",
+      "price": "€35"
     }
   ],
   "kidsTitle": "Kindermenu",
@@ -171,16 +183,16 @@
   ],
   "game": [
     {
-      "name": "Hertenkalffilet / seizoensgroenten / veenbessensausje / amandelkroketten",
+      "name": "Paling in het groen",
       "price": "€38"
     },
     {
-      "name": "Fazantfilet / fine champagnesausje / seizoensgroenten / amandelkroketten",
-      "price": "€34"
+      "name": "Paling in de roomsaus",
+      "price": "€38"
     },
     {
-      "name": "Stoofpotje van Everzwijn / witloofslaatje / amandelkroketten",
-      "price": "€30"
+      "name": "Gebakken paling met verse tartaar",
+      "price": "€38"
     }
   ],
   "appetizersTitle": "Voorgerechten",
@@ -188,10 +200,6 @@
   "etappePrice": "€59 p.p. / €79 All-In",
   "title": "Onze Menu",
   "fish": [
-    {
-      "name": "Zeebaars / ratatouille groenten / puree",
-      "price": "€30"
-    },
     {
       "name": "Scampi’s Etappe 33",
       "price": "€28"
@@ -215,6 +223,14 @@
     {
       "name": "Garnaalkroketten / fris slaatje (1, 2 of 3 st.)",
       "price": "€12/€24/€36"
+    },
+    {
+      "name": "Rode poon/ Zuiderse groenten/ Risotto",
+      "price": "€30"
+    },
+    {
+      "name": "Bouillabaisse/ Toast/ Kaas",
+      "price": "€30"
     }
   ],
   "mainTitle": "Hoofdgerechten"
