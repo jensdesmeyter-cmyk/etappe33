@@ -1,6 +1,6 @@
 {
   "fishTitle": "Vis",
-  "etappeText": "Cava, biertje, frisdrank of Mocktail\n***\nVoorgerecht:\nKarnemelkstampers/ gepocheerd ei/ garnalen\nOF\nVitello tonnato\n***\nHoofdgerecht:\nBouillabaisse/ toast/ kaas\nOF\nRib Eye\n***\nCrispy bodem/ mousse van praliné/ speculoos/ witte chocolade\n***\nKoffie of Thee",
+  "etappeText": "Cava, biertje, frisdrank of Mocktail\n***\nVoorgerecht:\nKarnemelkstampers/ gepocheerd ei/ verse garnalen\nOF\nVitello tonnato\n***\nHoofdgerecht:\nBouillabaisse/ toast/ kaas\nOF\nRib Eye\n***\nCrispy bodem/ mousse van praliné/ speculoos/ witte chocolade\n***\nKoffie of Thee",
   "starters": [
     {
       "name": "Aperitiefplank Etappe 33 mix warm en koud",
@@ -53,16 +53,12 @@
       "price": "€8/€16"
     },
     {
-      "name": "Coquilles / gekarameliseerd witloof / gedroogde Iberico ham",
-      "price": "€24"
-    },
-    {
-      "name": "Karnemelkstampers/ gepocheerd eitje/ garnalen",
+      "name": "Karnemelkstampers/ gepocheerd eitje/ verse garnalen",
       "price": "€22"
     },
     {
       "name": "Vitello tonnato",
-      "price": "€18"
+      "price": "€22"
     }
   ],
   "etappeTitle": "Menu Etappe 33",
@@ -73,15 +69,11 @@
   "meat": [
     {
       "name": "Filet pur van WIT BLAUW rund (250 gr.)",
-      "price": "€35"
+      "price": "€38"
     },
     {
       "name": "Côte à l’os van WIT BLAUW rund (2 pers.)",
       "price": "€76"
-    },
-    {
-      "name": "Lamskroontje / mosterdsausje / seizoensgroenten",
-      "price": "€38"
     },
     {
       "name": "Traag gegaarde Pluma",
@@ -96,7 +88,7 @@
       "price": "€26"
     },
     {
-      "name": "Rib Eye",
+      "name": "Rib Eye (350 gr.)",
       "price": "€35"
     }
   ],
@@ -120,7 +112,7 @@
       "price": "€9"
     },
     {
-      "name": "Moelleux / bolletje vanille-ijs",
+      "name": "Moelleux/ bolletje vanille-ijs",
       "price": "€14"
     },
     {
@@ -138,7 +130,7 @@
   ],
   "kids": [
     {
-      "name": "Kipnuggets / frietjes",
+      "name": "Kipnuggets/ frietjes",
       "price": "€14"
     },
     {
@@ -146,11 +138,11 @@
       "price": "€16"
     },
     {
-      "name": "Frikandel / frietjes",
+      "name": "Frikandel/ frietjes",
       "price": "€12"
     },
     {
-      "name": "Kindersteak / frietjes",
+      "name": "Kindersteak/ frietjes",
       "price": "€18"
     }
   ],
@@ -159,15 +151,15 @@
   "allergens": "Voor allergenen info kunt u terecht bij ons personeel",
   "vegi": [
     {
-      "name": "Cannelloni Vegi / Arrabiata",
+      "name": "Cannelloni Vegi/ Arrabiata",
       "price": "€22"
     },
     {
-      "name": "Kaaskroketten / fris slaatje (1, 2 of 3 st.)",
+      "name": "Kaaskroketten/ fris slaatje (1, 2 of 3 st.)",
       "price": "€10/€20/€30"
     },
     {
-      "name": "Halloumi gebakken / fris slaatje",
+      "name": "Halloumi gebakken/ fris slaatje",
       "price": "€24"
     }
   ],
@@ -209,19 +201,11 @@
       "price": "€30"
     },
     {
-      "name": "Kabeljauwhaasje / prei / mosterdsausje / puree",
-      "price": "€34"
-    },
-    {
-      "name": "Kikkerbilletjes",
-      "price": "€32"
-    },
-    {
       "name": "Zeetong Meunière",
       "price": "€38"
     },
     {
-      "name": "Garnaalkroketten / fris slaatje (1, 2 of 3 st.)",
+      "name": "Garnaalkroketten/ fris slaatje (1, 2 of 3 st.)",
       "price": "€12/€24/€36"
     },
     {
