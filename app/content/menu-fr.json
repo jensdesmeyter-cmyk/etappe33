@@ -11,11 +11,11 @@
       "price": "€14"
     },
     {
-      "name": "Calamars frits / sauce tartare maison (8 pcs)",
+      "name": "Calamars frits/ sauce tartare maison (8 pcs)",
       "price": "€14"
     },
     {
-      "name": "Beignets de cabillaud / sauce tartare maison (6 pcs)",
+      "name": "Beignets de cabillaud/ sauce tartare maison (6 pcs)",
       "price": "€16"
     },
     {
@@ -23,7 +23,7 @@
       "price": "€12"
     },
     {
-      "name": "Camembert au four / pain à partager",
+      "name": "Camembert au four/ pain à partager",
       "price": "€14"
     },
     {
@@ -35,7 +35,7 @@
       "price": "€10"
     },
     {
-      "name": "Tacos au pulled pork",
+      "name": "Tacos au porc effiloché",
       "price": "€16"
     }
   ],
@@ -53,16 +53,12 @@
       "price": "€8/€16"
     },
     {
-      "name": "Coquilles St-Jacques / chicon caramélisé / jambon Ibérique séché",
-      "price": "€24"
-    },
-    {
       "name": "Vitello tonnato",
-      "price": "€18"
+      "price": "€22"
     },
     {
       "price": "€22",
-      "name": "Écrasé de pommes de terre au babeurre, œuf poché et crevettes"
+      "name": "Écrasé de pommes de terre au babeurre/ œuf poché/ crevettes"
     }
   ],
   "etappeTitle": "Menu Etappe 33",
@@ -73,15 +69,11 @@
   "meat": [
     {
       "name": "Filet pur de bœuf Blanc Bleu (250 gr.)",
-      "price": "€35"
+      "price": "€38"
     },
     {
       "name": "Côte à l’os de bœuf Blanc Bleu (2 pers.)",
       "price": "€76"
-    },
-    {
-      "name": "Côte d’agneau / sauce moutarde / légumes de saison",
-      "price": "€38"
     },
     {
       "name": "Pluma ibérique confite",
@@ -96,7 +88,7 @@
       "price": "€26"
     },
     {
-      "name": "Rib Eye",
+      "name": "Rib Eye (350 gr.)",
       "price": "€35"
     }
   ],
@@ -120,7 +112,7 @@
       "price": "€9"
     },
     {
-      "name": "Moelleux au chocolat / glace vanille",
+      "name": "Moelleux au chocolat/ glace vanille",
       "price": "€14"
     },
     {
@@ -138,7 +130,7 @@
   ],
   "kids": [
     {
-      "name": "Nuggets de poulet / frites",
+      "name": "Nuggets de poulet/ frites",
       "price": "€14"
     },
     {
@@ -146,11 +138,11 @@
       "price": "€16"
     },
     {
-      "name": "Frikandel / frites",
+      "name": "Frikandel/ frites",
       "price": "€12"
     },
     {
-      "name": "Steak enfants / frites",
+      "name": "Steak enfants/ frites",
       "price": "€18"
     }
   ],
@@ -159,25 +151,25 @@
   "allergens": "Pour toute information sur les allergènes, veuillez consulter notre personnel",
   "vegi": [
     {
-      "name": "Cannelloni végétarien / sauce arrabiata",
+      "name": "Cannelloni végétarien/ sauce arrabiata",
       "price": "€22"
     },
     {
-      "name": "Croquettes de fromage / petite salade (1, 2 ou 3 pcs)",
+      "name": "Croquettes de fromage/ petite salade (1, 2 ou 3 pcs)",
       "price": "€10/€20/€30"
     },
     {
-      "name": "Halloumi grillé / petite salade",
+      "name": "Halloumi grillé/ petite salade",
       "price": "€24"
     }
   ],
   "salads": [
     {
-      "name": "Salade Etappe 33 / saumon fumé / scampi’s / crevettes grises",
+      "name": "Salade Etappe 33/ saumon fumé/ scampi’s/ crevettes grises",
       "price": "€30"
     },
     {
-      "name": "Salade de chèvre chaud / lard / pomme",
+      "name": "Salade de chèvre chaud/ lard/ pomme",
       "price": "€26"
     }
   ],
@@ -209,27 +201,19 @@
       "price": "€30"
     },
     {
-      "name": "Dos de cabillaud / poireaux / sauce moutarde / purée",
-      "price": "€34"
-    },
-    {
-      "name": "Cuisses de grenouilles",
-      "price": "€32"
-    },
-    {
       "name": "Sole Meunière",
       "price": "€38"
     },
     {
-      "name": "Croquettes de crevettes / petite salade (1, 2 ou 3 pcs)",
+      "name": "Croquettes de crevettes/ petite salade (1, 2 ou 3 pcs)",
       "price": "€12/€24/€36"
     },
     {
-      "name": "Bouillabaisse, toast et fromage",
+      "name": "Bouillabaisse/ toast/ fromage",
       "price": "€34"
     },
     {
-      "name": "Rouget, légumes du Sud et risotto",
+      "name": "Filet de rouget/ légumes du Sud/ risotto",
       "price": "€30"
     }
   ],
