@@ -1,6 +1,6 @@
 {
   "fishTitle": "Poissons",
-  "etappeText": "Cava, soda, bière ou mocktail\n***\nEntrée :\nVitello tonnato\nOU\nÉcrasé de pommes de terre au babeurre, œuf poché et crevettes\n***\nPlat principal :\nBouillabaisse accompagnée de toasts et de fromage\nOU\nRib Eye\n***\nBiscuit croustillant, mousse au praliné, spéculoos et chocolat blanc\n***\nCafé ou thé",
+  "etappeText": "Cava, soda, bière ou mocktail\n***\nEntrée :\nVitello tonnato\nOU\nÉcrasé de pommes de terre au babeurre, œuf poché et crevettes\n***\nPlat principal :\nBouillabaisse/ toast/ fromage\nOU\nRib Eye\n***\nBiscuit croustillant, mousse au praliné, spéculoos et chocolat blanc\n***\nCafé ou thé",
   "starters": [
     {
       "name": "Planche apéro Etappe 33 mix chaud et froid",
@@ -80,7 +80,7 @@
       "price": "€30"
     },
     {
-      "name": "Joues de bœuf braisées",
+      "name": "Joues de bœuf",
       "price": "€32"
     },
     {
