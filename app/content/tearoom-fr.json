@@ -1,48 +1,133 @@
 {
-  "title": "Tearoom",
-  "hours": "De 14h à 18h",
-  "pancakesTitle": "Crêpes",
-  "pancakes": [
-    { "name": "Avec beurre et sucre", "price": "€6" },
-    { "name": "Avec glace vanille", "price": "€8" },
-    { "name": "Avec sauce chocolat chaud et glace vanille", "price": "€10" },
-    { "name": "Avec Nutella", "price": "€8" },
-    { "name": "Avec glace vanille et chantilly", "price": "€8" },
-    { "name": "Avec confiture", "price": "€8" }
+  "smallBitesTitle": "Petite Faim",
+  "starters": [
+    {
+      "name": "Planche apéro Etappe 33 mix chaud et froid",
+      "price": "€28"
+    },
+    {
+      "name": "Croquettes de chorizo (8 pcs)",
+      "price": "€14"
+    },
+    {
+      "name": "Calamars avec sauce tartare maison (8 pcs)",
+      "price": "€14"
+    },
+    {
+      "name": "Boulettes de cabillaud avec sauce tartare maison (6 pcs)",
+      "price": "€16"
+    },
+    {
+      "name": "Poitrine de porc laquée",
+      "price": "€12"
+    },
+    {
+      "name": "Camembert au four avec pain à partager",
+      "price": "€14"
+    },
+    {
+      "name": "Bruschettas au jambon Ibérique",
+      "price": "€16"
+    },
+    {
+      "name": "Bruschettas végétariennes",
+      "price": "€10"
+    },
+    {
+      "name": "Fromage / Salami & Olives",
+      "price": "€10"
+    },
+    {
+      "price": "€16",
+      "name": "Tacos au porc effiloché"
+    }
   ],
   "dessertsTitle": "Desserts",
   "desserts": [
-    { "name": "Dame blanche", "price": "€10" },
-    { "name": "Coupe brésilienne", "price": "€10" },
-    { "name": "Crème brûlée", "price": "€8" },
-    { "name": "Moelleux avec boule de glace vanille", "price": "€14" },
-    { "name": "Glace pour enfants", "price": "€6" },
-    { "name": "Sabayon", "price": "€14" },
-    { "name": "Duo de sorbet", "price": "€10" }
+    {
+      "name": "Dame blanche",
+      "price": "€10"
+    },
+    {
+      "name": "Coupe brésilienne",
+      "price": "€10"
+    },
+    {
+      "name": "Crème brûlée",
+      "price": "€8"
+    },
+    {
+      "name": "Moelleux avec boule de glace vanille",
+      "price": "€14"
+    },
+    {
+      "name": "Glace pour enfants",
+      "price": "€6"
+    },
+    {
+      "name": "Sabayon",
+      "price": "€14"
+    },
+    {
+      "name": "Duo de sorbet",
+      "price": "€10"
+    }
+  ],
+  "hours": "De 14h à 18h",
+  "allergenNote": "Pour toute information sur les allergènes, veuillez vous adresser à notre personnel.",
+  "smallBites": [
+    {
+      "name": "Spaghetti petit",
+      "price": "€16"
+    },
+    {
+      "name": "Spaghetti grand",
+      "price": "€24"
+    },
+    {
+      "name": "Salade Etappe 33 (saumon fumé, scampis, crevettes grises, pain)",
+      "price": "€30"
+    },
+    {
+      "name": "Salade de chèvre chaud (lardons, pomme, pain)",
+      "price": "€26"
+    },
+    {
+      "name": "Croquettes de crevettes (1, 2 ou 3 pcs) avec salade fraîche et pain",
+      "price": "€12/€24/€36"
+    },
+    {
+      "name": "Croquettes de fromage (1, 2 ou 3 pcs) avec salade fraîche et pain",
+      "price": "€10/€20/€30"
+    }
   ],
   "startersTitle": "Entrées à partager",
-  "starters": [
-    { "name": "Planche apéro Etappe 33 mix chaud et froid", "price": "€28" },
-    { "name": "Croquettes de chorizo (8 pcs)", "price": "€14" },
-    { "name": "Calamars avec sauce tartare maison (8 pcs)", "price": "€14" },
-    { "name": "Boulettes de cabillaud avec sauce tartare maison (6 pcs)", "price": "€16" },
-    { "name": "Poitrine de porc laquée", "price": "€12" },
-    { "name": "Camembert au four avec pain à partager", "price": "€14" },
-    { "name": "Bruschettas au jambon Ibérique", "price": "€16" },
-    { "name": "Bruschettas végétariennes", "price": "€10" },
-    { "name": "Fromage / Salami & Olives", "price": "€10" }
-  ],
-  "smallBitesTitle": "Petite Faim",
-  "smallBites": [
-    { "name": "Croque gaufre Etappe 33 (Jambon, fromage et salade fraîche)", "price": "€10" },
-    { "name": "Croque gaufre Club Etappe 33 (Œuf, bacon et salade fraîche)", "price": "€12" },
-    { "name": "Croque gaufre Italien (Mozzarella, tomate et basilic)", "price": "€12" },
-    { "name": "Spaghetti petit", "price": "€16" },
-    { "name": "Spaghetti grand", "price": "€24" },
-    { "name": "Salade Etappe 33 (saumon fumé, scampis, crevettes grises, pain)", "price": "€30" },
-    { "name": "Salade de chèvre chaud (lardons, pomme, pain)", "price": "€26" },
-    { "name": "Croquettes de crevettes (1, 2 ou 3 pcs) avec salade fraîche et pain", "price": "€12/€24/€36" },
-    { "name": "Croquettes de fromage (1, 2 ou 3 pcs) avec salade fraîche et pain", "price": "€10/€20/€30" }
-  ],
-  "allergenNote": "Pour toute information sur les allergènes, veuillez vous adresser à notre personnel."
+  "title": "Tearoom",
+  "pancakesTitle": "Crêpes",
+  "pancakes": [
+    {
+      "name": "Avec beurre et sucre",
+      "price": "€6"
+    },
+    {
+      "name": "Avec glace vanille",
+      "price": "€8"
+    },
+    {
+      "name": "Avec sauce chocolat chaud et glace vanille",
+      "price": "€10"
+    },
+    {
+      "name": "Avec Nutella",
+      "price": "€8"
+    },
+    {
+      "name": "Avec glace vanille et chantilly",
+      "price": "€8"
+    },
+    {
+      "name": "Avec confiture",
+      "price": "€8"
+    }
+  ]
 }
