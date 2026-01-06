@@ -1,48 +1,133 @@
 {
-  "title": "Tea Room",
-  "hours": "Van 14u tot 18u",
-  "pancakesTitle": "Pannenkoeken",
-  "pancakes": [
-    { "name": "Met boter & suiker", "price": "€6" },
-    { "name": "Met vanille-ijs", "price": "€8" },
-    { "name": "Met warme chocoladesaus & vanille-ijs", "price": "€10" },
-    { "name": "Met Nutella", "price": "€8" },
-    { "name": "Met vanille-ijs & slagroom", "price": "€8" },
-    { "name": "Met confituur", "price": "€8" }
+  "smallBitesTitle": "Klein Hongertje",
+  "starters": [
+    {
+      "name": "Aperitiefplank Etappe 33 mix warm en koud",
+      "price": "€28"
+    },
+    {
+      "name": "Chorizokroketjes (8st)",
+      "price": "€14"
+    },
+    {
+      "name": "Calamares met verse tartaar (8st)",
+      "price": "€14"
+    },
+    {
+      "name": "Cougonettes van kabeljauw met verse tartaar (6st)",
+      "price": "€16"
+    },
+    {
+      "name": "Gelakt buikspek",
+      "price": "€12"
+    },
+    {
+      "name": "Camembert uit de oven met plukbrood",
+      "price": "€14"
+    },
+    {
+      "name": "Bruschetta’s met Iberico ham",
+      "price": "€16"
+    },
+    {
+      "name": "Bruschetta’s Vegi",
+      "price": "€10"
+    },
+    {
+      "name": "Kaas / Salami & Olijven",
+      "price": "€10"
+    },
+    {
+      "name": "Taco's/ pullet pork",
+      "price": "€16"
+    }
   ],
   "dessertsTitle": "Desserts",
   "desserts": [
-    { "name": "Dame blanche", "price": "€10" },
-    { "name": "Coupe brésilienne", "price": "€10" },
-    { "name": "Crème brûlée", "price": "€8" },
-    { "name": "Moelleux met bolletje vanille-ijs", "price": "€14" },
-    { "name": "Kinderijsje", "price": "€6" },
-    { "name": "Sabayon", "price": "€14" },
-    { "name": "Duo van sorbet", "price": "€10" }
+    {
+      "name": "Dame blanche",
+      "price": "€10"
+    },
+    {
+      "name": "Coupe brésilienne",
+      "price": "€10"
+    },
+    {
+      "name": "Crème brûlée",
+      "price": "€8"
+    },
+    {
+      "name": "Moelleux met bolletje vanille-ijs",
+      "price": "€14"
+    },
+    {
+      "name": "Kinderijsje",
+      "price": "€6"
+    },
+    {
+      "name": "Sabayon",
+      "price": "€14"
+    },
+    {
+      "name": "Duo van sorbet",
+      "price": "€10"
+    }
+  ],
+  "hours": "Van 14u tot 18u",
+  "allergenNote": "Voor allergenen info kunt u terecht bij ons personeel.",
+  "smallBites": [
+    {
+      "name": "Spaghetti klein",
+      "price": "€16"
+    },
+    {
+      "name": "Spaghetti groot",
+      "price": "€24"
+    },
+    {
+      "name": "Salade Etappe 33 (gerookte zalm, scampi’s, grijze garnalen, brood)",
+      "price": "€30"
+    },
+    {
+      "name": "Salade geitenkaas (spek, appel, brood)",
+      "price": "€26"
+    },
+    {
+      "name": "Garnaalkroketten (1,2 of 3 stuks) met fris slaatje & brood",
+      "price": "€12/€24/€36"
+    },
+    {
+      "name": "Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood",
+      "price": "€10/€20/€30"
+    }
   ],
   "startersTitle": "Starters om te delen",
-  "starters": [
-    { "name": "Aperitiefplank Etappe 33 mix warm en koud", "price": "€28" },
-    { "name": "Chorizokroketjes (8st)", "price": "€14" },
-    { "name": "Calamares met verse tartaar (8st)", "price": "€14" },
-    { "name": "Cougonettes van kabeljauw met verse tartaar (6st)", "price": "€16" },
-    { "name": "Gelakt buikspek", "price": "€12" },
-    { "name": "Camembert uit de oven met plukbrood", "price": "€14" },
-    { "name": "Bruschetta’s met Iberico ham", "price": "€16" },
-    { "name": "Bruschetta’s Vegi", "price": "€10" },
-    { "name": "Kaas / Salami & Olijven", "price": "€10" }
-  ],
-  "smallBitesTitle": "Klein Hongertje",
-  "smallBites": [
-    { "name": "Wafel croques Etappe 33 (Ham, kaas en fris slaatje)", "price": "€10" },
-    { "name": "Wafel croques Club Etappe 33 (Ei, spek en fris slaatje)", "price": "€12" },
-    { "name": "Wafel croques Italiaans (Mozzarella, tomaat en basilicum)", "price": "€12" },
-    { "name": "Spaghetti klein", "price": "€16" },
-    { "name": "Spaghetti groot", "price": "€24" },
-    { "name": "Salade Etappe 33 (gerookte zalm, scampi’s, grijze garnalen, brood)", "price": "€30" },
-    { "name": "Salade geitenkaas (spek, appel, brood)", "price": "€26" },
-    { "name": "Garnaalkroketten (1,2 of 3 stuks) met fris slaatje & brood", "price": "€12/€24/€36" },
-    { "name": "Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood", "price": "€10/€20/€30" }
-  ],
-  "allergenNote": "Voor allergenen info kunt u terecht bij ons personeel."
+  "title": "Tea Room",
+  "pancakesTitle": "Pannenkoeken",
+  "pancakes": [
+    {
+      "name": "Met boter & suiker",
+      "price": "€6"
+    },
+    {
+      "name": "Met vanille-ijs",
+      "price": "€8"
+    },
+    {
+      "name": "Met warme chocoladesaus & vanille-ijs",
+      "price": "€10"
+    },
+    {
+      "name": "Met Nutella",
+      "price": "€8"
+    },
+    {
+      "name": "Met vanille-ijs & slagroom",
+      "price": "€8"
+    },
+    {
+      "name": "Met confituur",
+      "price": "€8"
+    }
+  ]
 }
