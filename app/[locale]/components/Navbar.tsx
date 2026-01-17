@@ -33,7 +33,8 @@ export default function Navbar() {
     { code: "fr", label: "Français", flag: "FR" },
   ];
 
-  const handleLanguageChange = (newLocale) => {
+  // FIXED: Added ': string' to newLocale
+  const handleLanguageChange = (newLocale: string) => {
     setIsLangOpen(false);
     const segments = pathname.split("/");
     segments[1] = newLocale;
@@ -45,7 +46,6 @@ export default function Navbar() {
       <div className="w-full px-4 xl:px-8 py-3 flex items-center justify-between">
         
         {/* LEFT: Logo */}
-        {/* flex-shrink-0 prevents the logo from getting squashed */}
         <Link href={`/${locale}`} className="text-[#c9b67a] font-serif flex-shrink-0">
           <Image
             src={photo}
@@ -58,7 +58,6 @@ export default function Navbar() {
         </Link>
 
         {/* CENTER: Navigation Links */}
-        {/* flex-1 makes this container fill all available middle space. justify-center centers the items within that space. */}
         <div className="hidden xl:flex flex-1 justify-center items-center gap-6 2xl:gap-10 text-xl 2xl:text-2xl font-medium whitespace-nowrap">
           {navLinks.map(({ href, label }) => (
             <Link
@@ -76,7 +75,6 @@ export default function Navbar() {
         </div>
 
         {/* RIGHT: Actions (Reservation + Language) */}
-        {/* Grouped separately so they stay pinned to the right */}
         <div className="hidden xl:flex items-center gap-4 flex-shrink-0">
           <Link
             href={`/${locale}/reservations`}
