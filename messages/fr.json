@@ -2,6 +2,7 @@
   "Home": {
     "title": "Bienvenue chez Etappe 33",
     "opening" : "Notre restaurant ouvrira ses portes le 31 octobre 2025 ! Nous sommes impatients de vous accueillir pour une expérience culinaire inoubliable.",
+    "valentine_available" : "Découvrez notre menu Saint-Valentin ici",
     "description": "Profitez de délicieux plats dans une ambiance chaleureuse."
   },
   "Navbar": {
@@ -11,7 +12,8 @@
     "reservatie": "Réservation",
     "about": "À propos de nous",
     "photos": "Photos",
-    "contact": "Contact"
+    "contact": "Contact",
+    "valentine" : "Menu Saint-Valentin"
   },
   "Footer": {
     "aboutText": "Une cuisine raffinée mettant à l'honneur les produits locaux et une hospitalité chaleureuse.",
@@ -26,7 +28,8 @@
       "closed": "Du Mardi au Jeudi : Fermé",
       "lunch": "Du Vendredi au Lundi : 11h30 – 14h00 (déjeuner)",
       "tearoom": "Du Vendredi au Lundi : 14h00 – 18h00 (salon de thé)",
-      "dinner": "Du Vendredi au Lundi : 18h30 – 21h00 (dîner)"
+      "dinner": "Du Vendredi au Lundi : 18h30 – 21h00 (dîner)",
+      "holiday": "Nous sommes fermés entre le 24 mars et le 2 avril."
     },
     "social": {
       "title": "Suivez-nous"
@@ -220,6 +223,7 @@
     "lunch": "Du Vendredi au Lundi : 11h30 – 14h00 (déjeuner)",
     "tearoom": "Du Vendredi au Lundi : 14h00 – 18h00 (salon de thé)",
     "dinner": "Du Vendredi au Lundi : 18h30 – 21h00 (dîner)",
+    "holiday": "Nous sommes fermés entre le 24 mars et le 2 avril.",
     "infoTitle": "Contact",
     "address": "Adresse :",
     "phone": "Téléphone :",
@@ -232,6 +236,14 @@
     "description1": "Vous pouvez réserver en ligne via le bouton 'Réserver une table' en bas à droite.",
     "description2": "Pour les groupes de plus de 12 personnes, veuillez réserver par téléphone au",
     "callButton": "Appelez maintenant"
+  },
+  "Valentine": {
+    "title": "Menu de Saint-Valentin",
+    "menuTitle": "Profitez de notre menu de Saint-Valentin le samedi 14 & dimanche 15 février",
+    "menuText": "Coupe de Cava ou apéritif sans alcool avec amuse-bouche.\n❤️\nCarpaccio de bœuf et sa garniture\nOU\nScampis Etappe 33\n❤️\nSorbet aux fruits rouges\n❤️\nGrondin rouge - légumes du sud\nOU\nPluma cuit lentement\n❤️\nMousse sur base croustillante praliné-spéculoos/chocolat blanc accompagnée de fruits rouges\n❤️\nCafé ou thé",
+    "price": "€65 p.p. hors boissons\n€85 p.p. all-in",
+    "allergens": "Pour toute information sur les allergènes, veuillez vous adresser à notre personnel",
+    "nolunch": "Durant les heures de tearoom, la carte tearoom reste disponible\nLa carte habituelle du restaurant (menu, à la carte, …) n'est pas disponible ces jours-là"
   }
 }
 

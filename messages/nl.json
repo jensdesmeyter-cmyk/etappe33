@@ -2,6 +2,7 @@
   "Home": {
     "title": "Welkom bij Etappe 33",
     "opening" : "Ons restaurant opent vanaf 31 oktober 2025 zijn deuren! We kijken ernaar uit u te verwelkomen voor een onvergetelijke culinaire ervaring.",
+    "valentine_available" : "Ondek onze valetijnsmenu hier",
     "description": "Geniet van heerlijke gerechten in een warme sfeer."
   },
   "Navbar": {
@@ -11,7 +12,8 @@
     "reservatie": "Reservatie",
     "about": "Over Ons",
     "photos": "Foto's",
-    "contact": "Contact"
+    "contact": "Contact",
+    "valentine" : "Valentijnsmenu"
   },
   "Footer": {
     "aboutText": "Een verfijnde keuken met aandacht voor lokale producten en warme gastvrijheid.",
@@ -26,7 +28,8 @@
       "closed": "Dinsdag tot en met Donderdag: Gesloten",
       "lunch": "Vrijdag tot en met Maandag: 11:30 – 14:00 (lunch)",
       "tearoom": "Vrijdag tot en met Maandag: 14:00 – 18:00 (tearoom)",
-      "dinner": "Vrijdag tot en met Maandag: 18:30 – 21:00 (diner)"
+      "dinner": "Vrijdag tot en met Maandag: 18:30 – 21:00 (diner)",
+      "holiday": "We zijn gesloten tussen 24 maart en 2 april"
     },
     "social": {
       "title": "Volg ons"
@@ -220,6 +223,7 @@
     "lunch": "Vrijdag tot en met Maandag: 11:30 – 14:00 (lunch)",
     "tearoom": "Vrijdag tot en met Maandag: 14:00 – 18:00 (tearoom)",
     "dinner": "Vrijdag tot en met Maandag: 18:30 – 21:00 (diner)",
+    "holiday": "We zijn gesloten tussen 24 maart en 2 april",
     "infoTitle": "Contact",
     "address": "Adres:",
     "phone": "Telefoon:",
@@ -232,6 +236,14 @@
     "description1": "Je kan online reserveren via de knop 'Reserveer een tafel' rechtsonderaan.",
     "description2": "Voor groepen met meer dan 12 personen, kan je telefonisch reserveren via",
     "callButton": "Bel nu"
+  },
+    "Valentine": {
+    "title": "Valentijnsmenu",
+    "menuTitle": "Geniet van onze valentijnsmenu op zaterdag 14 & zondag 15 februari",
+    "menuText": "Glaasje cava of aperitief zonder alcohol met amuse.\n❤️\nRundscarpaccio met garnituur\nOF\nScampi Etappe 33\n❤️\nSorbet van rood fruit\n❤️\nRode poon - zuiderse groentjes\nOF\nTraag gegaarde pluma\n❤️\nCrispy bodem-mousse van praline-speculoos/witte chocolade vergezeld van rood fruit\n❤️\nKoffie of thee",
+    "price": "€65 p.p. zonder aangepaste dranken\n€85 p.p. all in",
+    "allergens": "Voor allergenen info kunt u terecht bij ons personeel",
+    "nolunch": "Tijdens de tearoom-uren blijft de tearoomkaart beschikbaar\nDe gewone restaurantkaart (menu, à la carte, …) is deze dagen niet beschikbaar"
   }
 }
 

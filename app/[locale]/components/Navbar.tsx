@@ -19,6 +19,7 @@ export default function Navbar() {
   const t = useTranslations("Navbar");
 
   const navLinks = [
+    { href: `/${locale}/valentine`, label: "❤️ " + t("valentine") },
     { href: `/${locale}/menu`, label: t("menu") },
     { href: `/${locale}/lunch`, label: t("lunch") },
     { href: `/${locale}/tearoom`, label: t("tearoom") },
@@ -32,7 +33,7 @@ export default function Navbar() {
     { code: "fr", label: "Français", flag: "FR" },
   ];
 
-  const handleLanguageChange = (newLocale: string) => {
+  const handleLanguageChange = (newLocale) => {
     setIsLangOpen(false);
     const segments = pathname.split("/");
     segments[1] = newLocale;
@@ -41,38 +42,45 @@ export default function Navbar() {
 
   return (
     <nav className="border-b bg-[rgb(var(--color_58))] border-[#bda25c] fixed w-full top-0 z-50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
-        <Link href={`/${locale}`} className="text-[#c9b67a] text-2xl font-serif">
+      <div className="w-full px-4 xl:px-8 py-3 flex items-center justify-between">
+        
+        {/* LEFT: Logo */}
+        {/* flex-shrink-0 prevents the logo from getting squashed */}
+        <Link href={`/${locale}`} className="text-[#c9b67a] font-serif flex-shrink-0">
           <Image
             src={photo}
             alt="Etappe 33 logo"
-            width={150}
-            height={150}
-            className="bg-transparent mr-20"
+            width={120}
+            height={120}
+            className="bg-transparent object-contain"
             priority
           />
         </Link>
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-8 text-white text-2xl relative">
+        {/* CENTER: Navigation Links */}
+        {/* flex-1 makes this container fill all available middle space. justify-center centers the items within that space. */}
+        <div className="hidden xl:flex flex-1 justify-center items-center gap-6 2xl:gap-10 text-xl 2xl:text-2xl font-medium whitespace-nowrap">
           {navLinks.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
-              className={`transition relative ${
+              className={`transition relative py-2 ${
                 pathname === href
                   ? "text-black after:w-full after:left-0"
                   : "text-white hover:text-black"
-              } after:content-[''] after:absolute after:w-0 after:h-[2px] after:bg-black after:bottom-[-4px] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0`}
+              } after:content-[''] after:absolute after:w-0 after:h-[2px] after:bg-black after:bottom-[0px] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0`}
             >
               {label}
             </Link>
           ))}
+        </div>
 
+        {/* RIGHT: Actions (Reservation + Language) */}
+        {/* Grouped separately so they stay pinned to the right */}
+        <div className="hidden xl:flex items-center gap-4 flex-shrink-0">
           <Link
             href={`/${locale}/reservations`}
-            className={`border border-white px-4 py-1 rounded-full transition ${
+            className={`border border-white px-5 py-1.5 rounded-full transition text-lg 2xl:text-xl whitespace-nowrap ${
               pathname === `/${locale}/reservations`
                 ? "bg-[#c9b67a] text-black border-[#c9b67a]"
                 : "text-white hover:bg-[#c9b67a] hover:text-black"
@@ -85,7 +93,7 @@ export default function Navbar() {
           <div className="relative">
             <button
               onClick={() => setIsLangOpen(!isLangOpen)}
-              className="flex items-center space-x-2 hover:text-black transition"
+              className="flex items-center space-x-1 hover:text-black transition"
             >
               <ReactCountryFlag
                 countryCode={locale === "nl" ? "NL" : "FR"}
@@ -100,7 +108,7 @@ export default function Navbar() {
             </button>
 
             {isLangOpen && (
-              <div className="absolute right-0 mt-2 w-40 bg-white text-black rounded-lg shadow-md z-50 text-xl">
+              <div className="absolute right-0 mt-2 w-32 bg-white text-black rounded-lg shadow-md z-50 text-base">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -113,8 +121,8 @@ export default function Navbar() {
                       countryCode={lang.flag}
                       svg
                       style={{
-                        width: "1.5em",
-                        height: "1.5em",
+                        width: "1.2em",
+                        height: "1.2em",
                         borderRadius: "50%",
                       }}
                     />
@@ -128,16 +136,16 @@ export default function Navbar() {
 
         {/* Mobile button */}
         <button
-          className="md:hidden text-white hover:text-black transition"
+          className="xl:hidden text-white hover:text-black transition"
           onClick={() => setIsOpen(!isOpen)}
         >
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
+          {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
       </div>
 
       {/* Mobile menu dropdown */}
       {isOpen && (
-        <div className="md:hidden border-t border-[#bda25c] bg-[rgb(var(--color_58))] flex flex-col items-center space-y-4 py-6 text-white">
+        <div className="xl:hidden border-t border-[#bda25c] bg-[rgb(var(--color_58))] flex flex-col items-center space-y-4 py-6 text-white text-2xl">
           {navLinks.map(({ href, label }) => (
             <Link
               key={href}
@@ -151,13 +159,12 @@ export default function Navbar() {
 
           <Link
             href={`/${locale}/reservations`}
-            className="text-white border border-[#c9b67a] px-4 py-1 rounded-full hover:bg-[#c9b67a] hover:text-black transition"
+            className="text-white border border-[#c9b67a] px-6 py-2 rounded-full hover:bg-[#c9b67a] hover:text-black transition"
             onClick={() => setIsOpen(false)}
           >
             {t("reservatie")}
           </Link>
 
-          {/* Language Switch in Mobile Menu */}
           <div className="flex space-x-4 mt-4">
             {languages.map((lang) => (
               <button

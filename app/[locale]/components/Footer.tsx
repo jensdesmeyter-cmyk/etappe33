@@ -71,6 +71,7 @@ export default function Footer() {
             <li>{t("hours.lunch")}</li>
             <li>{t("hours.tearoom")}</li>
             <li>{t("hours.dinner")}</li>
+            <li>{t("hours.holiday")}</li>
           </ul>
         </div>
 
