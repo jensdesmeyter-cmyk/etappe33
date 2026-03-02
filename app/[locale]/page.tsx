@@ -25,15 +25,15 @@ export default function Home() {
         {t("title")}
       </motion.h1>
 
-      {/* REPLACED SECTION: Valentine Link with Heart - BIGGER VERSION */}
+      {/* REPLACED SECTION: Valentine Link with Heart - BIGGER VERSION *
       <Link href={`/${locale}/valentine`}>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           // CHANGED: Increased padding (px-8 py-4) to make the "button" larger
           className="flex items-center justify-center gap-4 mb-16 px-8 py-4 bg-[rgb(var(--color_58))]/10 rounded-full cursor-pointer hover:bg-[rgb(var(--color_58))]/20 transition-colors"
-        >
-          {/* Beating Heart Icon */}
+        >*/}
+          {/* Beating Heart Icon 
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -44,15 +44,15 @@ export default function Home() {
             transition={{ repeat: Infinity, duration: 1.2 }}
           >
             <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-          </motion.svg>
+          </motion.svg>*/}
 
-          {/* Text */}
-          {/* CHANGED: Increased text size to text-2xl (and text-3xl on desktop) */}
+          {/* Text
+          {/* CHANGED: Increased text size to text-2xl (and text-3xl on desktop) 
           <p className="text-2xl md:text-3xl text-[rgb(var(--color_58))] font-medium">
             {t("valentine_available") || "Valentine menu now available"} 
           </p>
         </motion.div>
-      </Link>
+      </Link>*/}
 
       {/* Main Image */}
       <motion.div
