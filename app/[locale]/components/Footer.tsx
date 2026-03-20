@@ -112,7 +112,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-gray-800 py-4 text-center text-sm text-white">
-        © {new Date().getFullYear()} Etappe 33. {t("rights")}
+        © {new Date().getFullYear()} Etappe 33. - BTW: BE0773 412 078 {t("rights")}
       </div>
     </footer>
   );
