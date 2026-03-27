@@ -1,21 +1,21 @@
 {
   "fishTitle": "Poissons",
-  "etappeText": "Cava, soda, bière ou mocktail\n***\nEntrée :\nVitello tonnato\nOU\nÉcrasé de pommes de terre au lait fermenté, œuf poché et crevettes\n***\nPlat principal :\nBouillabaisse/ toast/ fromage\nOU\nRib Eye\n***\nBiscuit croustillant, mousse au praliné, spéculoos et chocolat blanc\n***\nCafé ou thé",
+  "etappeText": "Cava, bière, mocktail (gingembre, fruit de la passion/vanille, pamplemousse)\n***\nEntrée :\nGambas\nOU\nCroquette de wagyu\n***\nPlat principal :\nMédaillon de saumon / asperges / mousseline\nOU\nFilet de veau pur / légumes de saison\n***\nDessert du chef\n***\nCafé ou thé",
   "starters": [
     {
       "name": "Planche apéro Etappe 33 mix chaud et froid",
       "price": "€28"
     },
     {
-      "name": "Croquettes au chorizo (8 pcs)",
+      "name": "Croquettes au chorizo (8 pcs.)",
       "price": "€14"
     },
     {
-      "name": "Calamars frits/ sauce tartare maison (8 pcs)",
+      "name": "Calamars frits / sauce tartare maison (8 pcs.)",
       "price": "€14"
     },
     {
-      "name": "Beignets de cabillaud/ sauce tartare maison (6 pcs)",
+      "name": "Beignets de cabillaud / sauce tartare maison (6 pcs.)",
       "price": "€16"
     },
     {
@@ -23,7 +23,7 @@
       "price": "€12"
     },
     {
-      "name": "Camembert au four/ pain à partager",
+      "name": "Camembert au four / pain à partager",
       "price": "€14"
     },
     {
@@ -41,7 +41,7 @@
   ],
   "appetizers": [
     {
-      "name": "Scampi’s Etappe 33 (6 pcs)",
+      "name": "Scampis Etappe 33 (6 pcs)",
       "price": "€20"
     },
     {
@@ -53,12 +53,20 @@
       "price": "€8/€16"
     },
     {
-      "name": "Vitello tonnato",
+      "name": "Croquettes de Wagyu (1 ou 2 pcs.)",
+      "price": "€12/€24"
+    },
+    {
+      "name": "Asperges / saumon fumé / mousseline",
       "price": "€22"
     },
     {
-      "price": "€22",
-      "name": "Écrasé de pommes de terre au lait fermenté/ œuf poché/ crevettes"
+      "name": "Carpaccio de boeuf",
+      "price": "€22"
+    },
+    {
+      "name": "Gambas (4 pcs.)",
+      "price": "€24"
     }
   ],
   "etappeTitle": "Menu Etappe 33",
@@ -90,6 +98,10 @@
     {
       "name": "Rib Eye (350 gr.)",
       "price": "€35"
+    },
+    {
+      "name": "Carpaccio de boeuf",
+      "price": "€32"
     }
   ],
   "kidsTitle": "Menu enfants",
@@ -112,7 +124,7 @@
       "price": "€9"
     },
     {
-      "name": "Moelleux au chocolat/ glace vanille",
+      "name": "Moelleux au chocolat / glace vanille",
       "price": "€14"
     },
     {
@@ -130,7 +142,7 @@
   ],
   "kids": [
     {
-      "name": "Nuggets de poulet/ frites",
+      "name": "Nuggets de poulet / frites",
       "price": "€14"
     },
     {
@@ -138,11 +150,11 @@
       "price": "€16"
     },
     {
-      "name": "Frikandel/ frites",
+      "name": "Frikandel / frites",
       "price": "€12"
     },
     {
-      "name": "Steak enfants/ frites",
+      "name": "Steak enfants / frites",
       "price": "€18"
     }
   ],
@@ -151,26 +163,34 @@
   "allergens": "Pour toute information sur les allergènes, veuillez consulter notre personnel",
   "vegi": [
     {
-      "name": "Cannelloni végétarien/ sauce arrabiata",
+      "name": "Cannelloni végétarien / sauce arrabiata",
       "price": "€22"
     },
     {
-      "name": "Croquettes de fromage/ petite salade (1, 2 ou 3 pcs)",
+      "name": "Croquettes de fromage / petite salade (1, 2 ou 3 pcs)",
       "price": "€10/€20/€30"
     },
     {
-      "name": "Halloumi grillé/ petite salade",
+      "name": "Halloumi grillé / petite salade",
       "price": "€24"
     }
   ],
   "salads": [
     {
-      "name": "Salade Etappe 33/ saumon fumé/ scampi’s/ crevettes grises",
+      "name": "Salade Etappe 33 / saumon fumé / scampis / crevettes grises",
       "price": "€30"
     },
     {
-      "name": "Salade de chèvre chaud/ lardon/ pomme",
+      "name": "Salade de chèvre chaud / lardon / pomme",
       "price": "€26"
+    },
+    {
+      "name": "Salade tomate crevettes",
+      "price": "€32"
+    },
+    {
+      "name": "Salade César",
+      "price": "€28"
     }
   ],
   "game": [
@@ -193,7 +213,7 @@
   "title": "Notre Menu",
   "fish": [
     {
-      "name": "Scampi’s Etappe 33",
+      "name": "Scampis Etappe 33",
       "price": "€28"
     },
     {
@@ -205,16 +225,16 @@
       "price": "€38"
     },
     {
-      "name": "Croquettes de crevettes/ petite salade (1, 2 ou 3 pcs)",
+      "name": "Croquettes de crevettes / petite salade (1, 2 ou 3 pcs)",
       "price": "€12/€24/€36"
     },
     {
-      "name": "Bouillabaisse/ toast/ fromage",
-      "price": "€34"
+      "name": "Gambas (8 pcs.)",
+      "price": "€36"
     },
     {
-      "name": "Filet de rouget/ légumes du Sud/ risotto",
-      "price": "€30"
+      "name": "Médaillon de saumon / asperges / mousseline",
+      "price": "€34"
     }
   ],
   "mainTitle": "Plats principaux"
