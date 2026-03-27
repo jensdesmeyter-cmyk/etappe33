@@ -1,6 +1,6 @@
 {
   "fishTitle": "Vis",
-  "etappeText": "Cava, biertje, frisdrank of Mocktail\n***\nVoorgerecht:\nKarnemelkstampers/ gepocheerd ei/ verse garnalen\nOF\nVitello tonnato\n***\nHoofdgerecht:\nBouillabaisse/ toast/ kaas\nOF\nRib Eye\n***\nCrispy bodem/ mousse van praliné/ speculoos/ witte chocolade\n***\nKoffie of Thee",
+  "etappeText": "Cava, Biertje of Mocktail (gember, passievrucht/vanille, pompelmoes)\n***\nVoorgerecht:\nGamba's\nOF\nKroket van wagyu\n***\nHoofdgerecht:\nZalmhaasje / asperges / mousseline\nOF\nKalfsfilet pur / lentegroenten\n***\nDessert van de chef\n***\nKoffie of Thee",
   "starters": [
     {
       "name": "Aperitiefplank Etappe 33 mix warm en koud",
@@ -53,12 +53,20 @@
       "price": "€8/€16"
     },
     {
-      "name": "Karnemelkstampers/ gepocheerd eitje/ verse garnalen",
+      "name": "Rundscarpaccio",
       "price": "€22"
     },
     {
-      "name": "Vitello tonnato",
+      "name": "Wagyukroketten (1 of 2 st.)",
+      "price": "€12/€24"
+    },
+    {
+      "name": "Asperges / gerookte zalm / mousseline",
       "price": "€22"
+    },
+    {
+      "name": "Gamba's (4st.)",
+      "price": "€24"
     }
   ],
   "etappeTitle": "Menu Etappe 33",
@@ -90,6 +98,10 @@
     {
       "name": "Rib Eye (350 gr.)",
       "price": "€35"
+    },
+    {
+      "name": "Rundscarpaccio",
+      "price": "€32"
     }
   ],
   "kidsTitle": "Kindermenu",
@@ -171,6 +183,14 @@
     {
       "name": "Salade geitenkaas / spek / appel",
       "price": "€26"
+    },
+    {
+      "name": "Salade tomaat garnaal",
+      "price": "€32"
+    },
+    {
+      "name": "Salade Cesar",
+      "price": "€28"
     }
   ],
   "game": [
@@ -202,18 +222,18 @@
     },
     {
       "name": "Zeetong Meunière",
-      "price": "€38"
+      "price": "€42"
     },
     {
       "name": "Garnaalkroketten/ fris slaatje (1, 2 of 3 st.)",
       "price": "€12/€24/€36"
     },
     {
-      "name": "Rode poon/ Zuiderse groenten/ Risotto",
-      "price": "€30"
+      "name": "Gamba's (8st.)",
+      "price": "€36"
     },
     {
-      "name": "Bouillabaisse/ Toast/ Kaas",
+      "name": "Zalmhaasje / asperges / mousseline",
       "price": "€34"
     }
   ],
