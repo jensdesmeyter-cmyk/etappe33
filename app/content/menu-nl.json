@@ -35,7 +35,7 @@
       "price": "€10"
     },
     {
-      "name": "Taco's/ Pulled pork",
+      "name": "Taco's / Pulled pork",
       "price": "€16"
     }
   ],
@@ -142,7 +142,7 @@
   ],
   "kids": [
     {
-      "name": "Kipnuggets/ frietjes",
+      "name": "Kipnuggets / frietjes",
       "price": "€14"
     },
     {
@@ -150,11 +150,11 @@
       "price": "€16"
     },
     {
-      "name": "Frikandel/ frietjes",
+      "name": "Frikandel / frietjes",
       "price": "€12"
     },
     {
-      "name": "Kindersteak/ frietjes",
+      "name": "Kindersteak / frietjes",
       "price": "€18"
     }
   ],
@@ -163,15 +163,15 @@
   "allergens": "Voor allergenen info kunt u terecht bij ons personeel",
   "vegi": [
     {
-      "name": "Cannelloni Vegi/ Arrabiata",
+      "name": "Cannelloni Vegi / Arrabiata",
       "price": "€22"
     },
     {
-      "name": "Kaaskroketten/ fris slaatje (1, 2 of 3 st.)",
+      "name": "Kaaskroketten / fris slaatje (1, 2 of 3 st.)",
       "price": "€10/€20/€30"
     },
     {
-      "name": "Halloumi gebakken/ fris slaatje",
+      "name": "Halloumi gebakken / fris slaatje",
       "price": "€24"
     }
   ],
@@ -225,7 +225,7 @@
       "price": "€42"
     },
     {
-      "name": "Garnaalkroketten/ fris slaatje (1, 2 of 3 st.)",
+      "name": "Garnaalkroketten / fris slaatje (1, 2 of 3 st.)",
       "price": "€12/€24/€36"
     },
     {
