@@ -41,15 +41,15 @@
   ],
   "appetizers": [
     {
-      "name": "Scampis Etappe 33 (6 pcs)",
+      "name": "Scampis Etappe 33 (6 pcs.)",
       "price": "€20"
     },
     {
-      "name": "Croquettes de crevettes (1 ou 2 pcs)",
+      "name": "Croquettes de crevettes (1 ou 2 pcs.)",
       "price": "€10/€20"
     },
     {
-      "name": "Croquettes de fromage (1 ou 2 pcs)",
+      "name": "Croquettes de fromage (1 ou 2 pcs.)",
       "price": "€8/€16"
     },
     {
@@ -167,7 +167,7 @@
       "price": "€22"
     },
     {
-      "name": "Croquettes de fromage / petite salade (1, 2 ou 3 pcs)",
+      "name": "Croquettes de fromage / petite salade (1, 2 ou 3 pcs.)",
       "price": "€10/€20/€30"
     },
     {
@@ -222,10 +222,10 @@
     },
     {
       "name": "Sole Meunière",
-      "price": "€38"
+      "price": "€42"
     },
     {
-      "name": "Croquettes de crevettes / petite salade (1, 2 ou 3 pcs)",
+      "name": "Croquettes de crevettes / petite salade (1, 2 ou 3 pcs.)",
       "price": "€12/€24/€36"
     },
     {
