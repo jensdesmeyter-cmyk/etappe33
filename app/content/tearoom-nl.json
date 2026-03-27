@@ -99,6 +99,14 @@
     {
       "name": "Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood",
       "price": "€10/€20/€30"
+    },
+    {
+      "name": "Salade Cesar",
+      "price": "€28"
+    },
+    {
+      "name": "Salade tomaat garnaal",
+      "price": "€32"
     }
   ],
   "startersTitle": "Starters om te delen",
