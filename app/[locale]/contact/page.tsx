@@ -133,7 +133,6 @@ const t = useTranslations("Contact");
               <li>{t("lunch")}</li>
               <li>{t("tearoom")}</li>
               <li>{t("dinner")}</li>
-              <li>{t("holiday")}</li>
             </ul>
           </section>
 
@@ -163,6 +162,7 @@ const t = useTranslations("Contact");
                     info@etappe33.be
                   </a>
                 </li>
+                <li>BTW: BE0773 412 078</li>
               </ul>
             </div>
           </section>
