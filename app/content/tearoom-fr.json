@@ -85,19 +85,19 @@
       "price": "€24"
     },
     {
-      "name": "Salade Etappe 33 (saumon fumé, scampis, crevettes grises, pain)",
+      "name": "Salade Etappe 33 (saumon fumé, scampis, crevettes grises, pain/frites)",
       "price": "€30"
     },
     {
-      "name": "Salade de chèvre chaud (lardons, pomme, pain)",
+      "name": "Salade de chèvre chaud (lardons, pomme, pain/frites)",
       "price": "€26"
     },
     {
-      "name": "Croquettes de crevettes (1, 2 ou 3 pcs.) avec salade fraîche et pain",
+      "name": "Croquettes de crevettes (1, 2 ou 3 pcs.) avec salade fraîche et pain/frites",
       "price": "€12/€24/€36"
     },
     {
-      "name": "Croquettes de fromage (1, 2 ou 3 pcs.) avec salade fraîche et pain",
+      "name": "Croquettes de fromage (1, 2 ou 3 pcs.) avec salade fraîche et pain/frites",
       "price": "€10/€20/€30"
     },
     {
@@ -107,6 +107,10 @@
     {
       "name": "Salade tomate crevettes",
       "price": "€32"
+    },
+    {
+      "name": "Steak tartare",
+      "price": "€28"
     }
   ],
   "startersTitle": "Entrées à partager",
