@@ -1,7 +1,7 @@
 {
   "title": "Lunch",
   "menuTitle": "Menu Lunch",
-  "menuText": "Potage du jour\nOU\nMelon avec jambon ibérique\n***\nCabillaud aux légumes de printemps\nOF\nBrochette de volaille aux légumes sautés\n***\nCafé ou thé",
+  "menuText": "\nOU\n\n***\n\n***\nCafé ou thé",
   "price": "€24 p.p.",
   "allergens": "Pour toute information sur les allergènes, veuillez consulter notre personnel",
   "nolunch": "Pas de Lunch Menu le dimanche"
