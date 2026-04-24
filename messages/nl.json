@@ -25,11 +25,11 @@
     },
     "hours": {
       "title": "Openingsuren",
-      "closed": "Dinsdag tot en met Donderdag: Gesloten",
+      "closed": "Woensdag tot en met Donderdag: Gesloten",
       "lunch": "Vrijdag tot en met Dinsdag: 11:30 – 14:00 (lunch)",
       "tearoom": "Vrijdag tot en met Dinsdag: 15:00 – 18:00 (tearoom)",
       "dinner": "Vrijdag tot en met Dinsdag: 18:30 – 21:00 (diner)",
-      "holiday": "We zijn gesloten tussen 24 maart en 2 april"
+      "holiday": "We zijn gesloten tussen 14 september en 1 oktober"
     },
     "social": {
       "title": "Volg ons"
@@ -223,7 +223,7 @@
     "lunch": "Vrijdag tot en met Dinsdag: 11:30 – 14:00 (lunch)",
     "tearoom": "Vrijdag tot en met Dinsdag: 15:00 – 18:00 (tearoom)",
     "dinner": "Vrijdag tot en met Dinsdag: 18:30 – 21:00 (diner)",
-    "holiday": "We zijn gesloten tussen 24 maart en 2 april",
+    "holiday": "We zijn gesloten tussen 14 september en 1 oktober",
     "infoTitle": "Contact",
     "address": "Adres:",
     "phone": "Telefoon:",

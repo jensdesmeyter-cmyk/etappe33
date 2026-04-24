@@ -133,6 +133,7 @@ const t = useTranslations("Contact");
               <li>{t("lunch")}</li>
               <li>{t("tearoom")}</li>
               <li>{t("dinner")}</li>
+              <li>{t("holiday")}</li>
             </ul>
           </section>
 
