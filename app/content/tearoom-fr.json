@@ -65,10 +65,6 @@
       "price": "€6"
     },
     {
-      "name": "Sabayon",
-      "price": "€14"
-    },
-    {
       "name": "Duo de sorbet",
       "price": "€10"
     }
@@ -93,20 +89,20 @@
       "price": "€26"
     },
     {
-      "name": "Croquettes de crevettes (1, 2 ou 3 pcs.) avec salade fraîche et pain/frites",
-      "price": "€12/€24/€36"
-    },
-    {
-      "name": "Croquettes de fromage (1, 2 ou 3 pcs.) avec salade fraîche et pain/frites",
-      "price": "€10/€20/€30"
-    },
-    {
       "name": "Salade César",
       "price": "€28"
     },
     {
       "name": "Salade tomate crevettes",
       "price": "€32"
+    },
+    {
+      "name": "Croquettes de crevettes (1, 2 ou 3 pcs.) avec salade fraîche et pain/frites",
+      "price": "€12/€24/€36"
+    },
+    {
+      "name": "Croquettes de fromage (1, 2 ou 3 pcs.) avec salade fraîche et pain/frites",
+      "price": "€10/€20/€30"
     },
     {
       "name": "Steak tartare",
