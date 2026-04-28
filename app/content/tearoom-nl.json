@@ -89,20 +89,20 @@
       "price": "€26"
     },
     {
-      "name": "Garnaalkroketten (1,2 of 3 stuks) met fris slaatje & brood/frieten",
-      "price": "€12/€24/€36"
-    },
-    {
-      "name": "Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood/frieten",
-      "price": "€10/€20/€30"
-    },
-    {
       "name": "Salade Caesar",
       "price": "€28"
     },
     {
       "name": "Salade tomaat garnaal",
       "price": "€32"
+    },
+    {
+      "name": "Garnaalkroketten (1,2 of 3 stuks) met fris slaatje & brood/frieten",
+      "price": "€12/€24/€36"
+    },
+    {
+      "name": "Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood/frieten",
+      "price": "€10/€20/€30"
     },
     {
       "name": "Steak tartaar",
