@@ -3,7 +3,8 @@
     "title": "Welkom bij Etappe 33",
     "opening" : "Ons restaurant opent vanaf 31 oktober 2025 zijn deuren! We kijken ernaar uit u te verwelkomen voor een onvergetelijke culinaire ervaring.",
     "valentine_available" : "Ondek onze valetijnsmenu hier",
-    "description": "Geniet van heerlijke gerechten in een warme sfeer."
+    "description": "Geniet van heerlijke gerechten in een warme sfeer.",
+    "wk_bbq_available": "Reserveer nu voor onze WK-BBQ!"
   },
   "Navbar": {
     "menu": "Menu",
@@ -13,7 +14,7 @@
     "about": "Over Ons",
     "photos": "Foto's",
     "contact": "Contact",
-    "valentine" : "Valentijnsmenu"
+    "bbq" : "Culinaire WK-BBQ"
   },
   "Footer": {
     "aboutText": "Een verfijnde keuken met aandacht voor lokale producten en warme gastvrijheid.",
@@ -244,6 +245,38 @@
     "price": "€65 p.p. zonder aangepaste dranken\n€85 p.p. all in",
     "allergens": "Voor allergenen info kunt u terecht bij ons personeel",
     "nolunch": "Tijdens de tearoom-uren blijft de tearoomkaart beschikbaar\nDe gewone restaurantkaart (menu, à la carte, …) is deze dagen niet beschikbaar"
+  },
+  "WkEvent": {
+    "title": "Een Culinaire BBQ & WK-Avond",
+    "subtitle": "Geniet van een culinaire BBQ en volg de match op groot scherm!",
+    "date1": "Maandag\n15 Juni",
+    "date2": "Zondag\n21 Juni",
+    "time": "18:30 - 24:00",
+    "packetDetailsLabel": "Packet Details",
+    "packageTitle": "Het All-Inclusief Culinair Pakket",
+    "packageDetails": "Barbecue à volonté + 4 consumptiebonnen",
+    "price": "€70 p.p.",
+    "location": "Bergstraat 33 • 9690 Kluisbergen",
+    "cta": "Reserveer Nu Uw Tafel",
+    "callButton": "Reserveer nu uw tafel"
+  },
+  "Reservation": {
+    "title": "Reserveer Uw Tafel",
+    "formTitle": "Reserveringsformulier",
+    "name": "Volledige Naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "persons": "Aantal Personen",
+    "date": "Kies uw datum",
+    "datePlaceholder": "Selecteer een dag...",
+    "dateOption1": "Maandag 15 Juni (België - ...)",
+    "dateOption2": "Zondag 21 Juni (België - ...)",
+    "message": "Opmerkingen (Optioneel)",
+    "messagePlaceholder": "Dieetwensen, allergieën, of speciale verzoeken?",
+    "send": "Reservering Aanvragen",
+    "sending": "Bezig met verzenden...",
+    "success": "Bedankt! Uw reserveringsaanvraag is succesvol verzonden. Wij nemen snel contact met u op ter bevestiging.",
+    "error": "Er is iets misgegaan bij het verzenden. Probeer het later opnieuw of bel ons."
   }
 }
 

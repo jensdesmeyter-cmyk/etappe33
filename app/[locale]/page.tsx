@@ -20,39 +20,56 @@ export default function Home() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-5xl font-bold mb-4 text-center text-[rgb(var(--color_58))] mb-12"
+        className="text-5xl font-bold text-center text-[rgb(var(--color_58))] mb-12"
       >
         {t("title")}
       </motion.h1>
 
-      {/* REPLACED SECTION: Valentine Link with Heart - BIGGER VERSION *
-      <Link href={`/${locale}/valentine`}>
+      {/* BBQ & WK Event Link with Bouncing Football */}
+      <Link href={`/${locale}/bbq`}>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          // CHANGED: Increased padding (px-8 py-4) to make the "button" larger
-          className="flex items-center justify-center gap-4 mb-16 px-8 py-4 bg-[rgb(var(--color_58))]/10 rounded-full cursor-pointer hover:bg-[rgb(var(--color_58))]/20 transition-colors"
-        >*/}
-          {/* Beating Heart Icon 
+          className="flex items-center justify-center gap-4 mb-16 px-8 py-4 bg-[rgb(var(--color_58))]/10 rounded-full cursor-pointer hover:bg-[rgb(var(--color_58))]/20 border border-[rgb(var(--color_58))]/30 transition-colors shadow-[0_0_15px_rgba(201,182,122,0.2)] hover:shadow-[0_0_25px_rgba(201,182,122,0.4)]"
+        >
+          {/* Unmistakable Football Icon */}
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
             viewBox="0 0 24 24"
-            // CHANGED: Increased width and height to w-8 h-8 (and w-10 h-10 on desktop)
-            className="w-8 h-8 md:w-10 md:h-10 text-red-500"
-            animate={{ scale: [1, 1.2, 1] }}
-            transition={{ repeat: Infinity, duration: 1.2 }}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="w-8 h-8 md:w-10 md:h-10 text-[rgb(var(--color_58))]"
+            animate={{ 
+              y: [0, -12, 0], // Bouncing up and down
+              rotate: [0, 20, -20, 0] // Slight wobble
+            }}
+            transition={{ 
+              repeat: Infinity, 
+              duration: 1.5,
+              ease: "easeInOut" 
+            }}
           >
-            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-          </motion.svg>*/}
+            {/* Outer Circle */}
+            <circle cx="12" cy="12" r="10" />
+            {/* Center Pentagon (Filled) */}
+            <polygon points="12 7 16 10 14.5 15 9.5 15 8 10" fill="currentColor" />
+            {/* Connecting Lines to make the Hexagons */}
+            <line x1="12" y1="7" x2="12" y2="2" />
+            <line x1="16" y1="10" x2="21.5" y2="8.5" />
+            <line x1="14.5" y1="15" x2="17.5" y2="20.5" />
+            <line x1="9.5" y1="15" x2="6.5" y2="20.5" />
+            <line x1="8" y1="10" x2="2.5" y2="8.5" />
+          </motion.svg>
 
-          {/* Text
-          {/* CHANGED: Increased text size to text-2xl (and text-3xl on desktop) 
-          <p className="text-2xl md:text-3xl text-[rgb(var(--color_58))] font-medium">
-            {t("valentine_available") || "Valentine menu now available"} 
+          {/* Text */}
+          <p className="text-2xl md:text-3xl text-[rgb(var(--color_58))] font-medium uppercase tracking-wide">
+            {t("wk_bbq_available") || "Culinaire WK-BBQ Nu Beschikbaar!"} 
           </p>
         </motion.div>
-      </Link>*/}
+      </Link>
 
       {/* Main Image */}
       <motion.div

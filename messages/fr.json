@@ -3,7 +3,8 @@
     "title": "Bienvenue chez Etappe 33",
     "opening" : "Notre restaurant ouvrira ses portes le 31 octobre 2025 ! Nous sommes impatients de vous accueillir pour une expérience culinaire inoubliable.",
     "valentine_available" : "Découvrez notre menu Saint-Valentin ici",
-    "description": "Profitez de délicieux plats dans une ambiance chaleureuse."
+    "description": "Profitez de délicieux plats dans une ambiance chaleureuse.",
+    "wk_bbq_available": "Réservez pour notre BBQ du Mondial!"
   },
   "Navbar": {
     "menu": "Menu",
@@ -13,7 +14,8 @@
     "about": "À propos de nous",
     "photos": "Photos",
     "contact": "Contact",
-    "valentine" : "Menu Saint-Valentin"
+    "valentine" : "Menu Saint-Valentin",
+    "bbq" : "BBQ & Coupe du Monde"
   },
   "Footer": {
     "aboutText": "Une cuisine raffinée mettant à l'honneur les produits locaux et une hospitalité chaleureuse.",
@@ -244,6 +246,37 @@
     "price": "€65 p.p. hors boissons\n€85 p.p. all-in",
     "allergens": "Pour toute information sur les allergènes, veuillez vous adresser à notre personnel",
     "nolunch": "Durant les heures de tearoom, la carte tearoom reste disponible\nLa carte habituelle du restaurant (menu, à la carte, …) n'est pas disponible ces jours-là"
+  },
+  "WkEvent": {
+    "title": "Une Soirée BBQ Culinaire & Coupe du Monde",
+    "subtitle": "Passion du football sur écran géant & haute gastronomie chez Etappe 33",
+    "date1": "Lundi\n15 Juin",
+    "date2": "Dimanche\n21 Juin",
+    "time": "18:30 - 24:00",
+    "packetDetailsLabel": "Détails du Forfait",
+    "packageTitle": "Le Forfait Culinaire Tout Compris",
+    "packageDetails": "Barbecue à volonté + 4 tickets boisson",
+    "price": "70 € p.p.",
+    "location": "Bergstraat 33 • 9690 Kluisbergen",
+    "cta": "Réservez Votre Table Maintenant"
+  },
+  "Reservation": {
+    "title": "Réservez Votre Table",
+    "formTitle": "Formulaire de Réservation",
+    "name": "Nom Complet",
+    "email": "Adresse E-mail",
+    "phone": "Numéro de Téléphone",
+    "persons": "Nombre de Personnes",
+    "date": "Choisissez votre date",
+    "datePlaceholder": "Sélectionnez un jour...",
+    "dateOption1": "Lundi 15 Juin (Belgique - ...)",
+    "dateOption2": "Dimanche 21 Juin (Belgique - ...)",
+    "message": "Remarques (Optionnel)",
+    "messagePlaceholder": "Besoins diététiques, allergies ou demandes spéciales ?",
+    "send": "Demander une Réservation",
+    "sending": "Envoi en cours...",
+    "success": "Merci ! Votre demande de réservation a été envoyée avec succès. Nous vous contacterons bientôt pour confirmer.",
+    "error": "Une erreur s'est produite lors de l'envoi. Veuillez réessayer plus tard ou nous appeler."
   }
 }
 
