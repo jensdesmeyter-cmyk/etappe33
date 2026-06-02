@@ -71,44 +71,7 @@
   ],
   "hours": "Van 15u tot 18u",
   "allergenNote": "Voor allergenen info kunt u terecht bij ons personeel.",
-  "smallBites": [
-    {
-      "name": "Spaghetti klein",
-      "price": "€16"
-    },
-    {
-      "name": "Spaghetti groot",
-      "price": "€24"
-    },
-    {
-      "name": "Salade Etappe 33 (gerookte zalm, scampi’s, grijze garnalen, brood/frieten)",
-      "price": "€30"
-    },
-    {
-      "name": "Salade geitenkaas (spek, appel, brood/frieten)",
-      "price": "€26"
-    },
-    {
-      "name": "Salade Caesar",
-      "price": "€28"
-    },
-    {
-      "name": "Salade tomaat garnaal",
-      "price": "€32"
-    },
-    {
-      "name": "Garnaalkroketten (1,2 of 3 stuks) met fris slaatje & brood/frieten",
-      "price": "€12/€24/€36"
-    },
-    {
-      "name": "Kaaskroketten (1,2 of 3 stuks) met fris slaatje & brood/frieten",
-      "price": "€10/€20/€30"
-    },
-    {
-      "name": "Steak tartaar",
-      "price": "€28"
-    }
-  ],
+  "smallBites": [],
   "startersTitle": "Starters om te delen",
   "title": "Tea Room",
   "pancakesTitle": "Pannenkoeken",
