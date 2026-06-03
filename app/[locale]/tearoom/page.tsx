@@ -65,7 +65,7 @@ export default function TearoomPage() {
           </section>
 
           {/* SMALL BITES */}
-          <section>
+ {/*         <section>
             <h2 className={`text-2xl text-center mb-12 ${gold}`}>
               {t.smallBitesTitle}
             </h2>
@@ -75,7 +75,7 @@ export default function TearoomPage() {
               ))}
             </ul>
           </section>
-
+*/}
           <p className="italic text-center text-white">
             {t.allergenNote}
           </p>
