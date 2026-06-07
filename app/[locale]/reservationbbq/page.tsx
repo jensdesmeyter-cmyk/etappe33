@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 export default function ReservationPage() {
-  const t = useTranslations("Reservation");
+  const t = useTranslations("ReservationWK");
 
   const [formData, setFormData] = useState({
     name: "",

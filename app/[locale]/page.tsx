@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link"; 
-import photo from "../assets/20251024_145621.jpg";
+import photo from "../assets/affiche.jpg";//"../assets/20251024_145621.jpg";
 import { motion } from "framer-motion";
 import LunchPopup from "./components/LunchPopup";
 import { useTranslations } from "next-intl";
@@ -81,7 +81,7 @@ export default function Home() {
         <Image
           src={photo}
           alt="restaurant"
-          className="pt-12 w-full md:h-[90vh] lg:h-[80vh] object-cover"
+          //className="pt-12 w-full md:h-[90vh] lg:h-[80vh] object-cover"
         />
       </motion.div>
 
