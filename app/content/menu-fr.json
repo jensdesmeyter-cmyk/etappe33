@@ -4,7 +4,7 @@
   "starters": [
     {
       "name": "Planche apéro Etappe 33 mix chaud et froid",
-      "price": "€28"
+      "price": "€32"
     },
     {
       "name": "Croquettes au chorizo (8 pcs.)",
@@ -45,6 +45,10 @@
       "price": "€20"
     },
     {
+      "name": "Carpaccio de boeuf",
+      "price": "€22"
+    },
+    {
       "name": "Croquettes de crevettes (1 ou 2 pcs.)",
       "price": "€10/€20"
     },
@@ -55,18 +59,6 @@
     {
       "name": "Croquettes de Wagyu (1 ou 2 pcs.)",
       "price": "€12/€24"
-    },
-    {
-      "name": "Asperges / saumon fumé / mousseline",
-      "price": "€22"
-    },
-    {
-      "name": "Carpaccio de boeuf",
-      "price": "€22"
-    },
-    {
-      "name": "Gambas (4 pcs.)",
-      "price": "€24"
     }
   ],
   "etappeTitle": "Menu Etappe 33",
@@ -76,16 +68,8 @@
   "dessertsTitle": "Desserts",
   "meat": [
     {
-      "name": "Filet pur de bœuf Blanc Bleu (250 gr.)",
-      "price": "€38"
-    },
-    {
-      "name": "Côte à l’os de bœuf Blanc Bleu (2 pers.)",
-      "price": "€76"
-    },
-    {
-      "name": "Pluma ibérique confite",
-      "price": "€30"
+      "name": "Filet pur de bœuf Blonde Aquitaine (280 gr.)",
+      "price": "€40"
     },
     {
       "name": "Joues de porc",
@@ -96,12 +80,12 @@
       "price": "€26"
     },
     {
-      "name": "Rib Eye (350 gr.)",
-      "price": "€35"
-    },
-    {
       "name": "Carpaccio de boeuf",
       "price": "€32"
+    },
+    {
+      "name": "Steak tartare",
+      "price": "€30"
     }
   ],
   "kidsTitle": "Menu enfants",
@@ -112,12 +96,16 @@
       "price": "€10"
     },
     {
-      "name": "Coupe avocat",
+      "name": "Coupe d'advocaat",
       "price": "€10"
     },
     {
       "name": "Coupe brésilienne",
       "price": "€10"
+    },
+    {
+      "name": "Coupe de fraises",
+      "price": "€14"
     },
     {
       "name": "Crème brûlée",
@@ -132,10 +120,6 @@
       "price": "€6"
     },
     {
-      "name": "Sabayon",
-      "price": "€12"
-    },
-    {
       "name": "Duo de sorbets",
       "price": "€10"
     }
@@ -143,7 +127,7 @@
   "kids": [
     {
       "name": "Nuggets de poulet / frites",
-      "price": "€14"
+      "price": "€16"
     },
     {
       "name": "Spaghetti enfants",
@@ -193,23 +177,10 @@
       "price": "€28"
     }
   ],
-  "game": [
-    {
-      "name": "Anguille à la verte",
-      "price": "€38"
-    },
-    {
-      "name": "Anguille avec sauce à la crème",
-      "price": "€38"
-    },
-    {
-      "name": "Anguille fritée, sauce tartare maison",
-      "price": "€38"
-    }
-  ],
+  "game": [],
   "appetizersTitle": "Entrées",
   "startersTitle": "Entrées à partager",
-  "etappePrice": "€59 p.p. / €79 All-In",
+  "etappePrice": "€65 p.p. / €85 All-In",
   "title": "Notre Menu",
   "fish": [
     {
@@ -221,20 +192,12 @@
       "price": "€30"
     },
     {
-      "name": "Sole Meunière",
-      "price": "€42"
-    },
-    {
       "name": "Croquettes de crevettes / petite salade (1, 2 ou 3 pcs.)",
       "price": "€12/€24/€36"
     },
     {
-      "name": "Gambas (8 pcs.)",
-      "price": "€36"
-    },
-    {
-      "name": "Médaillon de saumon / asperges / mousseline",
-      "price": "€34"
+      "name": "Dos de cabillaud",
+      "price": "€38"
     }
   ],
   "mainTitle": "Plats principaux"
