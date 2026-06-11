@@ -3,7 +3,7 @@
   "starters": [
     {
       "name": "Aperitiefplank Etappe 33 mix warm en koud",
-      "price": "€28"
+      "price": "€32"
     },
     {
       "name": "Chorizokroketjes (8st.)",
@@ -53,8 +53,12 @@
       "price": "€10"
     },
     {
+      "name": "Coupe aardbeien",
+      "price": "€14"
+    },
+    {
       "name": "Crème brûlée",
-      "price": "€8"
+      "price": "€9"
     },
     {
       "name": "Moelleux met bolletje vanille-ijs",
