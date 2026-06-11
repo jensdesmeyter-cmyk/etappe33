@@ -3,7 +3,7 @@
   "starters": [
     {
       "name": "Planche apéro Etappe 33 mix chaud et froid",
-      "price": "€28"
+      "price": "€32"
     },
     {
       "name": "Croquettes de chorizo (8 pcs.)",
@@ -53,8 +53,12 @@
       "price": "€10"
     },
     {
+      "name": "Coupe de fraises",
+      "price": "€14"
+    },
+    {
       "name": "Crème brûlée",
-      "price": "€8"
+      "price": "€9"
     },
     {
       "name": "Moelleux avec boule de glace vanille",
