@@ -4,7 +4,7 @@
   "starters": [
     {
       "name": "Aperitiefplank Etappe 33 mix warm en koud",
-      "price": "€28"
+      "price": "€32"
     },
     {
       "name": "Chorizokroketjes (8 st.)",
@@ -45,6 +45,10 @@
       "price": "€20"
     },
     {
+      "name": "Rundscarpaccio",
+      "price": "€22"
+    },
+    {
       "name": "Garnaalkroketten (1 of 2 st.)",
       "price": "€10/€20"
     },
@@ -53,20 +57,8 @@
       "price": "€8/€16"
     },
     {
-      "name": "Rundscarpaccio",
-      "price": "€22"
-    },
-    {
       "name": "Wagyukroketten (1 of 2 st.)",
       "price": "€12/€24"
-    },
-    {
-      "name": "Asperges / gerookte zalm / mousseline",
-      "price": "€22"
-    },
-    {
-      "name": "Gamba's (4 st.)",
-      "price": "€24"
     }
   ],
   "etappeTitle": "Menu Etappe 33",
@@ -76,16 +68,8 @@
   "dessertsTitle": "Desserts",
   "meat": [
     {
-      "name": "Filet pur van WIT BLAUW rund (250 gr.)",
-      "price": "€38"
-    },
-    {
-      "name": "Côte à l’os van WIT BLAUW rund (2 pers.)",
-      "price": "€76"
-    },
-    {
-      "name": "Traag gegaarde Pluma",
-      "price": "€30"
+      "name": "Filet pur van BLONDE AQUITAINE rund (280 gr.)",
+      "price": "€40"
     },
     {
       "name": "Varkenswangen",
@@ -96,12 +80,12 @@
       "price": "€26"
     },
     {
-      "name": "Rib Eye (350 gr.)",
-      "price": "€35"
-    },
-    {
       "name": "Rundscarpaccio",
       "price": "€32"
+    },
+    {
+      "name": "Steak tartaar",
+      "price": "€30"
     }
   ],
   "kidsTitle": "Kindermenu",
@@ -120,6 +104,10 @@
       "price": "€10"
     },
     {
+      "name": "Coupe aardbeien",
+      "price": "€14"
+    },
+    {
       "name": "Crème brûlée",
       "price": "€9"
     },
@@ -132,10 +120,6 @@
       "price": "€6"
     },
     {
-      "name": "Sabayon",
-      "price": "€12"
-    },
-    {
       "name": "Duo van sorbet",
       "price": "€10"
     }
@@ -143,7 +127,7 @@
   "kids": [
     {
       "name": "Kipnuggets / frietjes",
-      "price": "€14"
+      "price": "€16"
     },
     {
       "name": "Kinderspaghetti",
@@ -193,20 +177,7 @@
       "price": "€28"
     }
   ],
-  "game": [
-    {
-      "name": "Paling in het groen",
-      "price": "€38"
-    },
-    {
-      "name": "Paling in de roomsaus",
-      "price": "€38"
-    },
-    {
-      "name": "Gebakken paling met verse tartaar",
-      "price": "€38"
-    }
-  ],
+  "game": [],
   "appetizersTitle": "Voorgerechten",
   "startersTitle": "Starters om te delen",
   "etappePrice": "€65 p.p. / €85 All-In",
@@ -221,20 +192,12 @@
       "price": "€30"
     },
     {
-      "name": "Zeetong Meunière",
-      "price": "€42"
+      "name": "Kabeljauwhaasje",
+      "price": "€38"
     },
     {
       "name": "Garnaalkroketten / fris slaatje (1, 2 of 3 st.)",
       "price": "€12/€24/€36"
-    },
-    {
-      "name": "Gamba's (8st.)",
-      "price": "€36"
-    },
-    {
-      "name": "Zalmhaasje / asperges / mousseline",
-      "price": "€34"
     }
   ],
   "mainTitle": "Hoofdgerechten"
