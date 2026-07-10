@@ -19,7 +19,6 @@ export default function Navbar() {
   const t = useTranslations("Navbar");
 
   const navLinks = [
-    { href: `/${locale}/bbq`, label: "🔥" + t("bbq") + "🔥" },
     { href: `/${locale}/menu`, label: t("menu") },
     { href: `/${locale}/lunch`, label: t("lunch") },
     { href: `/${locale}/tearoom`, label: t("tearoom") },
