@@ -4,8 +4,8 @@ import { useTranslations } from "next-intl";
 import Image from "next/image"; 
 import Link from "next/link"; // 1. Imported Link
 import { usePathname } from "next/navigation"; // 2. Imported usePathname
-import photo from "../../assets/Courtois.png";
-import photo2 from "../../assets/charle.png";
+import photo from "../../../assets/Courtois.png";
+import photo2 from "../../../assets/charle.png";
 
 export default function WkEventPage() {
   const gold = "text-[rgb(var(--color_58))]";
