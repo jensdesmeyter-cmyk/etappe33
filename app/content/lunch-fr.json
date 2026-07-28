@@ -1,7 +1,7 @@
 {
   "title": "Lunch",
   "menuTitle": "Menu Lunch",
-  "menuText": "Vol-au-vent avec bouchée\nOU\nAssiette froide de poissons\n***\nAssiette gourmande\n***\nCafé ou thé",
+  "menuText": "\nOU\n\n***\n\nOU\n\n***\nCafé ou thé",
   "price": "€24 p.p.",
   "allergens": "Pour toute information sur les allergènes, veuillez consulter notre personnel",
   "nolunch": "Pas de Lunch Menu le dimanche"
