@@ -1,7 +1,7 @@
 {
   "title": "Lunch",
   "menuTitle": "Menu Lunch",
-  "menuText": "Melon au jambon serrano\nOU\nPotage du jour\n***\nSteak avec sauce au choix\nOU\nGratin de poissons\n***\nCafé OU thé",
+  "menuText": "\nOU\n\n***\n\n***\nCafé OU thé",
   "price": "€24 p.p.",
   "allergens": "Pour toute information sur les allergènes, veuillez consulter notre personnel",
   "nolunch": "Pas de Lunch Menu le dimanche"
