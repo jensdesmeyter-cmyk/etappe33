@@ -4,19 +4,15 @@
   "starters": [
     {
       "name": "Aperitiefplank Etappe 33 mix warm en koud",
-      "price": "€32"
+      "price": "€35"
     },
     {
       "name": "Chorizokroketjes (8 st.)",
-      "price": "€14"
+      "price": "€18"
     },
     {
       "name": "Calamares met verse tartaar (8 st.)",
       "price": "€14"
-    },
-    {
-      "name": "Cougonettes van kabeljauw met verse tartaar (6 st.)",
-      "price": "€16"
     },
     {
       "name": "Gelakt buikspek",
@@ -24,7 +20,7 @@
     },
     {
       "name": "Camembert uit de oven met plukbrood",
-      "price": "€14"
+      "price": "€15"
     },
     {
       "name": "Bruschetta’s met Iberico ham",
@@ -35,18 +31,14 @@
       "price": "€10"
     },
     {
-      "name": "Taco's / Pulled pork",
-      "price": "€16"
+      "name": "Witte pens / gedroogde ajuin",
+      "price": "€14"
     }
   ],
   "appetizers": [
     {
       "name": "Scampi’s Etappe 33 (6 st.)",
       "price": "€20"
-    },
-    {
-      "name": "Rundscarpaccio",
-      "price": "€22"
     },
     {
       "name": "Garnaalkroketten (1 of 2 st.)",
@@ -57,8 +49,12 @@
       "price": "€10/€20"
     },
     {
-      "name": "Wagyukroketten (1 of 2 st.)",
-      "price": "€14/€28"
+      "name": "Kikkerbilletjes in de look (4 st.)",
+      "price": "€22"
+    },
+    {
+      "name": "Tartaar van coquilles / groene appel / limoensap / truffelmayonaise",
+      "price": "€24"
     }
   ],
   "etappeTitle": "Menu Etappe 33",
