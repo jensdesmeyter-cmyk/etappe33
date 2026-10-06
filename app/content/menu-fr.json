@@ -1,22 +1,18 @@
 {
   "fishTitle": "Poissons",
-  "etappeText": "Cava, bière, mocktail (gingembre, fruit de la passion/vanille, pamplemousse)\n***\nEntrée :\nScampis Etappe 33\nOU\nCarpaccio de boeuf\n***\nPlat principal :\nCôte à l’os de boeuf BLANC BLEU avec sauce au choix\nOU\nDos de cabillaud\n***\nDame blanche\n***\nCafé ou thé",
+  "etappeText": "Cava, bière, mocktail (gingembre, fruit de la passion/vanille, pamplemousse)\n***\nEntrée :\nTartare de noix de Saint-Jacques, pomme verte, jus de citron vert et mayonnaise à la truffe\nOU\nCarpaccio de cerf\n***\nPlat principal :\nFilet de faon / garniture hivernale\nOU\nCassolette de poissons gratinée\n***\nTartelette au citron, boule de glace coco-vanille\n***\nCafé ou thé",
   "starters": [
     {
       "name": "Planche apéro Etappe 33 mix chaud et froid",
-      "price": "€32"
+      "price": "€35"
     },
     {
       "name": "Croquettes au chorizo (8 pcs.)",
-      "price": "€14"
+      "price": "€18"
     },
     {
       "name": "Calamars frits / sauce tartare maison (8 pcs.)",
       "price": "€14"
-    },
-    {
-      "name": "Beignets de cabillaud / sauce tartare maison (6 pcs.)",
-      "price": "€16"
     },
     {
       "name": "Poitrine de porc laquée",
@@ -24,7 +20,7 @@
     },
     {
       "name": "Camembert au four / pain à partager",
-      "price": "€14"
+      "price": "€15"
     },
     {
       "name": "Bruschettas au jambon Ibérique",
@@ -35,8 +31,8 @@
       "price": "€10"
     },
     {
-      "name": "Tacos au porc effiloché",
-      "price": "€16"
+      "name": "Boudin blanc / oignon séché",
+      "price": "€14"
     }
   ],
   "appetizers": [
@@ -45,20 +41,20 @@
       "price": "€20"
     },
     {
-      "name": "Carpaccio de boeuf",
-      "price": "€22"
-    },
-    {
       "name": "Croquettes de crevettes (1 ou 2 pcs.)",
       "price": "€12/€24"
     },
     {
       "name": "Croquettes de fromage (1 ou 2 pcs.)",
-      "price": "€10/€20"
+      "price": "€8/€16"
     },
     {
-      "name": "Croquettes de Wagyu (1 ou 2 pcs.)",
-      "price": "€14/€28"
+      "name": "Cuisses de grenouilles à l’ail (4 pcs.)",
+      "price": "€22"
+    },
+    {
+      "name": "Tartare de noix de Saint-Jacques / pomme verte / jus de citron vert / mayonnaise à la truffe",
+      "price": "€24"
     }
   ],
   "etappeTitle": "Menu Etappe 33",
@@ -69,23 +65,23 @@
   "meat": [
     {
       "name": "Filet pur de bœuf Blonde Aquitaine (280 gr.)",
-      "price": "€40"
+      "price": "€42"
     },
     {
       "name": "Joues de porc",
       "price": "€32"
     },
     {
-      "name": "Burger Etappe 33",
-      "price": "€26"
+      "name": "Burger de boeuf Etappe 33",
+      "price": "€28"
     },
     {
-      "name": "Carpaccio de boeuf",
-      "price": "€32"
+      "name": "Côtelette d’agneau avec légumes sautés au wok",
+      "price": "€38"
     },
     {
-      "name": "Steak tartare",
-      "price": "€30"
+      "name": "Côte à l’os Blonde Aquitaine (Hoeveslagerij Basil) (2 pers.) (*)",
+      "price": "€95"
     }
   ],
   "kidsTitle": "Menu enfants",
@@ -104,10 +100,6 @@
       "price": "€10"
     },
     {
-      "name": "Coupe de fraises",
-      "price": "€14"
-    },
-    {
       "name": "Crème brûlée",
       "price": "€9"
     },
@@ -120,8 +112,8 @@
       "price": "€6"
     },
     {
-      "name": "Duo de sorbets",
-      "price": "€10"
+      "name": "Sabayon",
+      "price": "€14"
     }
   ],
   "kids": [
@@ -152,7 +144,7 @@
     },
     {
       "name": "Croquettes de fromage / petite salade (1, 2 ou 3 pcs.)",
-      "price": "€10/€20/€30"
+      "price": "€8/€16/€24"
     },
     {
       "name": "Halloumi grillé / petite salade",
@@ -162,25 +154,30 @@
   "salads": [
     {
       "name": "Salade Etappe 33 / saumon fumé / scampis / crevettes grises",
-      "price": "€30"
+      "price": "€32"
     },
     {
       "name": "Salade de chèvre chaud / lardon / pomme",
       "price": "€26"
     },
     {
-      "name": "Salade tomate crevettes",
-      "price": "€32"
-    },
-    {
       "name": "Salade César",
       "price": "€28"
     }
   ],
-  "game": [],
+  "game": [
+    {
+      "name": "Filet de faon / garniture hivernale",
+      "price": "€42"
+    },
+    {
+      "name": "Ragoût de sanglier avec salade de chicons",
+      "price": "€32"
+    }
+  ],
   "appetizersTitle": "Entrées",
   "startersTitle": "Entrées à partager",
-  "etappePrice": "€65 p.p. / €85 All-In",
+  "etappePrice": "€69 p.p. / €89 All-In",
   "title": "Notre Menu",
   "fish": [
     {
@@ -189,7 +186,7 @@
     },
     {
       "name": "Gratin de poisson maison",
-      "price": "€30"
+      "price": "€36"
     },
     {
       "name": "Croquettes de crevettes / petite salade (1, 2 ou 3 pcs.)",
@@ -197,7 +194,11 @@
     },
     {
       "name": "Dos de cabillaud",
-      "price": "€38"
+      "price": "€42"
+    },
+    {
+      "name": "Cuisses de grenouilles à l’ail (8 pcs.)",
+      "price": "€32"
     }
   ],
   "mainTitle": "Plats principaux"
