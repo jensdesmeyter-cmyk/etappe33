@@ -46,7 +46,7 @@
     },
     {
       "name": "Kaaskroketten (1 of 2 st.)",
-      "price": "€10/€20"
+      "price": "€8/€16"
     },
     {
       "name": "Kikkerbilletjes in de look (4 st.)",
@@ -65,7 +65,7 @@
   "meat": [
     {
       "name": "Filet pur van BLONDE AQUITAINE rund (280 gr.)",
-      "price": "€40"
+      "price": "€42"
     },
     {
       "name": "Varkenswangen",
@@ -73,15 +73,15 @@
     },
     {
       "name": "Rundsburger Etappe 33",
-      "price": "€26"
+      "price": "€28"
     },
     {
-      "name": "Rundscarpaccio",
-      "price": "€32"
+      "name": "Lamskotelet met wokgroenten",
+      "price": "€38"
     },
     {
-      "name": "Steak tartaar",
-      "price": "€30"
+      "name": "Côte à l'os Blonde Aquitaine (Hoeveslagerij Basile) (2 pers.) (*)",
+      "price": "€95"
     }
   ],
   "kidsTitle": "Kindermenu",
@@ -100,10 +100,6 @@
       "price": "€10"
     },
     {
-      "name": "Coupe aardbeien",
-      "price": "€14"
-    },
-    {
       "name": "Crème brûlée",
       "price": "€9"
     },
@@ -116,8 +112,8 @@
       "price": "€6"
     },
     {
-      "name": "Duo van sorbet",
-      "price": "€10"
+      "name": "Sabayon",
+      "price": "€14"
     }
   ],
   "kids": [
@@ -148,7 +144,7 @@
     },
     {
       "name": "Kaaskroketten / fris slaatje (1, 2 of 3 st.)",
-      "price": "€10/€20/€30"
+      "price": "€8/€16/€24"
     },
     {
       "name": "Halloumi gebakken / fris slaatje",
@@ -158,22 +154,27 @@
   "salads": [
     {
       "name": "Salade Etappe 33 / gerookte zalm / scampi’s / grijze garnalen",
-      "price": "€30"
+      "price": "€32"
     },
     {
       "name": "Salade geitenkaas / spek / appel",
       "price": "€26"
     },
     {
-      "name": "Salade tomaat garnaal",
-      "price": "€32"
-    },
-    {
       "name": "Salade Caesar",
       "price": "€28"
     }
   ],
-  "game": [],
+  "game": [
+    {
+      "name": "Hertenkalffilet met wintergarnituur",
+      "price": "€42"
+    },
+    {
+      "name": "Stoofpot van everzwijn met salade van witloof",
+      "price": "€32"
+    }
+  ],
   "appetizersTitle": "Voorgerechten",
   "startersTitle": "Starters om te delen",
   "etappePrice": "€69 p.p. / €89 All-In",
@@ -185,15 +186,19 @@
     },
     {
       "name": "Gegratineerd vispannetje",
-      "price": "€30"
+      "price": "€36"
     },
     {
       "name": "Kabeljauwhaasje",
-      "price": "€38"
+      "price": "€42"
     },
     {
       "name": "Garnaalkroketten / fris slaatje (1, 2 of 3 st.)",
       "price": "€12/€24/€36"
+    },
+    {
+      "name": "Kikkerbilletjes in de look (8 st.)",
+      "price": "€32"
     }
   ],
   "mainTitle": "Hoofdgerechten"
