@@ -3,19 +3,15 @@
   "starters": [
     {
       "name": "Aperitiefplank Etappe 33 mix warm en koud",
-      "price": "€32"
+      "price": "€35"
     },
     {
       "name": "Chorizokroketjes (8st.)",
-      "price": "€14"
+      "price": "€18"
     },
     {
       "name": "Calamares met verse tartaar (8st.)",
       "price": "€14"
-    },
-    {
-      "name": "Cougonettes van kabeljauw met verse tartaar (6st.)",
-      "price": "€16"
     },
     {
       "name": "Gelakt buikspek",
@@ -23,7 +19,7 @@
     },
     {
       "name": "Camembert uit de oven met plukbrood",
-      "price": "€14"
+      "price": "€15"
     },
     {
       "name": "Bruschetta’s met Iberico ham",
@@ -38,8 +34,8 @@
       "price": "€10"
     },
     {
-      "name": "Taco's/ pullet pork",
-      "price": "€16"
+      "name": "Witte pens / gedroogde ajuin",
+      "price": "€14"
     }
   ],
   "dessertsTitle": "Desserts",
@@ -53,10 +49,6 @@
       "price": "€10"
     },
     {
-      "name": "Coupe aardbeien",
-      "price": "€14"
-    },
-    {
       "name": "Crème brûlée",
       "price": "€9"
     },
@@ -67,10 +59,6 @@
     {
       "name": "Kinderijsje",
       "price": "€6"
-    },
-    {
-      "name": "Duo van sorbet",
-      "price": "€10"
     }
   ],
   "hours": "Van 15u tot 18u",
